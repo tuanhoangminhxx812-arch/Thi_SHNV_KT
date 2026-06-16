@@ -391,6 +391,34 @@ def parse_sheet(df):
     return questions
 
 
+def get_visible_sheets(filepath):
+    """Get a set of visible sheet names in the Excel file."""
+    _, ext = os.path.splitext(filepath.lower())
+    visible_sheets = set()
+    try:
+        if ext == ".xls":
+            import xlrd
+            book = xlrd.open_workbook(filepath)
+            for i in range(book.nsheets):
+                if book.sheet_by_index(i).visibility == 0:
+                    visible_sheets.add(book.sheet_names()[i])
+        else:
+            # Try openpyxl for .xlsx
+            import openpyxl
+            wb = openpyxl.load_workbook(filepath, read_only=True)
+            for sheet in wb.sheetnames:
+                if wb[sheet].sheet_state == 'visible' or wb[sheet].sheet_state is None:
+                    visible_sheets.add(sheet)
+    except Exception:
+        # Fallback to returning all sheets if there's any error
+        try:
+            xls = pd.ExcelFile(filepath)
+            visible_sheets = set(xls.sheet_names)
+        except Exception:
+            pass
+    return visible_sheets
+
+
 @st.cache_data
 def load_all_data():
     """Load and parse all exam data from both Excel files."""
@@ -403,9 +431,12 @@ def load_all_data():
             st.error(f"Không tìm thấy file: {filename}")
             continue
 
+        visible_sheets = get_visible_sheets(filepath)
         xls = pd.ExcelFile(filepath)
         topics = {}
         for sheet_name in xls.sheet_names:
+            if sheet_name not in visible_sheets:
+                continue
             df = pd.read_excel(xls, sheet_name=sheet_name, header=None)
             questions = parse_sheet(df)
             if questions:
@@ -421,6 +452,7 @@ def load_all_data():
         all_data[label] = topics
 
     return all_data
+
 
 
 # ─── Session State Init ─────────────────────────────────────────────────────
