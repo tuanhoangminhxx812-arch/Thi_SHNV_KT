@@ -23,8 +23,8 @@ st.markdown("""
         font-family: 'Times New Roman', Times, Georgia, serif !important;
     }
     html, body, [class*="css"], .stMarkdown, .stRadio label,
-    .stButton button, .stSelectbox, .stTextInput input,
-    p, span, div, li, h1, h2, h3, h4, h5, h6, label, input, select, textarea,
+    .stSelectbox, .stTextInput input,
+    p, span, div, li, label, input, select, textarea,
     [data-testid="stMarkdownContainer"], [data-testid="stWidgetLabel"],
     .st-emotion-cache-16idsys p, .st-emotion-cache-1629p8f,
     .element-container, .stRadio div[role="radiogroup"] label {
@@ -32,7 +32,10 @@ st.markdown("""
         font-size: 16px !important;
     }
 
-    /* Hide Streamlit branding */
+    /* Hide Streamlit branding and header space */
+    [data-testid="stHeader"] {
+        display: none !important;
+    }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
@@ -56,10 +59,69 @@ st.markdown("""
         color: #e0e0e0 !important;
     }
 
-    /* Main content area */
+    /* Main content area - widened and shifted up to maximize viewport usage */
     .main .block-container {
-        max-width: 900px;
-        padding-top: 2rem;
+        max-width: 1250px !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    /* 3D Topic Card Buttons - main content area */
+    .main .topic-btn-row .stButton > button {
+        background: linear-gradient(145deg, #ffffff, #f0f2ff) !important;
+        border-radius: 20px !important;
+        padding: 1rem 0.8rem !important;
+        min-height: 220px !important;
+        color: #1a1a2e !important;
+        border: 1px solid rgba(200, 210, 240, 0.6) !important;
+        box-shadow:
+            0 8px 24px rgba(0, 0, 0, 0.08),
+            0 2px 6px rgba(0, 0, 0, 0.04),
+            inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+        transform-style: preserve-3d !important;
+        white-space: pre-line !important;
+        line-height: 1.5 !important;
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .main .topic-btn-row .stButton > button p,
+    .main .topic-btn-row .stButton > button span {
+        font-family: 'Times New Roman', Times, Georgia, serif !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #1a1a2e !important;
+        line-height: 1.5 !important;
+        text-align: center !important;
+        margin: 0 !important;
+        display: block !important;
+        width: 100% !important;
+    }
+    /* Styles the first line (emoji icon) to be huge and prominent */
+    .main .topic-btn-row .stButton > button p::first-line,
+    .main .topic-btn-row .stButton > button span::first-line {
+        font-size: 48px !important;
+        line-height: 1.2 !important;
+    }
+    .main .topic-btn-row .stButton > button:hover {
+        transform: translateY(-10px) rotateX(4deg) rotateY(-2deg) scale(1.03) !important;
+        box-shadow:
+            0 18px 36px rgba(102, 126, 234, 0.25),
+            0 8px 14px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 1) !important;
+        border-color: rgba(102, 126, 234, 0.4) !important;
+        background: linear-gradient(145deg, #f8f9ff, #eef0ff) !important;
+        color: #1a1a2e !important;
+    }
+    .main .topic-btn-row .stButton > button:active {
+        transform: translateY(-4px) scale(1.01) !important;
+        box-shadow: 0 6px 16px rgba(102, 126, 234, 0.2) !important;
+    }
+    .main .topic-btn-row {
+        perspective: 800px;
+        margin-bottom: 0.5rem;
     }
 
     /* Question card */
@@ -227,13 +289,33 @@ st.markdown("""
     .welcome-banner {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         border-radius: 20px;
-        padding: 3rem;
+        padding: 2rem 2.5rem 1.8rem;
         text-align: center;
         color: white !important;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+        position: relative;
+        overflow: hidden;
     }
-    .welcome-banner h1, .welcome-banner h2, .welcome-banner p { color: white !important; }
+    .welcome-banner::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 60%);
+        animation: shimmer 8s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(30%, 30%); }
+    }
+    .welcome-banner h1, .welcome-banner h2, .welcome-banner p {
+        color: white !important;
+        position: relative;
+        z-index: 1;
+    }
 
     /* Divider */
     .custom-divider {
@@ -257,17 +339,17 @@ EXAM_FILES = {
     "Chuyên viên": "Đề thi SHNV TCKT - 2025 09-02-2026_chuyên viên.xls",
 }
 
-# Friendly topic names mapping
-TOPIC_NAMES = {
-    "KTT-130": "📘 KTT - 130 câu",
-    "CV-120": "📗 Chuyên viên - 120 câu",
-    "Tổng hợp": "📚 Tổng hợp",
-    "Thuế": "💰 Thuế",
-    "QC chi tieu noi bo": "📋 Quy chế chi tiêu nội bộ",
-    "Quản trị rủi ro": "⚠️ Quản trị rủi ro",
-    "ERP": "💻 ERP",
-    "kế toán": "📊 Kế toán",
-    "Chế độ kế toán- TT99": "📑 Chế độ kế toán - TT99",
+# Friendly topic names mapping: {sheet_name: (icon, display_name)}
+TOPIC_INFO = {
+    "KTT-130": ("📘", "KTT - 130 câu"),
+    "CV-120": ("📗", "Chuyên viên - 120 câu"),
+    "Tổng hợp": ("📚", "Tổng hợp"),
+    "Thuế": ("💰", "Thuế"),
+    "QC chi tieu noi bo": ("📋", "Quy chế chi tiêu nội bộ"),
+    "Quản trị rủi ro": ("🛡️", "Quản trị rủi ro"),
+    "ERP": ("💻", "ERP"),
+    "kế toán": ("📊", "Kế toán"),
+    "Chế độ kế toán- TT99": ("📑", "Chế độ kế toán - TT99"),
 }
 
 
@@ -327,7 +409,8 @@ def load_all_data():
             df = pd.read_excel(xls, sheet_name=sheet_name, header=None)
             questions = parse_sheet(df)
             if questions:
-                display_name = TOPIC_NAMES.get(sheet_name, sheet_name)
+                info = TOPIC_INFO.get(sheet_name, ("", sheet_name))
+                display_name = f"{info[0]} {info[1]}"
                 topics[display_name] = questions
 
         all_data[label] = topics
@@ -479,38 +562,43 @@ def main():
 
     # ─── Main Content ────────────────────────────────────────────────────
     if not st.session_state.topic:
-        # Welcome screen
+        #Welcome screen
         st.markdown("""
         <div class="welcome-banner">
-            <h1 style="font-size: 32px !important; margin-bottom: 0.5rem;">
+            <h1 style="font-size: 72px !important; margin-top: 0px !important; margin-bottom: 0.4rem !important; font-weight: 700; line-height: 1.1;">
                 📝 Ôn Tập Trắc Nghiệm
             </h1>
-            <h2 style="font-size: 22px !important; font-weight: 400; margin-bottom: 1rem;">
-                Sát Hạch Nghiệp Vụ - Tài Chính Kế Toán 2025
+            <h2 style="font-size: 34px !important; font-weight: 400; margin-top: 0px !important; margin-bottom: 0.4rem !important; line-height: 1.2;">
+                Sát Hạch Nghiệp Vụ — Tài Chính Kế Toán
             </h2>
-            <p style="font-size: 16px !important; opacity: 0.9;">
-                Chọn đối tượng thi và chủ đề ở thanh bên trái để bắt đầu ôn tập
+            <p style="font-size: 22px !important; opacity: 0.95; margin: 0px !important; line-height: 1.3;">
+                👈 Chọn đối tượng thi và chủ đề bên dưới hoặc thanh bên trái để bắt đầu
             </p>
         </div>
         """, unsafe_allow_html=True)
 
-        # Display topic overview
+        # Display topic overview as clickable 3D card-buttons
         if selected_audience in all_data:
             topics = all_data[selected_audience]
-            st.markdown(f"### 📋 Tổng quan chủ đề - {selected_audience}")
+            st.markdown(f'<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.6rem !important;">📋 Chọn chủ đề — {selected_audience}</h3>', unsafe_allow_html=True)
 
-            cols = st.columns(3)
-            for i, (topic_name, topic_qs) in enumerate(topics.items()):
-                with cols[i % 3]:
-                    st.markdown(f"""
-                    <div class="question-card" style="text-align: center; min-height: 120px;">
-                        <h3 style="font-size: 16px !important;">{topic_name}</h3>
-                        <p style="font-size: 28px !important; font-weight: 700; color: #667eea;">
-                            {len(topic_qs)}
-                        </p>
-                        <p style="font-size: 14px !important; color: #888;">câu hỏi</p>
-                    </div>
-                    """, unsafe_allow_html=True)
+            # Render 3 rows of 3 cards
+            topic_list = list(topics.items())
+            for row_start in range(0, len(topic_list), 3):
+                row_items = topic_list[row_start:row_start + 3]
+                cols = st.columns(3)
+                for col_idx, (topic_name, topic_qs) in enumerate(row_items):
+                    parts = topic_name.split(" ", 1)
+                    icon = parts[0] if len(parts) > 1 else "📄"
+                    name = parts[1] if len(parts) > 1 else topic_name
+
+                    with cols[col_idx]:
+                        st.markdown('<div class="topic-btn-row">', unsafe_allow_html=True)
+                        btn_label = f"{icon}\n{name}\n{len(topic_qs)} câu hỏi"
+                        if st.button(btn_label, key=f"start_{topic_name}", use_container_width=True):
+                            start_quiz(selected_audience, topic_name, topic_qs)
+                            st.rerun()
+                        st.markdown('</div>', unsafe_allow_html=True)
 
         return
 
