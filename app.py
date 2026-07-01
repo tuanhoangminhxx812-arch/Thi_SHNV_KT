@@ -328,6 +328,88 @@ st.markdown("""
     /* Review table */
     .review-correct { color: #28a745 !important; font-weight: 600; }
     .review-wrong { color: #dc3545 !important; font-weight: 600; }
+
+    /* Search page */
+    .search-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 20px;
+        padding: 2rem 2.5rem 1.8rem;
+        text-align: center;
+        color: white !important;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+    }
+    .search-header h1, .search-header h2, .search-header p {
+        color: white !important;
+    }
+    .search-result-card {
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+        border: 1px solid #e0e4f0;
+        border-radius: 16px;
+        padding: 1.5rem 2rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+    .search-result-card:hover {
+        box-shadow: 0 8px 28px rgba(102, 126, 234, 0.15);
+        transform: translateY(-2px);
+    }
+    .search-topic-badge {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white !important;
+        padding: 3px 14px;
+        border-radius: 20px;
+        font-size: 12px !important;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .search-q-text {
+        color: #1a1a2e !important;
+        font-size: 16px !important;
+        font-weight: 600;
+        line-height: 1.7;
+        margin-bottom: 8px;
+    }
+    .search-answer-correct {
+        color: #28a745 !important;
+        font-size: 15px !important;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+    .search-answer-normal {
+        color: #555 !important;
+        font-size: 15px !important;
+        line-height: 1.6;
+    }
+    .search-count {
+        background: rgba(102, 126, 234, 0.1);
+        border: 1px solid rgba(102, 126, 234, 0.2);
+        border-radius: 12px;
+        padding: 10px 20px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .search-count p {
+        color: #667eea !important;
+        font-size: 16px !important;
+        font-weight: 600;
+        margin: 0;
+    }
+    .search-highlight {
+        background-color: #fff3cd;
+        padding: 1px 4px;
+        border-radius: 3px;
+        font-weight: 700;
+    }
+
+    /* Tab buttons in sidebar */
+    .sidebar-tab-active {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        color: white !important;
+        border: none !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -468,6 +550,8 @@ def init_session_state():
         "selected_answer": None,   # User's selected answer
         "quiz_finished": False,    # Whether quiz is complete
         "answers_log": [],         # Log of all answers for review
+        "app_mode": "quiz",        # Current mode: "quiz" or "search"
+        "search_query": "",        # Search query string
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -532,8 +616,24 @@ def main():
 
         st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
 
-        # Topic selection
-        if selected_audience in all_data:
+        # ─── Mode Tabs: Quiz / Search ─────────────────────────────────
+        st.markdown("### 🧭 Chế độ")
+        tab_col1, tab_col2 = st.columns(2)
+        with tab_col1:
+            quiz_type = "primary" if st.session_state.app_mode == "quiz" else "secondary"
+            if st.button("📝 Ôn tập", key="mode_quiz", use_container_width=True, type=quiz_type):
+                st.session_state.app_mode = "quiz"
+                st.rerun()
+        with tab_col2:
+            search_type = "primary" if st.session_state.app_mode == "search" else "secondary"
+            if st.button("🔍 Tìm kiếm", key="mode_search", use_container_width=True, type=search_type):
+                st.session_state.app_mode = "search"
+                st.rerun()
+
+        st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+
+        # Topic selection (only show in quiz mode)
+        if st.session_state.app_mode == "quiz" and selected_audience in all_data:
             topics = all_data[selected_audience]
             st.markdown("### 📂 Chủ đề")
 
@@ -597,7 +697,24 @@ def main():
                     start_quiz(selected_audience, st.session_state.topic, topic_qs)
                     st.rerun()
 
+        # Search tips in sidebar (only show in search mode)
+        if st.session_state.app_mode == "search":
+            st.markdown("### 💡 Gợi ý tìm kiếm")
+            st.markdown("""
+            - Nhập **từ khóa** để tìm câu hỏi
+            - Tìm kiếm trong **câu hỏi** và **đáp án**
+            - Kết quả hiển thị kèm **đáp án đúng**
+            - Không phân biệt hoa/thường
+            """)
+
     # ─── Main Content ────────────────────────────────────────────────────
+
+    # ─── SEARCH MODE ─────────────────────────────────────────────────
+    if st.session_state.app_mode == "search":
+        render_search_page(all_data, selected_audience)
+        return
+
+    # ─── QUIZ MODE ───────────────────────────────────────────────────
     if not st.session_state.topic:
         #Welcome screen
         st.markdown("""
@@ -818,6 +935,119 @@ def main():
                 if st.button("🏁 Xem kết quả", type="primary", use_container_width=True):
                     st.session_state.quiz_finished = True
                     st.rerun()
+
+
+def highlight_text(text, query):
+    """Highlight matching query text in a string (case-insensitive)."""
+    if not query:
+        return text
+    # Escape HTML special chars in the text first
+    import html as html_mod
+    safe_text = html_mod.escape(text)
+    # Escape the query for regex
+    escaped_query = re.escape(query)
+    # Replace matches with highlighted version
+    pattern = re.compile(f'({escaped_query})', re.IGNORECASE)
+    highlighted = pattern.sub(r'<span class="search-highlight">\1</span>', safe_text)
+    return highlighted
+
+
+def render_search_page(all_data, selected_audience):
+    """Render the search page with search input and results."""
+    # Search header banner
+    st.markdown("""
+    <div class="search-header">
+        <h1 style="font-size: 56px !important; margin-top: 0px !important; margin-bottom: 0.4rem !important; font-weight: 700; line-height: 1.1;">
+            🔍 Tìm Kiếm Câu Hỏi
+        </h1>
+        <p style="font-size: 20px !important; opacity: 0.95; margin: 0px !important; line-height: 1.3;">
+            Nhập từ khóa để tìm câu hỏi và đáp án nhanh chóng
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Search input
+    search_query = st.text_input(
+        "🔍 Tìm kiếm câu hỏi:",
+        value=st.session_state.get("search_query", ""),
+        placeholder="Nhập từ khóa tìm kiếm... (ví dụ: thuế, kế toán, rủi ro...)",
+        key="search_input",
+    )
+
+    # Update session state
+    st.session_state.search_query = search_query
+
+    if not search_query or len(search_query.strip()) < 1:
+        st.markdown("""
+        <div style="text-align: center; padding: 3rem 1rem; color: #888;">
+            <p style="font-size: 48px !important; margin-bottom: 1rem;">🔎</p>
+            <p style="font-size: 18px !important;">Nhập từ khóa vào ô tìm kiếm phía trên để bắt đầu</p>
+        </div>
+        """, unsafe_allow_html=True)
+        return
+
+    query = search_query.strip().lower()
+
+    # Search across all topics for the selected audience
+    results = []
+    if selected_audience in all_data:
+        topics = all_data[selected_audience]
+        for topic_name, topic_questions in topics.items():
+            for q in topic_questions:
+                # Search in question text
+                q_text_lower = q["question"].lower()
+                answers_text = " ".join(q["answers"]).lower()
+
+                if query in q_text_lower or query in answers_text:
+                    results.append({
+                        "topic": topic_name,
+                        "question": q["question"],
+                        "answers": q["answers"],
+                        "correct_idx": q["correct_idx"],
+                    })
+
+    # Show result count
+    st.markdown(f"""
+    <div class="search-count">
+        <p>Tìm thấy <strong>{len(results)}</strong> câu hỏi chứa từ khóa \"{search_query.strip()}\"</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if not results:
+        st.markdown("""
+        <div style="text-align: center; padding: 2rem 1rem; color: #888;">
+            <p style="font-size: 48px !important; margin-bottom: 1rem;">😕</p>
+            <p style="font-size: 18px !important;">Không tìm thấy câu hỏi nào phù hợp.</p>
+            <p style="font-size: 14px !important;">Hãy thử từ khóa khác hoặc ngắn hơn.</p>
+        </div>
+        """, unsafe_allow_html=True)
+        return
+
+    # Display results
+    prefix_letters = "ABCDEFGHIJKLMNOP"
+    for i, r in enumerate(results):
+        q_highlighted = highlight_text(r["question"], search_query.strip())
+
+        with st.expander(f"📌 Câu {i + 1}: {r['question'][:100]}{'...' if len(r['question']) > 100 else ''}", expanded=False):
+            st.markdown(f'<span class="search-topic-badge">{r["topic"]}</span>', unsafe_allow_html=True)
+            st.markdown(f'<p class="search-q-text">❓ {q_highlighted}</p>', unsafe_allow_html=True)
+
+            st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+
+            for j, ans in enumerate(r["answers"]):
+                prefix = prefix_letters[j] if j < len(prefix_letters) else str(j + 1)
+                ans_highlighted = highlight_text(ans, search_query.strip())
+
+                if j == r["correct_idx"]:
+                    st.markdown(
+                        f'<p class="search-answer-correct">✅ {prefix}. {ans_highlighted}</p>',
+                        unsafe_allow_html=True,
+                    )
+                else:
+                    st.markdown(
+                        f'<p class="search-answer-normal">○ {prefix}. {ans_highlighted}</p>',
+                        unsafe_allow_html=True,
+                    )
 
 
 if __name__ == "__main__":
