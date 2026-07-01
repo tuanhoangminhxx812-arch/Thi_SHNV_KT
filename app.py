@@ -1028,26 +1028,25 @@ def render_search_page(all_data, selected_audience):
     for i, r in enumerate(results):
         q_highlighted = highlight_text(r["question"], search_query.strip())
 
-        with st.expander(f"📌 Câu {i + 1}: {r['question'][:100]}{'...' if len(r['question']) > 100 else ''}", expanded=False):
-            st.markdown(f'<span class="search-topic-badge">{r["topic"]}</span>', unsafe_allow_html=True)
-            st.markdown(f'<p class="search-q-text">❓ {q_highlighted}</p>', unsafe_allow_html=True)
+        # Build answers HTML
+        answers_html = ""
+        for j, ans in enumerate(r["answers"]):
+            prefix = prefix_letters[j] if j < len(prefix_letters) else str(j + 1)
+            ans_highlighted = highlight_text(ans, search_query.strip())
 
-            st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+            if j == r["correct_idx"]:
+                answers_html += f'<p class="search-answer-correct">&#10004; {prefix}. {ans_highlighted}</p>'
+            else:
+                answers_html += f'<p class="search-answer-normal">&#9675; {prefix}. {ans_highlighted}</p>'
 
-            for j, ans in enumerate(r["answers"]):
-                prefix = prefix_letters[j] if j < len(prefix_letters) else str(j + 1)
-                ans_highlighted = highlight_text(ans, search_query.strip())
-
-                if j == r["correct_idx"]:
-                    st.markdown(
-                        f'<p class="search-answer-correct">✅ {prefix}. {ans_highlighted}</p>',
-                        unsafe_allow_html=True,
-                    )
-                else:
-                    st.markdown(
-                        f'<p class="search-answer-normal">○ {prefix}. {ans_highlighted}</p>',
-                        unsafe_allow_html=True,
-                    )
+        st.markdown(f"""
+        <div class="search-result-card">
+            <span class="search-topic-badge">{r["topic"]}</span>
+            <p class="search-q-text"><strong>Câu {i + 1}:</strong> {q_highlighted}</p>
+            <div class="custom-divider"></div>
+            {answers_html}
+        </div>
+        """, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
