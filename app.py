@@ -410,7 +410,230 @@ st.markdown("""
         color: white !important;
         border: none !important;
     }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       MOBILE RESPONSIVE - Tablets & small screens (≤ 768px)
+       ═══════════════════════════════════════════════════════════════════ */
+    @media screen and (max-width: 768px) {
+        /* Main container - remove excess padding */
+        .main .block-container {
+            max-width: 100% !important;
+            padding-left: 0.8rem !important;
+            padding-right: 0.8rem !important;
+            padding-top: 0.3rem !important;
+        }
+
+        /* Global font size adjustment */
+        html, body, [class*="css"], .stMarkdown, .stRadio label,
+        .stSelectbox, .stTextInput input,
+        p, span, div, li, label, input, select, textarea,
+        [data-testid="stMarkdownContainer"], [data-testid="stWidgetLabel"],
+        .element-container, .stRadio div[role="radiogroup"] label {
+            font-size: 15px !important;
+        }
+
+        /* Welcome banner - smaller on mobile */
+        .welcome-banner {
+            padding: 1.2rem 1rem 1rem !important;
+            border-radius: 14px !important;
+            margin-bottom: 1rem !important;
+        }
+        .welcome-banner h1 {
+            font-size: 36px !important;
+        }
+        .welcome-banner h2 {
+            font-size: 20px !important;
+        }
+        .welcome-banner p {
+            font-size: 16px !important;
+        }
+
+        /* Topic card buttons - shorter on mobile */
+        .main .topic-btn-row .stButton > button {
+            min-height: 140px !important;
+            padding: 0.8rem 0.5rem !important;
+            border-radius: 14px !important;
+        }
+        .main .topic-btn-row .stButton > button p,
+        .main .topic-btn-row .stButton > button span {
+            font-size: 14px !important;
+        }
+        .main .topic-btn-row .stButton > button p::first-line,
+        .main .topic-btn-row .stButton > button span::first-line {
+            font-size: 32px !important;
+        }
+        /* Disable 3D hover on touch screens */
+        .main .topic-btn-row .stButton > button:hover {
+            transform: none !important;
+        }
+
+        /* Question card */
+        .question-card {
+            padding: 1.2rem 1rem !important;
+            border-radius: 12px !important;
+            margin-bottom: 1rem !important;
+        }
+        .question-card h3 {
+            font-size: 17px !important;
+            line-height: 1.5 !important;
+        }
+
+        /* Radio options - larger tap targets */
+        .stRadio > div {
+            padding: 0.5rem 0.6rem !important;
+        }
+        .stRadio label {
+            font-size: 15px !important;
+            padding: 8px 0 !important;
+            line-height: 1.6 !important;
+        }
+
+        /* Buttons - touch friendly */
+        .stButton > button {
+            padding: 0.6rem 1rem !important;
+            font-size: 15px !important;
+            min-height: 44px !important;
+        }
+
+        /* Result cards */
+        .result-correct, .result-wrong {
+            padding: 1rem 1rem !important;
+            border-radius: 10px !important;
+        }
+
+        /* Score cards */
+        .score-pass, .score-fail {
+            padding: 1.5rem 1rem !important;
+            border-radius: 12px !important;
+        }
+        .score-pass h2, .score-fail h2 {
+            font-size: 22px !important;
+        }
+        .score-pass h3, .score-fail h3 {
+            font-size: 36px !important;
+        }
+
+        /* Search header */
+        .search-header {
+            padding: 1.2rem 1rem 1rem !important;
+            border-radius: 14px !important;
+            margin-bottom: 1rem !important;
+        }
+        .search-header h1 {
+            font-size: 32px !important;
+        }
+        .search-header p {
+            font-size: 16px !important;
+        }
+
+        /* Search result cards */
+        .search-result-card {
+            padding: 1rem 1rem !important;
+            border-radius: 12px !important;
+            margin-bottom: 0.8rem !important;
+        }
+        .search-result-card:hover {
+            transform: none !important;
+        }
+        .search-topic-badge {
+            font-size: 11px !important;
+            padding: 2px 10px !important;
+        }
+        .search-q-text {
+            font-size: 15px !important;
+            line-height: 1.6 !important;
+        }
+        .search-answer-correct {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+        }
+        .search-answer-normal {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+        }
+        .search-count {
+            padding: 8px 14px !important;
+        }
+
+        /* Divider */
+        .custom-divider {
+            margin: 1rem 0 !important;
+        }
+
+        /* Q badge */
+        .q-badge {
+            font-size: 13px !important;
+            padding: 3px 12px !important;
+        }
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════
+       MOBILE RESPONSIVE - Small phones (≤ 480px)
+       ═══════════════════════════════════════════════════════════════════ */
+    @media screen and (max-width: 480px) {
+        .main .block-container {
+            padding-left: 0.5rem !important;
+            padding-right: 0.5rem !important;
+        }
+
+        /* Even smaller banner on tiny screens */
+        .welcome-banner h1 {
+            font-size: 28px !important;
+        }
+        .welcome-banner h2 {
+            font-size: 17px !important;
+        }
+        .welcome-banner p {
+            font-size: 14px !important;
+        }
+
+        /* Topic cards on very small screens */
+        .main .topic-btn-row .stButton > button {
+            min-height: 110px !important;
+            padding: 0.6rem 0.4rem !important;
+        }
+        .main .topic-btn-row .stButton > button p,
+        .main .topic-btn-row .stButton > button span {
+            font-size: 13px !important;
+        }
+        .main .topic-btn-row .stButton > button p::first-line,
+        .main .topic-btn-row .stButton > button span::first-line {
+            font-size: 26px !important;
+        }
+
+        /* Question card */
+        .question-card {
+            padding: 1rem 0.8rem !important;
+        }
+        .question-card h3 {
+            font-size: 16px !important;
+        }
+
+        /* Search */
+        .search-header h1 {
+            font-size: 26px !important;
+        }
+        .search-result-card {
+            padding: 0.8rem 0.8rem !important;
+        }
+        .search-q-text {
+            font-size: 14px !important;
+        }
+        .search-answer-correct, .search-answer-normal {
+            font-size: 13px !important;
+        }
+
+        /* Score */
+        .score-pass h3, .score-fail h3 {
+            font-size: 30px !important;
+        }
+    }
 </style>
+""", unsafe_allow_html=True)
+
+# ─── Viewport meta tag for mobile ────────────────────────────────────────────
+st.markdown("""
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 """, unsafe_allow_html=True)
 
 
@@ -736,11 +959,11 @@ def main():
             topics = all_data[selected_audience]
             st.markdown(f'<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.6rem !important;">📋 Chọn chủ đề — {selected_audience}</h3>', unsafe_allow_html=True)
 
-            # Render 3 rows of 3 cards
+            # Render rows of 2 cards (better for mobile)
             topic_list = list(topics.items())
-            for row_start in range(0, len(topic_list), 3):
-                row_items = topic_list[row_start:row_start + 3]
-                cols = st.columns(3)
+            for row_start in range(0, len(topic_list), 2):
+                row_items = topic_list[row_start:row_start + 2]
+                cols = st.columns(2)
                 for col_idx, (topic_name, topic_qs) in enumerate(row_items):
                     parts = topic_name.split(" ", 1)
                     icon = parts[0] if len(parts) > 1 else "📄"
