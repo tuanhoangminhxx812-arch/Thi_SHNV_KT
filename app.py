@@ -932,6 +932,88 @@ def main():
 
     # ─── Main Content ────────────────────────────────────────────────────
 
+    # ─── Mobile Controls (visible only on ≤768px screens) ─────────────
+    # We use sentinel HTML markers + CSS to hide this block on desktop
+    st.markdown('<div class="mobile-top-bar-start"></div>', unsafe_allow_html=True)
+
+    # Mobile audience selector & mode buttons
+    mob_ctrl_col1, mob_ctrl_col2, mob_ctrl_col3 = st.columns([2, 1, 1])
+    with mob_ctrl_col1:
+        mobile_audience = st.selectbox(
+            "Đối tượng:",
+            audience_options,
+            index=audience_options.index(selected_audience) if selected_audience in audience_options else 0,
+            key="mobile_audience_select",
+            label_visibility="collapsed",
+        )
+        # Sync mobile audience selection
+        if mobile_audience != selected_audience:
+            selected_audience = mobile_audience
+            st.session_state.audience = selected_audience
+            reset_quiz()
+            st.rerun()
+    with mob_ctrl_col2:
+        mob_quiz_type = "primary" if st.session_state.app_mode == "quiz" else "secondary"
+        if st.button("📝 Ôn tập", key="mob_mode_quiz", use_container_width=True, type=mob_quiz_type):
+            st.session_state.app_mode = "quiz"
+            st.rerun()
+    with mob_ctrl_col3:
+        mob_search_type = "primary" if st.session_state.app_mode == "search" else "secondary"
+        if st.button("🔍 Tìm", key="mob_mode_search", use_container_width=True, type=mob_search_type):
+            st.session_state.app_mode = "search"
+            st.rerun()
+
+    st.markdown('<div class="mobile-top-bar-end"></div>', unsafe_allow_html=True)
+
+    # CSS to hide mobile controls on desktop, show on mobile
+    st.markdown("""
+    <style>
+        /* By default (desktop), hide the mobile top bar and adjacent elements */
+        .mobile-top-bar-start,
+        .mobile-top-bar-end {
+            display: none;
+        }
+
+        /* On desktop: hide the 3 sibling elements between the start/end markers.
+           We target the parent containers of these sentinel divs and their next siblings. */
+        @media screen and (min-width: 769px) {
+            /* Hide the container holding mobile controls */
+            .mobile-top-bar-start {
+                display: none;
+            }
+            /* Use has() to find and hide the parent element-containers */
+            [data-testid="stMarkdownContainer"]:has(.mobile-top-bar-start),
+            [data-testid="stMarkdownContainer"]:has(.mobile-top-bar-end) {
+                display: none !important;
+            }
+            /* Hide the parent element-container that has the start marker,
+               and its next sibling (the columns), and the end marker */
+            .element-container:has(.mobile-top-bar-start),
+            .element-container:has(.mobile-top-bar-start) + .element-container,
+            .element-container:has(.mobile-top-bar-end) {
+                display: none !important;
+            }
+            /* Also target stVerticalBlock children */
+            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-start),
+            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-start) + div,
+            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-end) {
+                display: none !important;
+            }
+        }
+
+        /* On mobile: show everything */
+        @media screen and (max-width: 768px) {
+            .mobile-top-bar-start,
+            .mobile-top-bar-end {
+                display: block;
+                height: 0;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
     # ─── SEARCH MODE ─────────────────────────────────────────────────
     if st.session_state.app_mode == "search":
         render_search_page(all_data, selected_audience)
