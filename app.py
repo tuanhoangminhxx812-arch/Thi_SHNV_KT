@@ -988,10 +988,10 @@ def render_search_page(all_data, selected_audience):
 
     query = search_query.strip().lower()
 
-    # Search across all topics for the selected audience
+    # Search across ALL audiences and ALL topics
     results = []
-    if selected_audience in all_data:
-        topics = all_data[selected_audience]
+    seen = set()  # Avoid duplicate questions across audiences
+    for audience_label, topics in all_data.items():
         for topic_name, topic_questions in topics.items():
             for q in topic_questions:
                 # Search in question text
@@ -999,7 +999,13 @@ def render_search_page(all_data, selected_audience):
                 answers_text = " ".join(q["answers"]).lower()
 
                 if query in q_text_lower or query in answers_text:
+                    # Deduplicate by question text
+                    q_key = q["question"].strip()
+                    if q_key in seen:
+                        continue
+                    seen.add(q_key)
                     results.append({
+                        "audience": audience_label,
                         "topic": topic_name,
                         "question": q["question"],
                         "answers": q["answers"],
@@ -1041,7 +1047,7 @@ def render_search_page(all_data, selected_audience):
 
         st.markdown(f"""
         <div class="search-result-card">
-            <span class="search-topic-badge">{r["topic"]}</span>
+            <span class="search-topic-badge">{r["audience"]} — {r["topic"]}</span>
             <p class="search-q-text"><strong>Câu {i + 1}:</strong> {q_highlighted}</p>
             <div class="custom-divider"></div>
             {answers_html}
