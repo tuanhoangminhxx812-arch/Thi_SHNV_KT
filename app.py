@@ -1055,11 +1055,13 @@ def main():
             prefix = prefix_letters[i] if i < len(prefix_letters) else str(i + 1)
             labels.append(f"{prefix}. {ans}")
 
+        # Use a stable key based on question content hash (not id(q) which changes every rerun)
+        q_hash = hash(q["question"])
         selected = st.radio(
             "Chọn đáp án:",
             options=labels,
             index=None,
-            key=f"radio_{idx}_{id(q)}",
+            key=f"radio_{idx}_{q_hash}",
             label_visibility="collapsed",
         )
 
