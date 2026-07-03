@@ -640,8 +640,8 @@ st.markdown("""
 # ─── Data Loading ────────────────────────────────────────────────────────────
 # Map file names to display labels
 EXAM_FILES = {
-    "Kế toán trưởng, Trưởng-Phó phòng": "Đề thi SHNV TCKT - 2025 09-02-2026_ kế toán trường, trưởng-phó phòng.xls",
-    "Chuyên viên": "Đề thi SHNV TCKT - 2025 09-02-2026_chuyên viên.xls",
+    "Kế toán trưởng, Trưởng-Phó phòng": "data_ktt.xls",
+    "Chuyên viên": "data_cv.xls",
 }
 
 # Friendly topic names mapping: {sheet_name: (icon, display_name)}
