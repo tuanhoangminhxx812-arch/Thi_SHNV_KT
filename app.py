@@ -733,28 +733,35 @@ def load_all_data():
     for label, filename in EXAM_FILES.items():
         filepath = os.path.join(base_dir, filename)
         if not os.path.exists(filepath):
-            st.error(f"Không tìm thấy file: {filename}")
+            st.error(f"❌ Không tìm thấy file: {filename}")
+            st.info(f"📂 Thư mục hiện tại: {base_dir}")
+            st.info(f"📄 Các file có sẵn: {os.listdir(base_dir)}")
             continue
 
-        visible_sheets = get_visible_sheets(filepath)
-        xls = pd.ExcelFile(filepath)
-        topics = {}
-        for sheet_name in xls.sheet_names:
-            if sheet_name not in visible_sheets:
-                continue
-            df = pd.read_excel(xls, sheet_name=sheet_name, header=None)
-            questions = parse_sheet(df)
-            if questions:
-                # Filter out specific sheets based on audience label
-                if label == "Chuyên viên" and sheet_name == "KTT-130":
+        try:
+            visible_sheets = get_visible_sheets(filepath)
+            xls = pd.ExcelFile(filepath)
+            topics = {}
+            for sheet_name in xls.sheet_names:
+                if sheet_name not in visible_sheets:
                     continue
-                if label == "Kế toán trưởng, Trưởng-Phó phòng" and sheet_name == "CV-120":
-                    continue
-                info = TOPIC_INFO.get(sheet_name, ("", sheet_name))
-                display_name = f"{info[0]} {info[1]}"
-                topics[display_name] = questions
+                df = pd.read_excel(xls, sheet_name=sheet_name, header=None)
+                questions = parse_sheet(df)
+                if questions:
+                    # Filter out specific sheets based on audience label
+                    if label == "Chuyên viên" and sheet_name == "KTT-130":
+                        continue
+                    if label == "Kế toán trưởng, Trưởng-Phó phòng" and sheet_name == "CV-120":
+                        continue
+                    info = TOPIC_INFO.get(sheet_name, ("", sheet_name))
+                    display_name = f"{info[0]} {info[1]}"
+                    topics[display_name] = questions
 
-        all_data[label] = topics
+            all_data[label] = topics
+        except Exception as e:
+            st.error(f"❌ Lỗi khi đọc file {filename}: {e}")
+            import traceback
+            st.code(traceback.format_exc())
 
     return all_data
 
