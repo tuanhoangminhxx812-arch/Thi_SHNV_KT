@@ -638,132 +638,27 @@ st.markdown("""
 
 
 # ─── Data Loading ────────────────────────────────────────────────────────────
-# Map file names to display labels
-EXAM_FILES = {
-    "Kế toán trưởng, Trưởng-Phó phòng": "data_ktt.xls",
-    "Chuyên viên": "data_cv.xls",
-}
-
-# Friendly topic names mapping: {sheet_name: (icon, display_name)}
-TOPIC_INFO = {
-    "KTT-130": ("📘", "KTT - 130 câu"),
-    "CV-120": ("📗", "Chuyên viên - 120 câu"),
-    "Tổng hợp": ("📚", "Tổng hợp"),
-    "Thuế": ("💰", "Thuế"),
-    "QC chi tieu noi bo": ("📋", "Quy chế chi tiêu nội bộ"),
-    "Quản trị rủi ro": ("🛡️", "Quản trị rủi ro"),
-    "ERP": ("💻", "ERP"),
-    "kế toán": ("📊", "Kế toán"),
-    "Chế độ kế toán- TT99": ("📑", "Chế độ kế toán - TT99"),
-}
-
-
-def parse_sheet(df):
-    """Parse a single sheet DataFrame into a list of question dicts."""
-    questions = []
-    current_q = None
-
-    for _, row in df.iterrows():
-        row_type = str(row.iloc[0]).strip() if pd.notna(row.iloc[0]) else ""
-        text = str(row.iloc[1]).strip() if pd.notna(row.iloc[1]) else ""
-        is_correct = str(row.iloc[2]).strip().upper() == "X" if pd.notna(row.iloc[2]) else False
-
-        if row_type == "Q" and text:
-            # Save previous question if exists
-            if current_q and current_q["answers"]:
-                questions.append(current_q)
-            current_q = {
-                "question": text,
-                "answers": [],
-                "correct_idx": -1,
-            }
-        elif row_type == "A" and text and current_q is not None:
-            # Strip existing answer prefix (a., b., c., d., A., etc.)
-            cleaned = re.sub(r'^[a-dA-D][\.\)]\s*', '', text).strip()
-            if cleaned:
-                current_q["answers"].append(cleaned)
-            else:
-                current_q["answers"].append(text)
-            if is_correct:
-                current_q["correct_idx"] = len(current_q["answers"]) - 1
-
-    # Don't forget the last question
-    if current_q and current_q["answers"]:
-        questions.append(current_q)
-
-    # Filter out questions without a correct answer
-    questions = [q for q in questions if q["correct_idx"] >= 0]
-    return questions
-
-
-def get_visible_sheets(filepath):
-    """Get a set of visible sheet names in the Excel file."""
-    _, ext = os.path.splitext(filepath.lower())
-    visible_sheets = set()
-    try:
-        if ext == ".xls":
-            import xlrd
-            book = xlrd.open_workbook(filepath)
-            for i in range(book.nsheets):
-                if book.sheet_by_index(i).visibility == 0:
-                    visible_sheets.add(book.sheet_names()[i])
-        else:
-            # Try openpyxl for .xlsx
-            import openpyxl
-            wb = openpyxl.load_workbook(filepath, read_only=True)
-            for sheet in wb.sheetnames:
-                if wb[sheet].sheet_state == 'visible' or wb[sheet].sheet_state is None:
-                    visible_sheets.add(sheet)
-    except Exception:
-        # Fallback to returning all sheets if there's any error
-        try:
-            xls = pd.ExcelFile(filepath)
-            visible_sheets = set(xls.sheet_names)
-        except Exception:
-            pass
-    return visible_sheets
-
-
 @st.cache_data
 def load_all_data():
-    """Load and parse all exam data from both Excel files."""
+    """Load pre-processed exam data from JSON file."""
+    import json
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    all_data = {}
+    json_path = os.path.join(base_dir, "data.json")
 
-    for label, filename in EXAM_FILES.items():
-        filepath = os.path.join(base_dir, filename)
-        if not os.path.exists(filepath):
-            st.error(f"❌ Không tìm thấy file: {filename}")
-            st.info(f"📂 Thư mục hiện tại: {base_dir}")
-            st.info(f"📄 Các file có sẵn: {os.listdir(base_dir)}")
-            continue
+    if not os.path.exists(json_path):
+        st.error(f"❌ Không tìm thấy file dữ liệu: data.json")
+        st.info(f"📂 Thư mục: {base_dir}")
+        st.info(f"📄 Files: {os.listdir(base_dir)}")
+        return {}
 
-        try:
-            visible_sheets = get_visible_sheets(filepath)
-            xls = pd.ExcelFile(filepath)
-            topics = {}
-            for sheet_name in xls.sheet_names:
-                if sheet_name not in visible_sheets:
-                    continue
-                df = pd.read_excel(xls, sheet_name=sheet_name, header=None)
-                questions = parse_sheet(df)
-                if questions:
-                    # Filter out specific sheets based on audience label
-                    if label == "Chuyên viên" and sheet_name == "KTT-130":
-                        continue
-                    if label == "Kế toán trưởng, Trưởng-Phó phòng" and sheet_name == "CV-120":
-                        continue
-                    info = TOPIC_INFO.get(sheet_name, ("", sheet_name))
-                    display_name = f"{info[0]} {info[1]}"
-                    topics[display_name] = questions
-
-            all_data[label] = topics
-        except Exception as e:
-            st.error(f"❌ Lỗi khi đọc file {filename}: {e}")
-            import traceback
-            st.code(traceback.format_exc())
-
-    return all_data
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        st.error(f"❌ Lỗi khi đọc data.json: {e}")
+        import traceback
+        st.code(traceback.format_exc())
+        return {}
 
 
 
