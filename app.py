@@ -3,6 +3,7 @@ import pandas as pd
 import random
 import re
 import os
+import hashlib
 
 # ─── Page Config ─────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -1055,42 +1056,47 @@ def main():
             prefix = prefix_letters[i] if i < len(prefix_letters) else str(i + 1)
             labels.append(f"{prefix}. {ans}")
 
-        # Use a stable key based on question content hash (not id(q) which changes every rerun)
-        q_hash = hash(q["question"])
-        selected = st.radio(
-            "Chọn đáp án:",
-            options=labels,
-            index=None,
-            key=f"radio_{idx}_{q_hash}",
-            label_visibility="collapsed",
-        )
+        # Use a stable hash (hashlib) instead of built-in hash() which changes across Python restarts
+        q_hash = hashlib.md5(q["question"].encode("utf-8")).hexdigest()[:8]
+        radio_key = f"radio_{idx}_{q_hash}"
 
-        st.markdown("")
-        col1, col2, col3 = st.columns([1, 1, 2])
-        with col1:
-            if st.button("✅ Trả lời", type="primary", use_container_width=True, disabled=(selected is None)):
-                if selected is not None:
-                    # Find which answer index was selected
-                    selected_idx = labels.index(selected)
-                    is_correct = selected_idx == q["correct_idx"]
+        # Use st.form to ensure radio selection is captured before button triggers rerun
+        with st.form(key=f"answer_form_{idx}_{q_hash}"):
+            selected = st.radio(
+                "Chọn đáp án:",
+                options=labels,
+                index=None,
+                key=radio_key,
+                label_visibility="collapsed",
+            )
 
-                    st.session_state.answered = True
-                    st.session_state.selected_answer = selected_idx
+            st.markdown("")
+            submitted = st.form_submit_button("✅ Trả lời", type="primary", use_container_width=True)
 
-                    if is_correct:
-                        st.session_state.score += 1
+            if submitted and selected is not None:
+                # Find which answer index was selected
+                selected_idx = labels.index(selected)
+                is_correct = selected_idx == q["correct_idx"]
 
-                    # Log the answer
-                    correct_answer_text = q["answers"][q["correct_idx"]]
-                    user_answer_text = q["answers"][selected_idx]
-                    st.session_state.answers_log.append({
-                        "question": q["question"],
-                        "user_answer": user_answer_text,
-                        "correct_answer": correct_answer_text,
-                        "is_correct": is_correct,
-                    })
+                st.session_state.answered = True
+                st.session_state.selected_answer = selected_idx
 
-                    st.rerun()
+                if is_correct:
+                    st.session_state.score += 1
+
+                # Log the answer
+                correct_answer_text = q["answers"][q["correct_idx"]]
+                user_answer_text = q["answers"][selected_idx]
+                st.session_state.answers_log.append({
+                    "question": q["question"],
+                    "user_answer": user_answer_text,
+                    "correct_answer": correct_answer_text,
+                    "is_correct": is_correct,
+                })
+
+                st.rerun()
+            elif submitted and selected is None:
+                st.warning("⚠️ Vui lòng chọn một đáp án trước khi trả lời!")
 
     else:
         # Show answers with correct/wrong highlighting
