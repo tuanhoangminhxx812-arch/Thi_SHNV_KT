@@ -678,6 +678,7 @@ def init_session_state():
         "answers_log": [],         # Log of all answers for review
         "app_mode": "quiz",        # Current mode: "quiz" or "search"
         "search_query": "",        # Search query string
+        "user_selection": None,    # Track radio selection via callback
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -728,17 +729,25 @@ def main():
         # Audience selection
         st.markdown("### 👤 Đối tượng thi")
         audience_options = list(all_data.keys())
+
+        # Initialize audience in session state if needed
+        if st.session_state.audience is None or st.session_state.audience not in audience_options:
+            st.session_state.audience = audience_options[0]
+
+        def on_audience_change():
+            """Callback when audience selectbox changes."""
+            reset_quiz()
+
         selected_audience = st.selectbox(
             "Chọn đối tượng:",
             audience_options,
-            index=0,
+            index=audience_options.index(st.session_state.audience),
+            key="sidebar_audience_select",
+            on_change=on_audience_change,
             label_visibility="collapsed",
         )
-
-        # Reset if audience changed
-        if st.session_state.audience != selected_audience:
-            st.session_state.audience = selected_audience
-            reset_quiz()
+        # Sync audience from widget value (no rerun needed, on_change handles reset)
+        st.session_state.audience = selected_audience
 
         st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
 
@@ -835,87 +844,8 @@ def main():
 
     # ─── Main Content ────────────────────────────────────────────────────
 
-    # ─── Mobile Controls (visible only on ≤768px screens) ─────────────
-    # We use sentinel HTML markers + CSS to hide this block on desktop
-    st.markdown('<div class="mobile-top-bar-start"></div>', unsafe_allow_html=True)
-
-    # Mobile audience selector & mode buttons
-    mob_ctrl_col1, mob_ctrl_col2, mob_ctrl_col3 = st.columns([2, 1, 1])
-    with mob_ctrl_col1:
-        mobile_audience = st.selectbox(
-            "Đối tượng:",
-            audience_options,
-            index=audience_options.index(selected_audience) if selected_audience in audience_options else 0,
-            key="mobile_audience_select",
-            label_visibility="collapsed",
-        )
-        # Sync mobile audience selection
-        if mobile_audience != selected_audience:
-            selected_audience = mobile_audience
-            st.session_state.audience = selected_audience
-            reset_quiz()
-            st.rerun()
-    with mob_ctrl_col2:
-        mob_quiz_type = "primary" if st.session_state.app_mode == "quiz" else "secondary"
-        if st.button("📝 Ôn tập", key="mob_mode_quiz", use_container_width=True, type=mob_quiz_type):
-            st.session_state.app_mode = "quiz"
-            st.rerun()
-    with mob_ctrl_col3:
-        mob_search_type = "primary" if st.session_state.app_mode == "search" else "secondary"
-        if st.button("🔍 Tìm", key="mob_mode_search", use_container_width=True, type=mob_search_type):
-            st.session_state.app_mode = "search"
-            st.rerun()
-
-    st.markdown('<div class="mobile-top-bar-end"></div>', unsafe_allow_html=True)
-
-    # CSS to hide mobile controls on desktop, show on mobile
-    st.markdown("""
-    <style>
-        /* By default (desktop), hide the mobile top bar and adjacent elements */
-        .mobile-top-bar-start,
-        .mobile-top-bar-end {
-            display: none;
-        }
-
-        /* On desktop: hide the 3 sibling elements between the start/end markers.
-           We target the parent containers of these sentinel divs and their next siblings. */
-        @media screen and (min-width: 769px) {
-            /* Hide the container holding mobile controls */
-            .mobile-top-bar-start {
-                display: none;
-            }
-            /* Use has() to find and hide the parent element-containers */
-            [data-testid="stMarkdownContainer"]:has(.mobile-top-bar-start),
-            [data-testid="stMarkdownContainer"]:has(.mobile-top-bar-end) {
-                display: none !important;
-            }
-            /* Hide the parent element-container that has the start marker,
-               and its next sibling (the columns), and the end marker */
-            .element-container:has(.mobile-top-bar-start),
-            .element-container:has(.mobile-top-bar-start) + .element-container,
-            .element-container:has(.mobile-top-bar-end) {
-                display: none !important;
-            }
-            /* Also target stVerticalBlock children */
-            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-start),
-            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-start) + div,
-            [data-testid="stVerticalBlock"] > div:has(.mobile-top-bar-end) {
-                display: none !important;
-            }
-        }
-
-        /* On mobile: show everything */
-        @media screen and (max-width: 768px) {
-            .mobile-top-bar-start,
-            .mobile-top-bar-end {
-                display: block;
-                height: 0;
-                margin: 0;
-                padding: 0;
-            }
-        }
-    </style>
-    """, unsafe_allow_html=True)
+    # Mobile controls removed to prevent infinite rerun loop
+    # Sidebar is accessible on mobile via the hamburger menu (☰)
 
     # ─── SEARCH MODE ─────────────────────────────────────────────────
     if st.session_state.app_mode == "search":
@@ -1060,43 +990,50 @@ def main():
         q_hash = hashlib.md5(q["question"].encode("utf-8")).hexdigest()[:8]
         radio_key = f"radio_{idx}_{q_hash}"
 
-        # Use st.form to ensure radio selection is captured before button triggers rerun
-        with st.form(key=f"answer_form_{idx}_{q_hash}"):
-            selected = st.radio(
-                "Chọn đáp án:",
-                options=labels,
-                index=None,
-                key=radio_key,
-                label_visibility="collapsed",
-            )
+        # Use on_change callback to store selection in session state
+        # This ensures the selection persists across reruns triggered by the button
+        def on_radio_change():
+            st.session_state.user_selection = st.session_state[radio_key]
 
-            st.markdown("")
-            submitted = st.form_submit_button("✅ Trả lời", type="primary", use_container_width=True)
+        selected = st.radio(
+            "Chọn đáp án:",
+            options=labels,
+            index=None,
+            key=radio_key,
+            on_change=on_radio_change,
+            label_visibility="collapsed",
+        )
 
-            if submitted and selected is not None:
-                # Find which answer index was selected
-                selected_idx = labels.index(selected)
-                is_correct = selected_idx == q["correct_idx"]
+        # Get selection from session state (persists across button-triggered reruns)
+        current_selection = st.session_state.get("user_selection", None)
 
-                st.session_state.answered = True
-                st.session_state.selected_answer = selected_idx
+        st.markdown("")
+        col1, col2, col3 = st.columns([1, 1, 2])
+        with col1:
+            if st.button("✅ Trả lời", type="primary", use_container_width=True, disabled=(current_selection is None)):
+                if current_selection is not None and current_selection in labels:
+                    # Find which answer index was selected
+                    selected_idx = labels.index(current_selection)
+                    is_correct = selected_idx == q["correct_idx"]
 
-                if is_correct:
-                    st.session_state.score += 1
+                    st.session_state.answered = True
+                    st.session_state.selected_answer = selected_idx
+                    st.session_state.user_selection = None  # Reset for next question
 
-                # Log the answer
-                correct_answer_text = q["answers"][q["correct_idx"]]
-                user_answer_text = q["answers"][selected_idx]
-                st.session_state.answers_log.append({
-                    "question": q["question"],
-                    "user_answer": user_answer_text,
-                    "correct_answer": correct_answer_text,
-                    "is_correct": is_correct,
-                })
+                    if is_correct:
+                        st.session_state.score += 1
 
-                st.rerun()
-            elif submitted and selected is None:
-                st.warning("⚠️ Vui lòng chọn một đáp án trước khi trả lời!")
+                    # Log the answer
+                    correct_answer_text = q["answers"][q["correct_idx"]]
+                    user_answer_text = q["answers"][selected_idx]
+                    st.session_state.answers_log.append({
+                        "question": q["question"],
+                        "user_answer": user_answer_text,
+                        "correct_answer": correct_answer_text,
+                        "is_correct": is_correct,
+                    })
+
+                    st.rerun()
 
     else:
         # Show answers with correct/wrong highlighting
@@ -1145,6 +1082,7 @@ def main():
                     st.session_state.current_idx += 1
                     st.session_state.answered = False
                     st.session_state.selected_answer = None
+                    st.session_state.user_selection = None
                     st.rerun()
             else:
                 if st.button("🏁 Xem kết quả", type="primary", use_container_width=True):
