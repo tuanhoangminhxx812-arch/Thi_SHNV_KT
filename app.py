@@ -874,33 +874,34 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-        # ─── Audience selector on main screen (for mobile) ───────────
-        st.markdown('<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.2rem !important;">👤 Chọn đối tượng thi</h3>', unsafe_allow_html=True)
+        # ─── Audience selector as BUTTONS on main screen ───────────
+        st.markdown('<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.4rem !important;">👤 Chọn đối tượng thi</h3>', unsafe_allow_html=True)
 
         audience_options = list(all_data.keys())
-        current_audience_idx = audience_options.index(selected_audience) if selected_audience in audience_options else 0
+        audience_icons = {"Kế toán trưởng, Trưởng-Phó phòng": "👔", "Chuyên viên": "🧑‍💼"}
 
-        def on_main_audience_change():
-            """Sync main-page audience selector back to session state and reset quiz."""
-            new_val = st.session_state["main_audience_select"]
-            st.session_state.audience = new_val
-            # Sync sidebar widget
-            st.session_state["sidebar_audience_select"] = new_val
-            reset_quiz()
-
-        main_selected_audience = st.selectbox(
-            "Chọn đối tượng thi:",
-            audience_options,
-            index=current_audience_idx,
-            key="main_audience_select",
-            on_change=on_main_audience_change,
-            label_visibility="collapsed",
-        )
-        # Keep selected_audience in sync for the rest of this run
-        selected_audience = main_selected_audience
-        st.session_state.audience = selected_audience
+        audience_cols = st.columns(len(audience_options))
+        for col_idx, aud_name in enumerate(audience_options):
+            icon = audience_icons.get(aud_name, "👤")
+            is_active = (selected_audience == aud_name)
+            with audience_cols[col_idx]:
+                btn_type = "primary" if is_active else "secondary"
+                if st.button(
+                    f"{icon} {aud_name}",
+                    key=f"main_aud_{col_idx}",
+                    use_container_width=True,
+                    type=btn_type,
+                ):
+                    if not is_active:
+                        st.session_state.audience = aud_name
+                        st.session_state["sidebar_audience_select"] = aud_name
+                        reset_quiz()
+                        st.rerun()
 
         st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+
+        # Sync selected_audience for the rest of this run
+        selected_audience = st.session_state.audience
 
         # Display topic overview as clickable 3D card-buttons
         if selected_audience in all_data:
