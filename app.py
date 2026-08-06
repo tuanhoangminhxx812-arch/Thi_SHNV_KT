@@ -735,7 +735,12 @@ def main():
             st.session_state.audience = audience_options[0]
 
         def on_audience_change():
-            """Callback when audience selectbox changes."""
+            """Callback when sidebar audience selectbox changes."""
+            new_val = st.session_state["sidebar_audience_select"]
+            st.session_state.audience = new_val
+            # Sync main-page widget if it exists
+            if "main_audience_select" in st.session_state:
+                st.session_state["main_audience_select"] = new_val
             reset_quiz()
 
         selected_audience = st.selectbox(
@@ -877,10 +882,11 @@ def main():
 
         def on_main_audience_change():
             """Sync main-page audience selector back to session state and reset quiz."""
-            new_audience = st.session_state["main_audience_select"]
-            if new_audience != st.session_state.audience:
-                st.session_state.audience = new_audience
-                reset_quiz()
+            new_val = st.session_state["main_audience_select"]
+            st.session_state.audience = new_val
+            # Sync sidebar widget
+            st.session_state["sidebar_audience_select"] = new_val
+            reset_quiz()
 
         main_selected_audience = st.selectbox(
             "Chọn đối tượng thi:",
