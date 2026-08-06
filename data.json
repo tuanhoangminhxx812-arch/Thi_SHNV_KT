@@ -7346,5 +7346,1998 @@
         "correct_idx": 3
       }
     ]
+  },
+  "Khối VP": {
+    "📋 Hành chính Văn phòng": [
+      {
+        "question": "Công tác \"tổng hợp - thư ký\" của Văn phòng chủ yếu bao gồm:",
+        "answers": [
+          "Soạn thảo, tổng hợp báo cáo; điều phối lịch; theo dõi, đôn đốc thực hiện kết luận chỉ đạo",
+          "Phê duyệt ngân sách năm.",
+          "Ký hợp đồng cung cấp điện.",
+          "Kiểm tra kỹ thuật lưới điện hiện trường."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong quản trị cơ sở vật chất tại cơ quan, yêu cầu CHUNG là:",
+        "answers": [
+          "Ưu tiên mua sắm theo đề xuất không cần so sánh.",
+          "Tiết kiệm, hiệu quả, công khai, đúng quy trình mua sắm/giám sát dịch vụ",
+          "Ưu tiên nhà cung cấp quen biết.",
+          "Chỉ kiểm kê khi có sự cố."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Đâu là mục tiêu của kế hoạch triển khai quy định thực hành 5S tại Tổng công ty Điện lực TP Hồ Chí Minh?",
+        "answers": [
+          "85% các Ban/Đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh hiểu được ý nghĩa, lợi ích, nội dung 5S và áp dụng thực hiện đầy đủ 5S tại nơi làm việc.",
+          "90% các Ban/Đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh hiểu được ý nghĩa, lợi ích, nội dung 5S và áp dụng thực hiện đầy đủ 5S tại nơi làm việc.",
+          "95% các Ban/Đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh hiểu được ý nghĩa, lợi ích, nội dung 5S và áp dụng thực hiện đầy đủ 5S tại nơi làm việc.",
+          "100% các Ban/Đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh hiểu được ý nghĩa, lợi ích, nội dung 5S và áp dụng thực hiện đầy đủ 5S tại nơi làm việc."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Công tác y tế cơ quan thuộc chức năng Văn phòng nhằm:",
+        "answers": [
+          "Khám chữa bệnh chuyên sâu như bệnh viện.",
+          "Tổ chức khám định kỳ, truyền thông sức khỏe, hồ sơ sức khỏe người lao động, phối hợp phòng chống dịch tại cơ quan.",
+          "Bán thuốc theo đơn dài hạn.",
+          "Quản lý quỹ bảo hiểm xã hội toàn hệ thống."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nguyên tắc chung về bảo mật thông tin trong cơ quan:",
+        "answers": [
+          "Chia sẻ mọi tài liệu nội bộ để tiện làm việc",
+          "Trao đổi đúng người/cấp có thẩm quyền, sử dụng kênh được phép, không dùng email cá nhân cho tài liệu nhạy cảm",
+          "Lưu tài liệu vào USB cá nhân",
+          "Gửi dữ liệu qua mạng công cộng không mã hóa"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nguyên tắc chung về tiết kiệm điện cho hệ thống chiếu sáng:",
+        "answers": [
+          "Sử dụng bóng công suất lớn để sáng đều",
+          "Ưu tiên đèn LED, tắt đèn khu vực không sử dụng, phân vùng chiếu sáng hợp lý",
+          "Bật sáng toàn bộ tầng trong giờ làm việc",
+          "Dùng đèn sợi đốt vì giá rẻ"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Phân loại thông tin theo mấy cách",
+        "answers": [
+          "Theo cách tiếp nhận",
+          "Theo tính chất, đặc điểm sử dụng thông tin trong công tác quản lý",
+          "Theo tính năng, tác dụng của thông tin",
+          "Theo phạm vi của lĩnh vực hoạt động",
+          "Tất cả đều đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Vai trò của thông tin trong hoạt động quản lý",
+        "answers": [
+          "Ban hành các quyết định",
+          "Hoạch định, tổ chức, điều hành và kiểm soát công việc",
+          "Phân tích, dự báo rủi ro có thể xảy ra",
+          "Câu a và b đúng",
+          "Tất cả đều đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "\"Trí tuệ nhân tạo - Artificial Intelligence\" được hiểu như thế nào theo quyển cẩm nang của Bộ Thông tin và Truyền thông xuất bản vào năm 2020? Chọn câu đúng nhất:",
+        "answers": [
+          "Là những nỗ lực của con người trong việc làm cho máy móc có trí tuệ của con người nhưng không có năng lực sử dụng nó.",
+          "Là những nỗ lực của con người trong việc làm cho máy móc có những năng lực trí tuệ hơn cả con người.",
+          "Là những nỗ lực của con người trong việc làm cho máy móc sử dụng năng lực trí tuệ của con người.",
+          "Là những nỗ lực của con người trong việc làm cho máy móc có những năng lực trí tuệ của con người."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Luật Lưu trữ số 33/2024/QH15 của Quốc hội có hiệu lực từ ngày nào?",
+        "answers": [
+          "Ngày 01/07/2024",
+          "Ngày 01/07/2025",
+          "Ngày 01/07/2026"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trưởng Ban thuộc EVNHCMC được sự phân công của Tổng giám đốc ký như sau:",
+        "answers": [
+          "KT. TỔNG GIÁM ĐỐC\n         TRƯỞNG BAN",
+          "TUQ. TỔNG GIÁM ĐỐC\n           TRƯỞNG BAN",
+          "TL. TỔNG GIÁM ĐỐC\n          TRƯỞNG BAN (GHI RÕ TÊN BAN)",
+          "TM. TỔNG GIÁM ĐỐC\n          TRƯỞNG BAN"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Ban hành quy định công tác văn thư trong EVNHCMC nhằm mục đích:",
+        "answers": [
+          "Nhằm đảm bảo thống nhất trong việc nhận, chuyển giao, xử lý và theo dõi văn bản đi, văn bản đến trong EVNHCMC",
+          "Nhẳm hướng dẫn trách nhiệm lưu văn bản và lập hồ sơ công việc theo quy định của Cục Văn thư Lưu trữ Nhà nước",
+          "Nhằm thực hiện tốt việc sử dụng, bảo quản con dấu của EVNHCMC; \nbảo quản hồ sơ, tài liệu theo đúng quy định pháp luật",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo quy định của EVNHCMC kiểu chữ dùng trong văn bản là:",
+        "answers": [
+          "VNI-Times",
+          "Times New Roman",
+          "Câu a và b đều đúng",
+          "Câu a và b đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Quyết định số 2575/QĐ-EVNHCMC ngày 30/5/2025 quy định về công tác văn thư lưu trữ trong Tổng công ty Điện lực Thành phố Hồ Chí Minh quy định thẩm quyền quyết định tiêu hủy tài liệu mật như thế nào?",
+        "answers": [
+          "Tại Cơ quan EVNHCMC do Tổng giám đốc quyết định.",
+          "Tại các Đơn vị của EVNHCMC do Tổng giám đốc/Giám đốc đơn vị quyết định.",
+          "Đối với mật mã thực hiện quy định của Ban Cơ yếu Chính phủ.",
+          "Cả 03 đáp án trên đều đúng."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Quyết định số 2575/QĐ-EVNHCMC ngày 30/5/2025 quy định về công tác văn thư lưu trữ trong Tổng công ty Điện lực Thành phố Hồ Chí Minh quy định thời gian gửi về Tổng công ty các loại báo cáo về bảo vệ bí mật của các đơn vị trong EVNHCMC như thế nào?",
+        "answers": [
+          "Trước 01/12 hàng năm.",
+          "Trước 03/12 hàng năm.",
+          "Trước 05/12 hàng năm.",
+          "Trước 07/12 hàng năm."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Tần suất tổ chức quan trắc môi trường lao động nhằm đánh giá yếu tố có hại tại nơi làm việc theo Luật An toàn, vệ sinh lao động 2015 là bao nhiêu?",
+        "answers": [
+          "Ít nhất một lần trong một năm",
+          "Ít nhất một lần trong 06 (sáu) tháng",
+          "Ít nhất một lần trong một quý",
+          "Ít nhất một lần trong một tháng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định chữ viết tắt của Giấy giới thiệu là:",
+        "answers": [
+          "GGT",
+          "GT",
+          "GGt",
+          "Gt"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định chữ viết tắt của Bản trích sao là:",
+        "answers": [
+          "BTS",
+          "BTs",
+          "TrS",
+          "TRS"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định văn bản hành chính được trình bày trên khổ giấy khổ:",
+        "answers": [
+          "A4 (210mm x 295mm).",
+          "A4 (210mm x 296mm).",
+          "A4 (210mm x 297mm).",
+          "A4 (210mm x 298mm)."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quyết định số 699/QĐ-EVN ngày 30/5/2025 quy định về công tác văn phòng trong Tập đoàn Điện lực Việt Nam quy định thời hạn bảo quản hồ sơ, tài liệu về Hồ sơ tổ chức thực hiện các hoạt động nghiệp vụ văn thư, lưu trữ bao lâu?",
+        "answers": [
+          "05 năm.",
+          "10 năm.",
+          "20 năm.",
+          "Vĩnh viễn."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quyết định số 699/QĐ-EVN ngày 30/5/2025 quy định về công tác văn phòng trong Tập đoàn Điện lực Việt Nam quy định thời hạn bảo quản hồ sơ, tài liệu về Sổ sách theo dõi cấp phát văn phòng phẩm bao lâu?",
+        "answers": [
+          "05 năm.",
+          "10 năm.",
+          "20 năm.",
+          "Vĩnh viễn."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định dòng chữ quốc hiệu: \"cộng hòa xã hội chủ nghĩa việt nam\" được trình bày bằng chữ:",
+        "answers": [
+          "In hoa, kiểu chữ nghiêng, đậm.",
+          "In thường, kiểu chữ đứng, đậm.",
+          "In hoa, kiểu chữ đứng, đậm.",
+          "In thường, kiểu chữ nghiêng, đậm."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định số của văn bản là số:",
+        "answers": [
+          "Theo ngày phát hành văn bản.",
+          "Thứ tự đăng ký văn bản do cơ quan, tổ chức ban hành trong một năm.",
+          "Thứ tự theo số lượng văn bản của người soạn thảo.",
+          "Thứ tự do lãnh đạo cơ quan, đơn vị quy định."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính của Tập đoàn Điện lực Quốc gia Việt Nam quy định phần nội dung (bản văn) khoảng cách tối đa giữa các dòng đơn là:",
+        "answers": [
+          "1,4 dòng (1,4 lines)",
+          "1,5 dòng (1,5 lines)",
+          "1,25 dòng (1,25 lines)",
+          "1,15 dòng (1,15 lines)"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Quyết định số 739/QĐ-EVN ngày 10/5/2022 quy định thể thức và kỹ thuật trình bày văn bản hành chính trong Tập đoàn Điện lực Quốc gia Việt Nam có hình thức bản sao định dạng giấy nào sau đây?",
+        "answers": [
+          "Sao y",
+          "Sao lục",
+          "Trích sao",
+          "Cả 03 hình thức trên."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Quyết định số 2575/QĐ-EVNHCMC ngày 30/5/2025 quy định về công tác văn thư lưu trữ trong Tổng công ty Điện lực Thành phố Hồ Chí Minh quy định hủy tài liệu hết giá trị đối với tài liệu điện tử như thế nào?",
+        "answers": [
+          "Tài liệu lưu trữ điện tử hết giá trị được hủy theo trình tự và thẩm quyền, thủ tục như tài liệu lưu trữ giấy hết giá trị.",
+          "Việc hủy tài liệu lưu trữ điện tử phải được thực hiện đối với toàn bộ hồ sơ thuộc danh mục tài liệu hết giá trị đã được phê duyệt và phải đảm bảo thông tin đã bị hủy không thể khôi phục lại được.",
+          "Cả 02 đáp án trên đều đúng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các công việc của giai đoạn kết thúc cuộc họp, hội nghị",
+        "answers": [
+          "Triển khai các mệnh lệnh của lãnh đạo hoặc người chủ trì",
+          "Giúp lãnh đạo hoặc người chủ trì soạn thảo văn bản thông báo nội dung cuộc họp",
+          "Lập hồ sơ hoặc bổ sung hồ sơ hội nghị",
+          "Câu a và b đúng",
+          "Cả 3 câu a,b và c đều đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Cách ghi biên bản hội nghị theo hình thức vắn tắt, tóm tắt là:",
+        "answers": [
+          "Ghi ý kiến đóng góp và họ tên, chức vụ người góp ý",
+          "Ghi ý kiến đóng góp theo từng chủ đề và họ tên, chức vụ người góp ý",
+          "Ghi ý kiến đóng góp, không ghi họ tên người góp ý",
+          "Ghi ý kiến đóng góp theo trình tự diễn ra tại Hội nghị"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Nơi liên hệ đề nghị áp dụng chính sách miễn hoặc giảm thu đối với tiền thuê đất:",
+        "answers": [
+          "Đối với các chính sách mới mà Cục thuế chưa có hướng dẫn đến các Chi cục thuế bên dưới: Đơn vị báo cáo trở ngại về TCT để TCT có văn bản gửi Cục thuế đề nghị áp dụng",
+          "Đối với các chính sách mà Chi cục thuế đã được hướng dẫn áp dụng: đơn vị rà soát các cơ sở nhà, đất mình đang quản lý, xem xét các điều kiện miễn giảm đã được quy định và liên hệ Chi cục thuế địa phương đề nghị áp dụng đúng",
+          "Cả hai câu trên đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quản trị văn phòng là gì?",
+        "answers": [
+          "Là việc hoạch định các hoạt động xử lý thông tin",
+          "Là tổ chức các hoạt động cho văn phòng",
+          "Là kiểm soát các hoạt động xử lý thông tin",
+          "Là việc hoạt định, tổ chức, phối hợp, kiểm soát các hoạt động xử lý thông tin"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Yếu tố nào ảnh hưởng đến tâm lý làm việc của nhân viên văn phòng?",
+        "answers": [
+          "Ánh sáng",
+          "Không khí",
+          "Âm thanh",
+          "Tất cả các yếu tố trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo Nghị định 30/2020/NĐ-CP, màu mực khi ký văn bản giấy được quy định như thế nào?",
+        "answers": [
+          "Màu xanh, không dùng các loại mực dễ phai.",
+          "Màu đỏ, không dùng các loại mực dễ phai.",
+          "Màu đen, không dùng các loại mực dễ phai.",
+          "Không quy định màu, chỉ quy định không dùng các loại mực dễ phai."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình hội nghị nội bộ, phần nào giúp tăng hiệu quả?",
+        "answers": [
+          "Không mục tiêu",
+          "Phân công rõ, thời lượng hợp lý, tổng kết sau hội nghị",
+          "Không cần biên bản",
+          "Thay đổi lịch phút chót"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Tất cả các văn bản đến Tổng công ty đều phải được:",
+        "answers": [
+          "Đóng dấu đến, cấp số đến, số hóa và đưa lên chương trình Digital Office trừ Văn bản mật",
+          "Cấp số đến, số hóa và đưa lên Digital Office",
+          "Đóng dấu đến và cấp số đến (trên hệ thống), nhập máy, số hóa, ký số văn thư và đính kèm file văn bản vào hệ thống Digital Office"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Văn bản điện tử là Văn bản:",
+        "answers": [
+          "Được số hóa màu (scan màu) từ Văn bản giấy có hình con dấu của đơn vị, chữ ký sống của lãnh đạo và không có khả năng chỉnh sửa văn bản điện tử này.",
+          "Được số hóa từ file word, excel…phải có hình con dấu của đơn vị, chữ ký sống của lãnh đạo và không có khả năng chỉnh sửa văn bản điện tử này.",
+          "Được số hóa màu (scan màu) từ Văn bản giấy có hình con dấu của đơn vị hoặc từ file word, excel…., có hình chữ ký sống của lãnh đạo và không có khả năng chỉnh sửa văn bản điện tử này.",
+          "Được số hóa từ văn bản giấy hoặc file word, có xác thực chữ ký CA trên file số hóa bởi 1 đơn vị cũng cấp được Pháp luật Nhà nước công nhận và không có khả năng chỉnh sửa văn bản này"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Văn bản mật là:",
+        "answers": [
+          "Là tất cả các văn bản có đóng dấu độ mật: \"Mật\"; \"Tối mật\" và \"Tuyệt mật\".",
+          "Là tất cả các văn bản, tài liệu có đóng dấu độ mật: \"Mật\", \"Tối mật\" và \"Tuyệt mật\" (hoặc có các ký hiệu A/B/C hoặc chỉ định \"Chỉ người có tên mới được bóc bì\", được đóng ngoài phong bì).",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Văn bản đến là:",
+        "answers": [
+          "Là các loại văn bản, tài liệu mà các đơn vị nhận dược từ nới khác gửi đến Cơ quan Tổng công ty Điện lực TP HCM/đơn vị bằng bất cứ hình thức chuyển phát nào (gửi qua bưu điện, chuyển trực tiếp, gửi qua fax, chuyển qua mạng điện tử, qua Digital Office,...) mà Cơ quan Tổng công ty Điện lực TP HCM/đơn vị nhận được.",
+          "Là các loại văn bản, tài liệu, đơn khiếu nại, tố cáo, thư từ,... mà các đơn vị nhận dược từ nới khác gửi đến Cơ quan Tổng công ty Điện lực TP HCM/đơn vị bằng bất cứ hình thức chuyển phát nào (gửi qua bưu điện, chuyển trực tiếp, gửi qua fax, chuyển qua mạng điện tử, qua Digital Office,...) mà Cơ quan Tổng công ty Điện lực TP HCM/đơn vị nhận được.",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Việc chuyển giao văn bản đến cần bảo đảm những yêu cầu sau:",
+        "answers": [
+          "Nhanh chóng: Văn bản sau khi có bút phê chỉ đạo cần được chuyển cho các Ban/Phòng, đơn vị có trách nhiệm giải quyết trong ngày, chậm nhất là ngày làm việc tiếp theo.",
+          "Chính xác, đúng đối tượng: văn bản phải được chuyển cho đúng nơi nhận trong bút phê chỉ đạo.",
+          "Chặt chẽ: khi chuyển giao văn bản giấy phải tiến hành kiểm tra, đối chiếu và người nhận văn bản phải ký nhận vào sổ nhận",
+          "Tất cả đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Văn bản được xác định độ khẩn theo các mức sau:",
+        "answers": [
+          "Khẩn, thượng khẩn, hỏa tốc, hỏa tốc hẹn giờ",
+          "Khẩn, thượng khẩn, hỏa tốc",
+          "Khẩn, hỏa tốc, thượng khẩn, hỏa tốc hẹn giờ",
+          "Khẩn, thượng khẩn, hỏa tốc hẹn giờ"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Văn bản đi là:",
+        "answers": [
+          "Các loại văn bản hành chính do Cơ quan Tổng công ty Điện lực TP HCM/đơn vị soạn thảo và phát hành",
+          "Các loại văn bản hành chính, tài liệu do Cơ quan Tổng công ty Điện lực TP HCM/đơn vị soạn thảo và phát hành",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Nguyên tắc chung của việc quản lý văn bản đi:",
+        "answers": [
+          "Tất cả văn bản đi của EVNHCMC/đơn vị phải được quản lý tập trung tại Văn thư EVNHCMC/đơn vị để làm thủ tục phát hành.",
+          "Văn bản đi được đăng ký vào ngày n phải được phát hành hoặc chuyển giao chậm nhất trong ngày (n+1). Văn bản \"khẩn\" đi phải được hoàn thành thủ tục phát hành và chuyển phát ngay trong ngày.",
+          "Cả 2 câu đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Chức năng của Hệ thống Digital Office",
+        "answers": [
+          "Quản lý công việc được giao; tìm kiếm, tra cứu các Văn bản đến, đi đã được chuyển giao và phát hành",
+          "Quản lý công việc được giao, tự tạo công việc để tự quản lý công tác; tìm kiếm và tra cứu các Văn bản đến, đi đã được chuyển giao và phát hành.",
+          "Quản lý công việc được giao, tự tạo công việc để tự quản lý công tác; tìm kiếm và tra cứu các Văn bản đến, đi đã được chuyển giao và phát hành; phát hành và quản lý văn bản đi/văn bản nội bộ; Quản lý hồ sơ công việc.",
+          "Cả 3 câu đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Văn bản \"khẩn\" đi được đăng ký vào ngày n phải được phát hành hoặc chuyển giao chậm nhất trong",
+        "answers": [
+          "Ngày n",
+          "Ngày n+1",
+          "Ngày n+2",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Để xem lại các văn bản đã giao việc, người dùng vào mục nào ?",
+        "answers": [
+          "Văn bản đến → \"Chờ xử lý\"",
+          "Văn bản đến → \"Văn bản đã chuyển\"",
+          "Văn bản đến → \"Đã kết thúc\""
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Mục “Văn bản Ban/Phòng tham mưu” chứa những gì ?",
+        "answers": [
+          "Những văn bản đi do Ban/Phòng mình chủ trì",
+          "Những văn bản đến do Ban/Phòng mình chủ trì",
+          "Những công việc do Ban/Phòng mình chủ trì"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mục đích của mục “Đã phát hành” tại chức năng \"Văn bản đi\" là:",
+        "answers": [
+          "Theo dõi các văn bản đi đã được phát hành của Tổng công ty/đơn vị.",
+          "Để đăng ký phát hành văn bản đi.",
+          "Để nhận văn bản đi của các đơn vị khác gửi đến."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Kiểm soát chất lượng không khí trong nhà (IAQ) ở văn phòng yêu cầu tối thiểu:",
+        "answers": [
+          "Không cần thông gió",
+          "Duy trì CO₂ dưới ngưỡng chấp nhận, thông gió đủ, vệ sinh lọc gió định kỳ",
+          "Đóng kín cửa toàn thời gian",
+          "Phun nước thơm"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Đối với thang máy chở người, chu kỳ kiểm định an toàn kỹ thuật định kỳ theo quy định là:",
+        "answers": [
+          "06 tháng",
+          "12 tháng",
+          "24 tháng",
+          "36 tháng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Một cuộc diễn tập phòng cháy chữa cháy nội bộ tòa nhà tối thiểu cần:",
+        "answers": [
+          "Chỉ diễn tập văn bản",
+          "Kịch bản, phân vai, thông báo, phối hợp lực lượng, rút kinh nghiệm",
+          "Họp thay diễn tập",
+          "Chỉ báo cháy giả"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Yêu cầu đối với thang bộ thoát nạn trong toà nhà văn phòng là:",
+        "answers": [
+          "Có thể để đồ vật tạm thời",
+          "Không yêu cầu chiếu sáng sự cố",
+          "Luôn thông thoáng, không vật cản, có chiếu sáng sự cố/chỉ dẫn thoát nạn",
+          "Cho phép khóa kín cửa thoát nạn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Yêu cầu trình độ của chức danh chuyên viên thư ký tổng hợp",
+        "answers": [
+          "Có trình độ đại học thuộc các ngành kinh tế. Nếu có trình độ đại học khác thì phải qua lớp bồi dưỡng về quản lý kinh tế từ 6 tháng trở lên",
+          "Có trình độ ngoại ngữ tương đương với trình độ học vấn",
+          "Sử dụng thành thạo tin học văn phòng và các phần mềm EVNHCMC đang ứng dụng trong công tác chuyên môn",
+          "Cả 3 câu trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Khái niệm \"Danh mục hồ sơ\" theo Nghị định 30/2020/NĐ-CP về công tác văn thư được hiểu như thế nào? Chọn câu đúng nhất:",
+        "answers": [
+          "Là bảng kê có hệ thống những hồ sơ dự kiến được lập trong năm.",
+          "Là bảng kê có hệ thống những hồ sơ dự kiến được lập trong năm của cơ quan, tổ chức.",
+          "Là bảng kê có hệ thống những hồ sơ được lập trong năm của cơ quan, tổ chức.",
+          "Là bảng kê có hệ thống những hồ sơ dự kiến được lập trong nhiều năm của cơ quan, tổ chức."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khái niệm \"Hệ thống quản lý tài liệu điện tử\" theo Nghị định 30/2020/NĐ-CP về công tác văn thư được hiểu như thế nào? Chọn câu đúng nhất:",
+        "answers": [
+          "hệ thống thông tin được xây dựng với chức năng chính để thực hiện việc tin học hóa công tác soạn thảo, ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ cơ quan trên môi trường mạng.",
+          "hệ thống thông tin được xây dựng với chức năng chính để thực hiện việc tin học hóa công tác soạn thảo văn bản; quản lý văn bản; lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ cơ quan trên môi trường mạng.",
+          "hệ thống thông tin được xây dựng với chức năng chính để thực hiện việc soạn thảo, ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ cơ quan trên môi trường mạng.",
+          "hệ thống thông tin được xây dựng với chức năng chính để thực hiện việc tin học hóa công tác soạn thảo, ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp lưu hồ sơ, tài liệu trên môi trường mạng."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo Nghị định 30/2020/NĐ-CP ngày 05/3/2020 của Chính phủ về công tác văn thư, văn bản đến ngày n phải được đăng ký, phát hành hoặc chuyển giao chậm nhất trong",
+        "answers": [
+          "Ngày n",
+          "Ngày n+1",
+          "Ngày n+2",
+          "Ngày n+3"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Văn thư đơn vị có trách nhiệm:",
+        "answers": [
+          "Tiếp nhận/kiểm tra, đóng dấu công văn đến, cấp số công văn đến, nhập máy, scan đầy đủ nội dung văn bản, ký số văn thư và đính kèm file văn bản vào hệ thống văn phòng điện tử (nếu là văn bản đến bằng bản giấy)",
+          "Tiếp nhận/kiểm tra các văn bản điện tử đến qua hệ thống văn phòng điện tử trước khi đưa vào hệ thống văn phòng điện tử để trình người có thẩm quyền (lãnh đạo EVN/Đơn vị; Chánh Văn phòng/hoặc người được ủy quyền) cho ý kiến chỉ đạo hoặc phân phối văn bản",
+          "Lưu toàn bộ văn bản đến trong một năm tại Văn thư cơ quan (trừ văn bản có đóng dấu chỉ các mức độ mật)",
+          "Tất cả đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Văn thư đơn vị có trách nhiệm:",
+        "answers": [
+          "Số hóa tất cả văn bản đến của các đơn vị trong và ngoài EVN HCMC/đơn vị để đưa vào Digital Office",
+          "Nhập/Kiểm tra đầy đủ các thông tin về quản lý văn bản và thực hiện cấp số điện tử đối với văn bản đến trước khi trình Lãnh đạo đơn vị (hoặc người được giao quyền phân chuyển văn bản); và đối với văn bản đi trước khi phát hành;",
+          "Cập nhật đầy đủ các thông tin liên quan đến văn bản (ý kiến chỉ đạo của Lãnh đạo đơn vị, nơi nhận, trích yếu, hồ sơ kèm theo,…) để thực hiện giao việc trên Digital Office theo đúng nội dung và thông tin liên quan của văn bản.",
+          "Thực hiện tìm kiếm, tra cứu tiến trình giải quyết các công việc trên Digital Office theo đúng yêu cầu của Lãnh đạo đơn vị",
+          "Tất cả đều đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Văn bản “mật” khi luân chuyển nội bộ bắt buộc",
+        "answers": [
+          "Scan gửi toàn bộ group",
+          "Giao nhận bằng biên bản riêng, niêm phong, chuyển đúng người",
+          "Để trên bàn lãnh đạo",
+          "Gửi qua USB cá nhân"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo Nghị định 30/2020/NĐ-CP về công tác văn thư, văn thư cơ quan có nhiệm vụ",
+        "answers": [
+          "Tiếp nhận, đăng ký văn bản đến; trình, chuyển giao văn bản đến.",
+          "Sắp xếp, bảo quản và phục vụ việc tra cứu, sử dụng bản lưu văn bản.",
+          "Quản lý Sổ đăng ký văn bản.",
+          "Cả 03 đáp án trên đều đúng."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Khi lập hồ sơ công việc điện tử, thao tác ưu tiên để bảo đảm tra cứu lâu dài là:",
+        "answers": [
+          "Đặt tên file theo cảm tính",
+          "Gộp mọi tài liệu vào một file",
+          "Chuẩn hoá tên tệp theo quy ước, gắn mã hồ sơ, tạo mục lục số",
+          "Chỉ gửi qua email"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Quản lý hồ sơ nhà, đất của cơ quan cần:",
+        "answers": [
+          "Lưu phân tán theo phòng",
+          "Tập trung – số hoá, theo dõi hạn pháp lý/kiểm định, cập nhật thay đổi, phân quyền truy cập",
+          "Chỉ lưu bản giấy",
+          "Không theo dõi hạn"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Thẩm quyền quyết định hủy tại liệu lưu trữ tại lưu trữ hiện được quy định như sau:",
+        "answers": [
+          "Nhân viên văn thư không thuộc trường hợp nộp tài liệu vào lưu trữ lịch sử quyết định hủy tài liệu lưu trữ theo quy định.",
+          "Người đứng đầu cơ quan, tổ chức không thuộc trường hợp nộp tài liệu vào lưu trữ lịch sử quyết định hủy tài liệu lưu trữ theo quy định.",
+          "Lưu trữ cơ quan không thuộc trường hợp nộp tài liệu vào lưu trữ lịch sử quyết định hủy tài liệu lưu trữ theo quy định."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Xác định giá trị tài liệu lưu trữ điện tử",
+        "answers": [
+          "Bảo đảm độ tin cậy, tính toàn vẹn và xác thực của thông tin chức trong tài liệu điện tử kể từ khi tài liệu điện tử được khởi tạo lần đầu dưới dạng một thông điệp dữ liệu hoàn chỉnh",
+          "Thông tin chứa trong tài liệu điện tử có thể truy cập, sử dụng dược dưới dạng hoàn chỉnh",
+          "Tài liệu lưu trữ điện tử đáp ứng các điều kiện quy định như bản gốc",
+          "Câu a và b",
+          "Cả 3 câu a, b và c"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Đối tượng được phép khai thác sử dụng hồ sơ, tài liệu lưu trữ",
+        "answers": [
+          "Các Ban, Phòng, Đội và cán bộ công nhân viên trong đơn vị",
+          "Các đơn vị trong Tổng công ty Điện lực Thành phố Hồ Chí Minh (khi có nhu cầu khai thác tài liệu tại EVNHCMC)",
+          "Tổ chức cá nhân có nhu cầu chính đáng",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tiêu chuẩn cán bộ văn thư",
+        "answers": [
+          "Cán bộ làm công tác văn thư phải đáp ứng theo Quy định tiêu chuẩn chức danh chuyên môn, nghiệp vụ của EVNHCMC và được tập huấn về nghiệp vụ về công tác văn thư theo các quy định hiện hành của Pháp luật",
+          "Cán bộ làm công tác văn thư kiêm nhiệm phải được tập huấn về nghiệp vụ công tác văn thư lưu trữ theo quy định",
+          "Chỉ cần hiểu biết về pháp luật và tinh thần ham học hỏi chuyên môn nghiệp vụ",
+          "Câu a và b đều đúng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo Nghị định số 30/2020/NĐ-CP ngày 05/3/2020 của Chính phủ về công tác văn thư quy định việc mở hồ sơ như thế nào?",
+        "answers": [
+          "Cá nhân được giao nhiệm vụ giải quyết công việc có trách nhiệm mở hồ sơ theo Danh mục hồ sơ hoặc theo kế hoạch công tác.",
+          "Cập nhật những thông tin ban đầu về hồ sơ theo Danh mục hồ sơ đã ban hành.",
+          "Trường hợp các hồ sơ không có trong Danh mục hồ sơ, cá nhân được giao nhiệm vụ giải quyết công việc tự xác định các thông tin: Tiêu đề hồ sơ, số và ký hiệu hồ sơ, thời hạn bảo quản hồ sơ, người lập hồ sơ và thời gian bắt đầu.",
+          "Cả 03 đáp án trên đều đúng."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Biên bản tiêu hủy tài liệu lưu trữ phải có yếu tố nào sau đây?",
+        "answers": [
+          "Chỉ cần ngày tháng.",
+          "Chỉ cần chữ ký văn thư.",
+          "Thành phần hội đồng, danh mục, khối lượng, phương pháp tiêu hủy, chữ ký.",
+          "Không cần lưu."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các nhóm nhiệm vụ của thư ký tổng hợp",
+        "answers": [
+          "Nhóm nhiệm vụ cá nhân",
+          "Nhóm nhiệm vụ liên quan đến văn bản",
+          "Nhóm nhiệm vụ tổ chức công việc",
+          "Cả 03 câu trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Yêu cầu về phẩm chất của thư ký tổng hợp?",
+        "answers": [
+          "Có ý thức kỷ luật, tinh thần trách nhiệm cao",
+          "Năng động linh hoạt trong công việc",
+          "Xây dựng niềm tin với lãnh đạo, đồng nghiệp",
+          "Bảo vệ những thông tin quan trọng của cơ quan, tổ chức",
+          "Tất cả các câu trên đều đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Nhiệm vụ của thư ký trong công tác văn thư:",
+        "answers": [
+          "Soạn thảo, tổ chức quản lý và giải quyết văn bản",
+          "Quản lý sổ sách",
+          "Lập hồ sơ và giao nộp hồ sơ vào lưu trữ cơ quan",
+          "Câu a, b, c đúng",
+          "Câu a, c đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Hội nghị nào sau đây không cần thư ký hội nghị",
+        "answers": [
+          "Hội nghị chỉ huy",
+          "Hội nghị thăm dò (hội thảo)",
+          "Hội nghị quyết nghị"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình Digital Office, 1 tài khoản muốn tạo một bộ hồ sơ cá nhân của riêng mình và chia sẻ cho các tài khoản khác xem có được không?",
+        "answers": [
+          "Không (Chương trình không có chức năng này)",
+          "Có (nằm trong mục Quản lý công việc/Hồ sơ công việc/Hồ sơ cá nhân)",
+          "cả 2 câu trên đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các hoạt động nào cần kiểm soát đối với rủi ro \"Tài liệu lưu trữ tại Cơ quan Tổng công ty thực hiện không đầy đủ, không có danh mục hồ sơ, còn trùng lắp, chưa được chỉnh lý\"?",
+        "answers": [
+          "Xây dựng quy trình rà soát hồ sơ và thường xuyên hướng dẫn.",
+          "Nhắc nhở các Ban thực hiện chỉnh lý.",
+          "Số hóa các hồ sơ trước khi đưa vào lưu trữ trong kho tại Cơ quan TCT.",
+          "Tất cả các hoạt động trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các hoạt động nào cần kiểm soát đối với rủi ro \"Việc kiểm soát ra vào đối với các cá nhân, đơn vị bên ngoài chưa chặt chẽ dẫn đến mất an ninh của tòa nhà\"?",
+        "answers": [
+          "Rà soát camera hàng ngày để kiểm tra số lượng bảo vệ trực tại các vị trí theo hợp đồng, đảm bảo chế độ tuần tra định kỳ.",
+          "Kiểm tra và hướng dẫn khách đi ra vào căn tin theo lối vào sảnh thang hàng bên ngoài và khách chỉ sử dụng wc phía sau của căn tin.",
+          "Không cho xe máy, xe ô tô của khách đỗ bên hông tòa nhà khi ra vào ăn uống trong căn tin. Giám sát các xe cấp hàng, xe đổ rác khi ra vào khu vực canteen của tòa nhà.",
+          "Các hoạt động trên đều cần kiểm soát."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các hoạt động nào cần kiểm soát đối với rủi ro \"Việc thay đổi người vệ sinh tại các tầng thường xuyên dẫn đến tình trạng mất tài sản\"?",
+        "answers": [
+          "Rà soát, lựa chọn đơn vị vệ sinh chuyên nghiệp, có năng lực.",
+          "Giám sát, kiểm tra thường xuyên nhân viên vệ sinh khi làm vệ sinh tại các phòng Ban.",
+          "Yêu cầu người giám sát của đơn vị vệ sinh phải có mặt giám sát nhân viên vệ sinh tại các tầng.",
+          "Các hoạt động trên đều cần kiểm soát."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các hoạt động nào cần kiểm soát đối với rủi ro \"Các Ban/đơn vị đăng ký lịch họp chậm trễ, thiết sót,… dẫn đến công tác chuẩn bị phòng họp, phục vụ các sự kiện, hội nghị, hội thảo không kịp thời,…\"?",
+        "answers": [
+          "Thống kê các Ban đăng ký lịch tuần không đúng hạn và không đầy đủ thông tin để kịp thời báo cáo Lãnh đạo Tổng công ty nhắc nhở.",
+          "Sử dụng thông tin trích xuất từ lịch họp của Tổng công ty trên Outlook Exchange để theo dõi.",
+          "Các hoạt động trên đều cần kiểm soát."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các hoạt động nào cần kiểm soát đối với rủi ro \"Thang máy bị lỗi dừng thang đột ngột, tuột thang dẫn đến kẹt người trong thang\"?",
+        "answers": [
+          "Gọi điện thoại ngay số tổng đài thang máy báo hư hỏng.",
+          "Không dùng camera xác định vị trí tầng thang máy dừng.",
+          "Duy trì nguồn điện cấp cho thang trong lúc sự cố.",
+          "Vệ sinh cảm biến không định kỳ, thường xuyên."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Tần suất kiểm soát đối với rủi ro \"Các Ban chuyên môn đăng ký bố trí xe phục vụ công tác không phù hợp với nhu cầu thực tế: số lượng (thừa/thiếu xe), quy mô (xe 4/7/16 chỗ),…\" như thế nào?",
+        "answers": [
+          "Hàng ngày",
+          "Hàng tháng",
+          "Hàng năm",
+          "Theo sự kiện"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Tần suất kiểm soát đối với rủi ro \"Mất dữ liệu xe làm ảnh hưởng đến quá trình kiểm soát xe ra vào\" như thế nào?",
+        "answers": [
+          "Hàng ngày",
+          "Hàng tháng",
+          "Hàng năm",
+          "Theo sự kiện"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Hồ sơ rủi ro cấp Quy trình tại Tổng công ty được xây dựng phù hợp với phương pháp luận quản trị rủi ro, bao gồm đầy đủ các bước nào sau đây:",
+        "answers": [
+          "Nhận diện rủi ro; Xử lý rủi ro.",
+          "Nhận diện rủi ro; Phân tích rủi ro; Xử lý rủi ro.",
+          "Nhận diện rủi ro; Phân tích rủi ro; Xử lý rủi ro; Giám sát rủi ro.",
+          "Nhận diện rủi ro; Xử lý rủi ro; Giám sát rủi ro."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Kiểm soát rủi ro là quy trình, chính sách, công cụ và các hành động khác có thể điều chỉnh rủi ro. Có thể phân loại thành các nhóm kiểm soát rủi ro cơ bản tại Tổng công ty theo mục tiêu kiểm soát như thế nào?",
+        "answers": [
+          "Kiểm soát ngăn ngừa: là các kiểm soát được thiết kế nhằm giúp giảm khả năng xảy ra rủi ro ngay từ đầu.",
+          "Kiểm soát phát hiện: là các kiểm soát được thiết kế nhằm phát hiện rủi ro khi chúng xảy ra.",
+          "Kiểm soát ứng phó: là các kiểm soát được thiết kế nhằm giảm thiểu ảnh hưởng và khắc phục thiệt hại do các rủi ro gây nên.",
+          "Cả 03 đáp án trên đều đúng."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Xử lý đối với tài sản cố định, công cụ dụng cụ mất mát, hư hỏng, không còn nhu cầu sử dụng tại đơn vị:",
+        "answers": [
+          "Trường hợp TSCĐ, CCDC bị mất mát, hư hỏng…, đơn vị sử dụng phải báo Văn phòng để kiểm tra xác định nguyên nhân và đề xuất phương án xử lý",
+          "Trường hợp TSCĐ, CCDC bị mất mát, hư hỏng…, đơn vị sử dụng phải xác định nguyên nhân và đề xuất phương án xử lý gửi Văn phòng",
+          "Trường hợp TSCĐ, CCDC đã trang bị cho các bộ phận nhưng không còn nhu cầu sử dụng, các bộ phận thông báo cho Văn phòng để làm thủ tục điều chuyển cho bộ phận khác có nhu cầu sử dụng. Các bộ phận không được tư ý di chuyển tài sản từ bộ phận này sang bộ phận khác.",
+          "Câu b và c đúng",
+          "Câu a và c đúng"
+        ],
+        "correct_idx": 4
+      },
+      {
+        "question": "Theo Nghị định số 03/2025/NĐ-CP ngày 01/01/2025 của Chính phủ quy định việc sắp xếp lại, xử lý tài sản công là nhà, đất, các hình thức sắp xếp lại, xử lý nhà, đất bao gồm:",
+        "answers": [
+          "1. Giữ lại tiếp tục sử dụng.\n2. Thu hồi.",
+          "1. Giữ lại tiếp tục sử dụng.\n2. Thu hồi.\n3. Điều chuyển.",
+          "1. Giữ lại tiếp tục sử dụng.\n2. Thu hồi.\n3. Điều chuyển.\n4. Chuyển giao về địa phương quản lý, xử lý.",
+          "1. Giữ lại tiếp tục sử dụng.\n2. Thu hồi.\n3. Điều chuyển.\n4. Chuyển giao về địa phương quản lý, xử lý.\n5. Tạm giữ lại tiếp tục sử dụng."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong công tác tham mưu văn bản điều hành, yêu cầu cốt lõi là…",
+        "answers": [
+          "Đưa quan điểm cá nhân.",
+          "Bám quy định hiện hành, đánh giá tác động, phương án/lộ trình thực hiện.",
+          "Lược bỏ căn cứ pháp lý.",
+          "Không cần ý kiến các bên liên quan."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong chương trình Quản lý văn bản, văn bản đến do lãnh đạo bút phê giao cho Ban/Phòng A và B thực hiện chính thì:",
+        "answers": [
+          "Ban/Phòng nào phê trước sẽ là người chủ trì trên chương trình (trừ trường hợp có chỉ đạo trực tiếp của lãnh đạo)",
+          "Ban/Phòng nào chủ trì cũng được.",
+          "Cả 2 câu đều sai."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình Digital Office, muốn in sổ văn bản đến/đi thì văn thư phải:",
+        "answers": [
+          "Vào chức năng \"Tiện ích\", chọn \"In sổ văn bản\" → chọn các văn bản cần tìm kiếm (số văn bản, ngày văn bản,…) → chọn thao tác \"Xuất excel\" để in sổ văn bản.",
+          "Vào chức năng \"Tiện ích\", chọn \"Tìm kiếm\" → chọn các văn bản cần tìm kiếm (loại văn bản, sổ văn bản,…) → chọn thao tác \"Xuất excel\" để in sổ văn bản. Tùy mục đích người sử dụng mà ta dùng tính năng này.",
+          "Cả 2 câu đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong chương trình Digital Office, khi nhập văn bản đến, muốn tạo danh sách phòng ban mặc định (chương trình tự thêm mặc định) xem để biết thì văn thư phải:",
+        "answers": [
+          "Không thể tạo danh sách, Văn thư phải tự chọn ở \"Nơi nhận (xem)\" trong chương trình",
+          "Vào chức năng \"Danh mục>Tạo danh sách Phòng Ban xem mặc định\", sau đó chọn những Phòng Ban cần xem mặc định",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong chương trình Digital Office, muốn tra cứu văn bản đi/đến thì văn thư phải:",
+        "answers": [
+          "Không thể tra cứu văn bản đi đến trên chương trình Digital Office mà phải vào ứng dụng Web để tra cứu",
+          "Vào chức năng \"Văn thư\":\n- Tại mục Văn thư văn bản đến, chọn \"Văn bản đến đã nhập\" để xem văn bản đến;\n- Tại mục Văn thư văn bản đi, chọn \"Đã cấp số\" để xem văn bản đi.",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong chương trình Digital Office, để biết được các văn bản còn thiếu (chưa nhập lên chương trình) thì văn thư phải:",
+        "answers": [
+          "Không có công cụ để thống kê văn bản còn thiếu",
+          "Vào chức năng \"Danh sách → Thống kê các văn bản còn thiếu\", sau đó chọn thông tin cần thiết để thực hiện thống kê",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong chương trình Digital Office, muốn xem tổng số văn bản đến chuyển giao trong ngày thì văn thư phải:",
+        "answers": [
+          "Vào chức năng \"Danh sách/Tra cứu VB đến, đi\" chọn thông tin tra cứu văn bản đi, chọn ngày cần xem, Tổng số văn bản sẽ hiển thị ở góc dưới cùng bên phải cửa sổ chương trình",
+          "Không có chức năng này, văn thư phải tự đếm số văn bản trên chương trình",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình Digital Office, khi nhập phát hành văn bản đến thì hạn xử lý của văn bản được quy định tại:",
+        "answers": [
+          "Khung nhập \"Hạn trả lời VB\" tại của sổ nhập văn bản đi của chương trình",
+          "Chương trình tự mặc định 15 ngày so với ngày gửi văn bản lên chương trình nếu không có điều chỉnh",
+          "Cả 2 câu đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong chương trình Digital Office, khi nhập văn bản đến nếu văn thư không nhập \"Hạn trả lời VB\" thì chương trình tự mặc định hạn xử lý văn bản là:",
+        "answers": [
+          "10 ngày kể từ ngày nhận văn bản (Ngày đến)",
+          "21 ngày kể từ ngày nhận văn bản (Ngày đến)",
+          "15 ngày kể từ ngày nhận văn bản (Ngày đến)",
+          "Tất cả đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong chương trình Digital Office, văn thư có thể tự lập các danh sách, danh mục sau:",
+        "answers": [
+          "Sổ văn bản, loại văn bản, danh sách đơn vị",
+          "Danh mục phòng ban (để nhận), danh sách phòng ban xem mặc định",
+          "Cả 2 câu đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng ký sổ văn bản đến, Sổ Văn bản đến nội bộ bao gồm:",
+        "answers": [
+          "Các đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh",
+          "Các đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh và các Công ty cổ phần có vốn của Tổng công ty.",
+          "Các đơn vị trực thuộc Tập đoàn Điện lực Việt Nam và các đơn vị trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng ký sổ văn bản đến, Sổ Văn bản bên ngoài bao gồm:",
+        "answers": [
+          "Các đơn vị không trực thuộc Tập đoàn Điện lực Việt Nam.",
+          "Các đơn vị không trực thuộc Tổng công ty Điện lực TP Hồ Chí Minh kể cả các Công ty cổ phần có vốn của Tổng công ty.",
+          "Cả 2 câu đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng ký Sổ văn bản đến, Văn bản mật",
+        "answers": [
+          "Phải được đăng ký riêng vào 1 sổ văn bản đến nhưng lấy chung bộ số đến với các văn bản đến bên ngoài (hoặc nội bộ) của đơn vị và được lưu trữ theo quy định hiện hành của Nhà nước.",
+          "Phải được đăng ký riêng vào 1 sổ văn bản đến và lấy riêng một bộ số đến và được lưu trữ theo quy định hiện hành của Nhà nước.",
+          "Cả 2 câu đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khi chuyển giao văn bản đến, nếu văn bản chuyển nhầm đến đơn vị/Ban chức năng thì:",
+        "answers": [
+          "Người nhận có trách nhiệm chuyển trả lại ngay cho văn thư cơ quan EVNHCMC/Đơn vị để chuyển đúng địa chỉ; không được chuyển trực tiếp cho Ban/Phòng/Đội khác;",
+          "Người nhận có trách nhiệm chuyển cho Ban/Phòng/Đội theo đúng bút phê",
+          "Người nhận kết thúc công việc"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình Digital Office, văn thư đơn vị đăng ký phát hành văn bản đi thì văn bản đi phải đảm bảo các nội dung sau để phát hành trên chương trình:",
+        "answers": [
+          "Phải có Số đi (được cấp điện tử), Số ký hiệu văn bản, ngày văn bản, file văn bản",
+          "Phải có Số đi (được cấp điện tử), ngày văn bản, ngày gửi văn bản, chữ ký của Ban TGĐ, Lãnh đạo các Ban chức năng (ký thừa lệnh)",
+          "Phải có Số đi và số ký hiệu văn bản (được cấp điện tử trên file số hóa), ngày văn bản, ngày gửi văn bản, đơn vị soạn thảo, đơn vị chủ trì công việc; Trường hợp ký số điện tử phải có chữ ký của Ban TGĐ, Lãnh đạo các Ban chức năng (ký thừa lệnh) được thể hiện theo mẫu ký số.",
+          "Tất cả đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi thực hiện đăng ký phát hành văn bản đi trên chương trình Digital Office, ngày gửi văn bản là ngày:",
+        "answers": [
+          "Trùng với ngày văn bản",
+          "Ngày Văn thư đăng ký phát hành văn bản lên chương trình",
+          "Ngày Chuyên viên thực hiện phát hành văn bản giấy",
+          "Cả 3 câu đêu đúng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong chương trình Digital Office, khi nhập phát hành văn bản đi do Ban/Phòng/Đội soạn thảo, muốn chọn Ban/Phòng/Đội chủ trì thì:",
+        "answers": [
+          "Do người trình ký văn bản chọn",
+          "Không cần nhập đơn vị chủ trì.",
+          "Câu a và b đều đúng",
+          "Câu a và b đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong chương trình Digital Office, khi có nhu cầu xem chỉ tiêu hiệu quả công tác văn phòng tại Cơ quan Tổng công ty/đơn vị thì người dùng thao tác như sau:",
+        "answers": [
+          "Vào chức năng \"Tiện ích\" → \"Tổng hợp chỉ tiêu hiệu quả CTVP\"",
+          "Vào chức năng \"Tiện ích\" → \"Báo cáo\" → \"Văn bản đi/đến\"",
+          "Vào chức năng \"Tiện ích\" → \"Báo cáo\" → \"Công việc\"",
+          "Vào chức năng \"Hồ sơ công việc\" → \"Hồ sơ công việc\""
+        ],
+        "correct_idx": 0
+      }
+    ],
+    "🔒 An toàn Thông tin": [
+      {
+        "question": "An toàn dữ liệu có thể hiểu là:",
+        "answers": [
+          "Dễ dàng cho công việc bảo trì dữ liệu.",
+          "Ngăn chặn các truy cập trái phép, sai quy định từ trong ra hoặc từ ngoài vào .",
+          "Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu.",
+          "Tính nhất quán và toàn vẹn dữ liệu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các cách nào sau đây phòng tránh máy tính bị lây nhiễm bởi mã độc tống tiền?",
+        "answers": [
+          "Không mở các thư điện tử hay tệp tin đính kèm đáng ngờ .",
+          "Sử dụng phần mềm lậu, phần mềm không rõ nguồn gốc.",
+          "Sao lưu dữ liệu quan trọng thường xuyên sang ổ cứng ngoài hoặc các dịch vụ lưu trữ đám mây.",
+          "Luôn cập nhật trình duyệt và các ứng dụng của máy tính."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các rủi ro xuất phát từ con người chiếm bao nhiêu %",
+        "answers": [
+          "50",
+          "80",
+          "100",
+          "95"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các nguy cơ nào sau đây tạo điều kiện cho các hoạt động gây mất an toàn thông tin ?",
+        "answers": [
+          "Làm việc từ xa, ít có cơ hội nhận biết các đối tượng hacker đang theo dõi mình.",
+          "Các hacker ngày càng xuất hiện nhiều.",
+          "Thiếu nhận thức về an toàn thông tin; Làm việc từ xa, phải đăng tải các tài liệu, dữ liệu, thông tin lên mạng; Các hacker ngày càng xuất hiện nhiều .",
+          "Không có đội ngũ chuyên gia chuyên trách đảm bảo an toàn thông tin mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo bạn, đâu là các biện pháp đảm bảo an ninh thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Đặt mật khẩu dài và khó đoán bao gồm cả số và chữ, kí hiệu đặc biệt.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác hay các mail được nhắn từ các tài khoản không có tên miền cụ thể.",
+          "Không cho người khác sử dụng thiết bị cá nhân có chứa nhiều thông tin quan trọng.",
+          "Tất cả các phương án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào sau đây không phải là nguy cơ gây mất an toàn thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Xác thực tài khoản email 2 bước và dự phòng email.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác; Xác thực tài khoản email 2 bước và dự phòng email; Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân .",
+          "Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn:",
+        "answers": [
+          "Kho dữ liệu.",
+          "Phần mềm trên mạng.",
+          "Phần cứng của mạng.",
+          "Tài nguyên mạng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Độ dài của mật khẩu mạnh nên ở mức nào?",
+        "answers": [
+          "6 kí tự.",
+          "8 kí tự.",
+          "Đối với tài khoản thông thường, mật khẩu cần có độ dài từ 8 đến 11 ký tự, bao gồm cả chữ và số; Đối với tài khoản có tính chất quan trọng, mật khẩu cần có độ dài trên 15 ký tự, bao gồm cả chữ hoa, chữ thường và số .",
+          "Dài ngắn đều được."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các nguyên tắc cài đặt mật khẩu là gì?",
+        "answers": [
+          "Tạo một mật khẩu mạnh và thay đổi chúng cứ mỗi 6-12 tháng.",
+          "Dùng phần mềm lưu mật khẩu chuyên dùng như 1 password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại.",
+          "Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng.",
+          "Tạo một mật khẩu mạnh và thay đổi chúng sau mỗi 90 ngày; Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng; Dùng phần mềm lưu mật khẩu chuyên dùng như 1password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại ."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tác dụng của mật khẩu mạnh?",
+        "answers": [
+          "Bảo vệ email, tệp và các nội dung khác.",
+          "Ngăn người khác xâm nhập vào tài khoản.",
+          "Bảo vệ thông tin cá nhân, email, tệp và các nội dung khác, ngăn người khác xâm nhập vào tài khoản",
+          "Bảo vệ thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các hình thức Spam Email thường gặp là gì?",
+        "answers": [
+          "Kẻ gian sẽ nhúng liên kết trong một email chuyển hướng bạn tới một trang web không an toàn.",
+          "Kẻ gian sẽ giả mạo địa chỉ email để xuất hiện như một nguồn tin cậy.",
+          "Kẻ gian sẽ đặt mã độc trong tập tin đính kèm email hoặc quảng cáo được gửi vào mail của bạn.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Phising là một phương thức tấn công đánh cắp thông tin. Phương thức tấn công này cố gắng thu thập thông tin gì?",
+        "answers": [
+          "Tên tài khoản và mật khẩu.",
+          "Thông tin thẻ tín dụng.",
+          "Thông tin cá nhân, thẻ ngân hàng, các tài khoản, mật khẩu và các thông tin khác",
+          "Thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các dấu hiệu nào sau đây cho thấy tài khoản đã và có khả năng bị tấn công phising?",
+        "answers": [
+          "Các email vô danh được gửi tới tài khoản có đính kèm theo các link liên kết và tệp đính kèm.",
+          "Các thông tin cá nhân bị rao bán hoặc đăng tải trên các chợ đen hoặc trên mạng xã hội.",
+          "Các lỗ hổng trong giao dịch có liên kết internet banking dẫn người giao dịch đến các trang web khai báo thông tin.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào là nguy cơ bảo mật khi bị nhiễm virus?",
+        "answers": [
+          "Lộ lọt, mất thông tin cá nhân.",
+          "Lộ lọt, mất thông tin cá nhân; Tạo điều kiện cho tấn công từ chối dịch vụ (DoS); Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính .",
+          "Tạo điều kiện cho tấn công từ chối dịch vụ (DoS).",
+          "Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khi máy bị nhiễm Virus phương án nào sau đây là an toàn nhất ?",
+        "answers": [
+          "FORMAT lại đĩa.",
+          "Sao lưu dữ liệu sau đó dùng các chương trình diệt VIRUS .",
+          "Ngay lập tức dùng luôn các chương trình diệt VIRUS.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "“An ninh mạng” là gì?",
+        "answers": [
+          "Là sự giám sát hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự kiểm tra hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân .",
+          "Là sự phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng nhập vào tài khoản cá nhân trên các máy tính công cộng hoặc thiết bị laptop, việc nên làm để đảm bảo an toàn thông tin là:",
+        "answers": [
+          "Để chế độ tự động đăng nhập để thuận tiện cho lần sau.",
+          "Không để chế độ ghi nhớ mật khẩu; và thực hiện đăng xuất tài khoản sau khi sử dụng",
+          "Không cần phải thoát tài khoản sau khi sử dụng.",
+          "Để chế độ ghi nhớ mật khẩu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trách nhiệm của cá nhân người lao động tại EVN trong hoạt động đảm bảo an toàn thông tin (ATTT):",
+        "answers": [
+          "Thông báo các nguy cơ, vấn đề bất thường, sự cố liên quan tới ATTT cho bộ phận chuyên trách về ATTT của đơn vị.",
+          "Khi chuyển đổi thiết bị CNTT phải hủy dữ liệu ở trang thiết bị cũ, đảm bảo thông tin, dữ liệu không thể khôi phục lại.",
+          "Chịu trách nhiệm trước pháp luật và đơn vị về các vi phạm gây lộ lọt, thất thoát dữ liệu mật của EVN hoặc đơn vị.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cách tốt nhất để hạn chế việc bị đánh cắp thông tin cá nhân trên mạng xã hội là gì?",
+        "answers": [
+          "Chỉ cần cài đặt chế độ quyền riêng tư là yên tâm.",
+          "Khai, đăng các thông tin giả lên mạng xã hội.",
+          "Không dùng mạng xã hội.",
+          "Cài đặt chế độ quyền riêng tư hợp lý; Cân nhắc, cẩn thận khi chia sẻ thông tin cá nhân (ảnh, video, tin tức) trên mạng xã hội"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cần làm gì để an toàn khi sử dụng mạng không dây (mạng wifi):",
+        "answers": [
+          "Xác minh mạng không dây.",
+          "Sử dụng mạng riêng ảo.",
+          "Sử dụng xác thực 2 bước.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      }
+    ],
+    "🏢 Văn hóa Doanh nghiệp": [
+      {
+        "question": "Tài liệu Văn hóa EVN gồm mấy chương?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong Chương I - Bản sắc Văn hóa EVN bao gồm những nội dung gì?",
+        "answers": [
+          "Sứ mệnh, tầm nhìn, khẩu hiệu và triết lý hoạt động EVN",
+          "Các giá trị cốt lõi của EVN",
+          "Các chuẩn mực đạo đức nghề nghiệp của EVN",
+          "Câu a,b,c đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sứ mệnh của EVN là cung cấp điện với chất lượng và dịch vụ ngày càng tốt hơn, đảm bảo trách nhiệm với môi trường và cộng đồng.",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nội dung \"EVN là tập đoàn kinh tế hàng đầu trong lĩnh vực năng lượng tại Việt Nam và khu vực châu Á\" là",
+        "answers": [
+          "Sứ mệnh",
+          "Tầm nhìn",
+          "Khẩu hiệu",
+          "Triết lý hoạt động"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khẩu hiệu của EVN là:",
+        "answers": [
+          "Chuyên nghiệp-Minh bạch-Hiệu quả",
+          "Niềm tin-Trách nhiệm-Tiên phong",
+          "An toàn-Đoàn kết-Nhân văn",
+          "Thắp sáng niềm tin"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "\"Khách hàng là trung tâm của sự tồn tại và phát triển, con người là tài sản quý giá nhất, niềm tin được thắp sáng bằng các giá trị được tạo dựng và chia sẻ\" là:",
+        "answers": [
+          "Sứ mệnh",
+          "Các giá trị cốt lõi của EVN",
+          "Triết lý hoạt động",
+          "Tầm nhìn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu giá trị cốt lõi",
+        "answers": [
+          "4",
+          "5",
+          "8",
+          "7"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Giá trị cốt lõi của EVN bao gồm:",
+        "answers": [
+          "Niềm tin-Chất lượng",
+          "Tiên phong - Sáng tạo",
+          "Trách nhiệm",
+          "Cả a, b,c"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu chuẩn mực đạo đức nghề nghiệp?",
+        "answers": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các chuẩn mực đạo đức nghề nghiệp của EVN gồm:",
+        "answers": [
+          "An toàn-Đoàn kết",
+          "Nhân văn-Trung thực-Minh bạch",
+          "Niềm tin-Chất lượng-Tiên phong",
+          "Câu a và b"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "EVN thắp sáng ….. bằng trách nhiệm, sự tận tâm, tinh thần tiên phong và sáng tạo để nâng cao chất lượng cuộc sống của…..và….",
+        "answers": [
+          "Ước mơ-khách hàng-đối tác",
+          "Niềm tin-khách hàng-cộng đồng xã hội",
+          "Tương lai-khách hàng-CBCNV",
+          "Cả a, b,c đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, Niềm tin thể hiện ở:",
+        "answers": [
+          "Tôn trọng khách hàng, đối tác, đồng nghiệp và đối xử với họ như cách chúng ta muốn được đối xử",
+          "Ứng xử chuyên nghiệp và thiện chí với mọi người",
+          "Câu a và b đúng",
+          "Tuân thủ các tiêu chuẩn nghiêm ngặt về an toàn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, EVN cam kết cung cấp sản phẩm và dịch vụ có…. cho khách hàng và cộng đồng xã hội",
+        "answers": [
+          "Niềm tin",
+          "Chất lượng",
+          "Sáng tạo",
+          "Tiên phong"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "EVN….trong nghiên cứu và phát triển để tạo ra những đột phát về năng lượng cho đất nước",
+        "answers": [
+          "Tin tưởng",
+          "Phấn đấu",
+          "Tiên phong",
+          "Sáng tạo"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nâng cao tinh thần học hỏi từ công việc, đồng nghiệp và đối tác, thử thách bản thân bằng các sáng kiến mới là điều chúng ta nên làm theo giá trị cốt lõi nào?",
+        "answers": [
+          "Sáng tạo",
+          "Niềm tin",
+          "Nhân văn",
+          "Đoàn kết"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "EVN luôn có quan điểm nhất quán rằng,….. với khách hàng, đối tác, cộng đồng xã hội và với tương lai của đất nước là một phần không thể thiếu trong….của EVN",
+        "answers": [
+          "Phương châm - nhận thức",
+          "Đoàn kết - giá trị",
+          "An toàn - nhiệm vụ",
+          "Trách nhiệm - sứ mệnh"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực đạo đức nghề nghiệp của người EVN bao gồm \"An toàn-Đoàn kết-Nhân văn-Trung thực-Minh bạch\"",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "....là tôn chỉ hành động và chuẩn mực … mà EVN phải thực hiện nghiêm ngặt.",
+        "answers": [
+          "Trung thực-văn hóa",
+          "An toàn - đạo đức",
+          "Sáng tạo-văn hóa",
+          "Niềm tin-văn hóa"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, nguyên tắc chung để người EVN thực thi chuẩn mực Trung thực là:",
+        "answers": [
+          "Lãnh đạo phải làm gương",
+          "Sẵn lòng nhiệt thành cống hiến",
+          "Lời nói đi đôi với việc làm",
+          "Kiến tạo và chia sẻ"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, sức mạnh trong mọi hoạt động của EVN là tinh thần…..và….",
+        "answers": [
+          "Đoàn kết",
+          "Trí tuệ tập thể",
+          "Câu a và b sai",
+          "Câu a và b đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Vì niềm tin của người lao động, EVN cam kết:",
+        "answers": [
+          "Đảm bảo ổn định việc làm và ngày càng nâng cao đời sống vật chất, tinh thần của người lao động.",
+          "Mang đến cho người lao động sự tôn trọng, công bằng và môi trường làm việc an toàn, văn minh, thân thiện, tin cậy và minh bạch.",
+          "Đầu tư đào tạo, phát triển toàn diện người lao động, luôn khuyến khích, tạo điều kiện cho người lao động rèn luyện, trau dồi kiến thức, kỹ năng để phát triển năng lực.",
+          "Người lao động luôn là tài sản quý giá nhất"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực trong hành vi ứng xử chung của EVN gồm:",
+        "answers": [
+          "Tôn trọng",
+          "Tận tâm",
+          "Chuyên nghiệp",
+          "Hợp tác",
+          "Nghĩa tình",
+          "Tất cả các phương án trên."
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Đâu là các nguyên tắc trong thực thi VHDN EVN",
+        "answers": [
+          "Nguyên tắc thứ nhất: Đã là EVN thì chất lượng và đáng tin cậy",
+          "Nguyên tắc thứ hai: Thực hiện công việc được giao và chịu trách nhiệm đến kết quả cuối cùng",
+          "Nguyên tắc thứ ba: Sức mạnh trong mọi hoạt động của EVN là tinh thần đoàn kết và trí tuệ tập thể",
+          "Nguyên tắc thứ tư: Có cá nhân xuất sắc mới có tập thể sáng tạo",
+          "Nguyên tắc thứ năm: Lãnh đạo phải làm gương",
+          "Cả 05 nguyên tắc trên"
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho các đối tượng nào:",
+        "answers": [
+          "Cán bộ quản lý, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng",
+          "Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho bao nhiêu đối tượng:",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mỗi cuốn Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC dành cho từng đối tượng—cán bộ quản lý, công nhân điện, nhân viên giao tiếp khách hàng và nhân viên văn phòng—được cấu trúc thành bao nhiêu phần",
+        "answers": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong Sổ tay Chuẩn mực hành vi ứng xử, các chuẩn mực ứng xử chung được chia thành bao nhiêu chương",
+        "answers": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các tài liệu nào dưới đây có liên quan đến Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC:",
+        "answers": [
+          "Tài liệu Văn hoá EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Tuân thủ pháp luật và chuẩn mực đạo đức nghề nghiệp” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương III: Các chuẩn mực ứng xử và làm việc nội bộ",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Đặt con người ở vị trí trung tâm trong mọi hoạt động” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương IV: Ứng xử với các cơ quan cấp trên và địa phương",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 3
+      }
+    ],
+    "🛡️ ATTT - Tổng quan": [
+      {
+        "question": "An toàn dữ liệu có thể hiểu là:",
+        "answers": [
+          "Dễ dàng cho công việc bảo trì dữ liệu.",
+          "Ngăn chặn các truy cập trái phép, sai quy định từ trong ra hoặc từ ngoài vào .",
+          "Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu.",
+          "Tính nhất quán và toàn vẹn dữ liệu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các cách nào sau đây phòng tránh máy tính bị lây nhiễm bởi mã độc tống tiền?",
+        "answers": [
+          "Không mở các thư điện tử hay tệp tin đính kèm đáng ngờ .",
+          "Sử dụng phần mềm lậu, phần mềm không rõ nguồn gốc.",
+          "Sao lưu dữ liệu quan trọng thường xuyên sang ổ cứng ngoài hoặc các dịch vụ lưu trữ đám mây.",
+          "Luôn cập nhật trình duyệt và các ứng dụng của máy tính."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các rủi ro xuất phát từ con người chiếm bao nhiêu %",
+        "answers": [
+          "50",
+          "80",
+          "100",
+          "95"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các nguy cơ nào sau đây tạo điều kiện cho các hoạt động gây mất an toàn thông tin ?",
+        "answers": [
+          "Làm việc từ xa, ít có cơ hội nhận biết các đối tượng hacker đang theo dõi mình.",
+          "Các hacker ngày càng xuất hiện nhiều.",
+          "Thiếu nhận thức về an toàn thông tin; Làm việc từ xa, phải đăng tải các tài liệu, dữ liệu, thông tin lên mạng; Các hacker ngày càng xuất hiện nhiều .",
+          "Không có đội ngũ chuyên gia chuyên trách đảm bảo an toàn thông tin mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo bạn, đâu là các biện pháp đảm bảo an ninh thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Đặt mật khẩu dài và khó đoán bao gồm cả số và chữ, kí hiệu đặc biệt.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác hay các mail được nhắn từ các tài khoản không có tên miền cụ thể.",
+          "Không cho người khác sử dụng thiết bị cá nhân có chứa nhiều thông tin quan trọng.",
+          "Tất cả các phương án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào sau đây không phải là nguy cơ gây mất an toàn thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Xác thực tài khoản email 2 bước và dự phòng email.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác; Xác thực tài khoản email 2 bước và dự phòng email; Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân .",
+          "Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn:",
+        "answers": [
+          "Kho dữ liệu.",
+          "Phần mềm trên mạng.",
+          "Phần cứng của mạng.",
+          "Tài nguyên mạng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Độ dài của mật khẩu mạnh nên ở mức nào?",
+        "answers": [
+          "6 kí tự.",
+          "8 kí tự.",
+          "Đối với tài khoản thông thường, mật khẩu cần có độ dài từ 8 đến 11 ký tự, bao gồm cả chữ và số; Đối với tài khoản có tính chất quan trọng, mật khẩu cần có độ dài trên 15 ký tự, bao gồm cả chữ hoa, chữ thường và số .",
+          "Dài ngắn đều được."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các nguyên tắc cài đặt mật khẩu là gì?",
+        "answers": [
+          "Tạo một mật khẩu mạnh và thay đổi chúng cứ mỗi 6-12 tháng.",
+          "Dùng phần mềm lưu mật khẩu chuyên dùng như 1 password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại.",
+          "Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng.",
+          "Tạo một mật khẩu mạnh và thay đổi chúng sau mỗi 90 ngày; Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng; Dùng phần mềm lưu mật khẩu chuyên dùng như 1password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại ."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tác dụng của mật khẩu mạnh?",
+        "answers": [
+          "Bảo vệ email, tệp và các nội dung khác.",
+          "Ngăn người khác xâm nhập vào tài khoản.",
+          "Bảo vệ thông tin cá nhân, email, tệp và các nội dung khác, ngăn người khác xâm nhập vào tài khoản",
+          "Bảo vệ thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các hình thức Spam Email thường gặp là gì?",
+        "answers": [
+          "Kẻ gian sẽ nhúng liên kết trong một email chuyển hướng bạn tới một trang web không an toàn.",
+          "Kẻ gian sẽ giả mạo địa chỉ email để xuất hiện như một nguồn tin cậy.",
+          "Kẻ gian sẽ đặt mã độc trong tập tin đính kèm email hoặc quảng cáo được gửi vào mail của bạn.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Phising là một phương thức tấn công đánh cắp thông tin. Phương thức tấn công này cố gắng thu thập thông tin gì?",
+        "answers": [
+          "Tên tài khoản và mật khẩu.",
+          "Thông tin thẻ tín dụng.",
+          "Thông tin cá nhân, thẻ ngân hàng, các tài khoản, mật khẩu và các thông tin khác",
+          "Thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các dấu hiệu nào sau đây cho thấy tài khoản đã và có khả năng bị tấn công phising?",
+        "answers": [
+          "Các email vô danh được gửi tới tài khoản có đính kèm theo các link liên kết và tệp đính kèm.",
+          "Các thông tin cá nhân bị rao bán hoặc đăng tải trên các chợ đen hoặc trên mạng xã hội.",
+          "Các lỗ hổng trong giao dịch có liên kết internet banking dẫn người giao dịch đến các trang web khai báo thông tin.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào là nguy cơ bảo mật khi bị nhiễm virus?",
+        "answers": [
+          "Lộ lọt, mất thông tin cá nhân.",
+          "Lộ lọt, mất thông tin cá nhân; Tạo điều kiện cho tấn công từ chối dịch vụ (DoS); Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính .",
+          "Tạo điều kiện cho tấn công từ chối dịch vụ (DoS).",
+          "Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khi máy bị nhiễm Virus phương án nào sau đây là an toàn nhất ?",
+        "answers": [
+          "FORMAT lại đĩa.",
+          "Sao lưu dữ liệu sau đó dùng các chương trình diệt VIRUS .",
+          "Ngay lập tức dùng luôn các chương trình diệt VIRUS.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "“An ninh mạng” là gì?",
+        "answers": [
+          "Là sự giám sát hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự kiểm tra hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân .",
+          "Là sự phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng nhập vào tài khoản cá nhân trên các máy tính công cộng hoặc thiết bị laptop, việc nên làm để đảm bảo an toàn thông tin là:",
+        "answers": [
+          "Để chế độ tự động đăng nhập để thuận tiện cho lần sau.",
+          "Không để chế độ ghi nhớ mật khẩu; và thực hiện đăng xuất tài khoản sau khi sử dụng",
+          "Không cần phải thoát tài khoản sau khi sử dụng.",
+          "Để chế độ ghi nhớ mật khẩu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trách nhiệm của cá nhân người lao động tại EVN trong hoạt động đảm bảo an toàn thông tin (ATTT):",
+        "answers": [
+          "Thông báo các nguy cơ, vấn đề bất thường, sự cố liên quan tới ATTT cho bộ phận chuyên trách về ATTT của đơn vị.",
+          "Khi chuyển đổi thiết bị CNTT phải hủy dữ liệu ở trang thiết bị cũ, đảm bảo thông tin, dữ liệu không thể khôi phục lại.",
+          "Chịu trách nhiệm trước pháp luật và đơn vị về các vi phạm gây lộ lọt, thất thoát dữ liệu mật của EVN hoặc đơn vị.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cách tốt nhất để hạn chế việc bị đánh cắp thông tin cá nhân trên mạng xã hội là gì?",
+        "answers": [
+          "Chỉ cần cài đặt chế độ quyền riêng tư là yên tâm.",
+          "Khai, đăng các thông tin giả lên mạng xã hội.",
+          "Không dùng mạng xã hội.",
+          "Cài đặt chế độ quyền riêng tư hợp lý; Cân nhắc, cẩn thận khi chia sẻ thông tin cá nhân (ảnh, video, tin tức) trên mạng xã hội"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cần làm gì để an toàn khi sử dụng mạng không dây (mạng wifi):",
+        "answers": [
+          "Xác minh mạng không dây.",
+          "Sử dụng mạng riêng ảo.",
+          "Sử dụng xác thực 2 bước.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      }
+    ],
+    "🌟 Văn hóa DN (đề thi)": [
+      {
+        "question": "Tài liệu Văn hóa EVN gồm mấy chương?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong Chương I - Bản sắc Văn hóa EVN bao gồm những nội dung gì?",
+        "answers": [
+          "Sứ mệnh, tầm nhìn, khẩu hiệu và triết lý hoạt động EVN",
+          "Các giá trị cốt lõi của EVN",
+          "Các chuẩn mực đạo đức nghề nghiệp của EVN",
+          "Câu a,b,c đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sứ mệnh của EVN là cung cấp điện với chất lượng và dịch vụ ngày càng tốt hơn, đảm bảo trách nhiệm với môi trường và cộng đồng.",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nội dung \"EVN là tập đoàn kinh tế hàng đầu trong lĩnh vực năng lượng tại Việt Nam và khu vực châu Á\" là",
+        "answers": [
+          "Sứ mệnh",
+          "Tầm nhìn",
+          "Khẩu hiệu",
+          "Triết lý hoạt động"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khẩu hiệu của EVN là:",
+        "answers": [
+          "Chuyên nghiệp-Minh bạch-Hiệu quả",
+          "Niềm tin-Trách nhiệm-Tiên phong",
+          "An toàn-Đoàn kết-Nhân văn",
+          "Thắp sáng niềm tin"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "\"Khách hàng là trung tâm của sự tồn tại và phát triển, con người là tài sản quý giá nhất, niềm tin được thắp sáng bằng các giá trị được tạo dựng và chia sẻ\" là:",
+        "answers": [
+          "Sứ mệnh",
+          "Các giá trị cốt lõi của EVN",
+          "Triết lý hoạt động",
+          "Tầm nhìn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu giá trị cốt lõi",
+        "answers": [
+          "4",
+          "5",
+          "8",
+          "7"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Giá trị cốt lõi của EVN bao gồm:",
+        "answers": [
+          "Niềm tin-Chất lượng",
+          "Tiên phong - Sáng tạo",
+          "Trách nhiệm",
+          "Cả a, b,c"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu chuẩn mực đạo đức nghề nghiệp?",
+        "answers": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các chuẩn mực đạo đức nghề nghiệp của EVN gồm:",
+        "answers": [
+          "An toàn-Đoàn kết",
+          "Nhân văn-Trung thực-Minh bạch",
+          "Niềm tin-Chất lượng-Tiên phong",
+          "Câu a và b"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "EVN thắp sáng ….. bằng trách nhiệm, sự tận tâm, tinh thần tiên phong và sáng tạo để nâng cao chất lượng cuộc sống của…..và….",
+        "answers": [
+          "Ước mơ-khách hàng-đối tác",
+          "Niềm tin-khách hàng-cộng đồng xã hội",
+          "Tương lai-khách hàng-CBCNV",
+          "Cả a, b,c đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, Niềm tin thể hiện ở:",
+        "answers": [
+          "Tôn trọng khách hàng, đối tác, đồng nghiệp và đối xử với họ như cách chúng ta muốn được đối xử",
+          "Ứng xử chuyên nghiệp và thiện chí với mọi người",
+          "Câu a và b đúng",
+          "Tuân thủ các tiêu chuẩn nghiêm ngặt về an toàn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, EVN cam kết cung cấp sản phẩm và dịch vụ có…. cho khách hàng và cộng đồng xã hội",
+        "answers": [
+          "Niềm tin",
+          "Chất lượng",
+          "Sáng tạo",
+          "Tiên phong"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "EVN….trong nghiên cứu và phát triển để tạo ra những đột phát về năng lượng cho đất nước",
+        "answers": [
+          "Tin tưởng",
+          "Phấn đấu",
+          "Tiên phong",
+          "Sáng tạo"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nâng cao tinh thần học hỏi từ công việc, đồng nghiệp và đối tác, thử thách bản thân bằng các sáng kiến mới là điều chúng ta nên làm theo giá trị cốt lõi nào?",
+        "answers": [
+          "Sáng tạo",
+          "Niềm tin",
+          "Nhân văn",
+          "Đoàn kết"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "EVN luôn có quan điểm nhất quán rằng,….. với khách hàng, đối tác, cộng đồng xã hội và với tương lai của đất nước là một phần không thể thiếu trong….của EVN",
+        "answers": [
+          "Phương châm - nhận thức",
+          "Đoàn kết - giá trị",
+          "An toàn - nhiệm vụ",
+          "Trách nhiệm - sứ mệnh"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực đạo đức nghề nghiệp của người EVN bao gồm \"An toàn-Đoàn kết-Nhân văn-Trung thực-Minh bạch\"",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "....là tôn chỉ hành động và chuẩn mực … mà EVN phải thực hiện nghiêm ngặt.",
+        "answers": [
+          "Trung thực-văn hóa",
+          "An toàn - đạo đức",
+          "Sáng tạo-văn hóa",
+          "Niềm tin-văn hóa"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, nguyên tắc chung để người EVN thực thi chuẩn mực Trung thực là:",
+        "answers": [
+          "Lãnh đạo phải làm gương",
+          "Sẵn lòng nhiệt thành cống hiến",
+          "Lời nói đi đôi với việc làm",
+          "Kiến tạo và chia sẻ"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, sức mạnh trong mọi hoạt động của EVN là tinh thần…..và….",
+        "answers": [
+          "Đoàn kết",
+          "Trí tuệ tập thể",
+          "Câu a và b sai",
+          "Câu a và b đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Vì niềm tin của người lao động, EVN cam kết:",
+        "answers": [
+          "Đảm bảo ổn định việc làm và ngày càng nâng cao đời sống vật chất, tinh thần của người lao động.",
+          "Mang đến cho người lao động sự tôn trọng, công bằng và môi trường làm việc an toàn, văn minh, thân thiện, tin cậy và minh bạch.",
+          "Đầu tư đào tạo, phát triển toàn diện người lao động, luôn khuyến khích, tạo điều kiện cho người lao động rèn luyện, trau dồi kiến thức, kỹ năng để phát triển năng lực.",
+          "Người lao động luôn là tài sản quý giá nhất"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực trong hành vi ứng xử chung của EVN gồm:",
+        "answers": [
+          "Tôn trọng",
+          "Tận tâm",
+          "Chuyên nghiệp",
+          "Hợp tác",
+          "Nghĩa tình",
+          "Tất cả các phương án trên."
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Đâu là các nguyên tắc trong thực thi VHDN EVN",
+        "answers": [
+          "Nguyên tắc thứ nhất: Đã là EVN thì chất lượng và đáng tin cậy",
+          "Nguyên tắc thứ hai: Thực hiện công việc được giao và chịu trách nhiệm đến kết quả cuối cùng",
+          "Nguyên tắc thứ ba: Sức mạnh trong mọi hoạt động của EVN là tinh thần đoàn kết và trí tuệ tập thể",
+          "Nguyên tắc thứ tư: Có cá nhân xuất sắc mới có tập thể sáng tạo",
+          "Nguyên tắc thứ năm: Lãnh đạo phải làm gương",
+          "Cả 05 nguyên tắc trên"
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho các đối tượng nào:",
+        "answers": [
+          "Cán bộ quản lý, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng",
+          "Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho bao nhiêu đối tượng:",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mỗi cuốn Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC dành cho từng đối tượng—cán bộ quản lý, công nhân điện, nhân viên giao tiếp khách hàng và nhân viên văn phòng—được cấu trúc thành bao nhiêu phần",
+        "answers": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong Sổ tay Chuẩn mực hành vi ứng xử, các chuẩn mực ứng xử chung được chia thành bao nhiêu chương",
+        "answers": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các tài liệu nào dưới đây có liên quan đến Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC:",
+        "answers": [
+          "Tài liệu Văn hoá EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Tuân thủ pháp luật và chuẩn mực đạo đức nghề nghiệp” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương III: Các chuẩn mực ứng xử và làm việc nội bộ",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Đặt con người ở vị trí trung tâm trong mọi hoạt động” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương IV: Ứng xử với các cơ quan cấp trên và địa phương",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 3
+      }
+    ]
   }
 }

@@ -874,7 +874,7 @@ def main():
         st.markdown('<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.4rem !important;">👤 Chọn đối tượng thi</h3>', unsafe_allow_html=True)
 
         audience_options = list(all_data.keys())
-        audience_icons = {"Kế toán trưởng, Trưởng-Phó phòng": "👔", "Chuyên viên": "🧑‍💼"}
+        audience_icons = {"Kế toán trưởng, Trưởng-Phó phòng": "👔", "Chuyên viên": "🧑‍💼", "Khối VP": "🏛️"}
 
         audience_cols = st.columns(len(audience_options))
         for col_idx, aud_name in enumerate(audience_options):
