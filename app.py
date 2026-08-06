@@ -736,11 +736,7 @@ def main():
 
         def on_audience_change():
             """Callback when sidebar audience selectbox changes."""
-            new_val = st.session_state["sidebar_audience_select"]
-            st.session_state.audience = new_val
-            # Sync main-page widget if it exists
-            if "main_audience_select" in st.session_state:
-                st.session_state["main_audience_select"] = new_val
+            st.session_state.audience = st.session_state["sidebar_audience_select"]
             reset_quiz()
 
         selected_audience = st.selectbox(
@@ -894,7 +890,8 @@ def main():
                 ):
                     if not is_active:
                         st.session_state.audience = aud_name
-                        st.session_state["sidebar_audience_select"] = aud_name
+                        # Remove sidebar widget key so it re-reads from audience
+                        st.session_state.pop("sidebar_audience_select", None)
                         reset_quiz()
                         st.rerun()
 
