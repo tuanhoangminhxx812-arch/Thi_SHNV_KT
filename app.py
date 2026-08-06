@@ -864,10 +864,37 @@ def main():
                 Sát Hạch Nghiệp Vụ — Tài Chính Kế Toán
             </h2>
             <p style="font-size: 22px !important; opacity: 0.95; margin: 0px !important; line-height: 1.3;">
-                👈 Chọn đối tượng thi và chủ đề bên dưới hoặc thanh bên trái để bắt đầu
+                👇 Chọn đối tượng thi và chủ đề bên dưới để bắt đầu
             </p>
         </div>
         """, unsafe_allow_html=True)
+
+        # ─── Audience selector on main screen (for mobile) ───────────
+        st.markdown('<h3 style="font-size: 24px !important; color: #1a1a2e; margin-top: 0.5rem !important; margin-bottom: 0.2rem !important;">👤 Chọn đối tượng thi</h3>', unsafe_allow_html=True)
+
+        audience_options = list(all_data.keys())
+        current_audience_idx = audience_options.index(selected_audience) if selected_audience in audience_options else 0
+
+        def on_main_audience_change():
+            """Sync main-page audience selector back to session state and reset quiz."""
+            new_audience = st.session_state["main_audience_select"]
+            if new_audience != st.session_state.audience:
+                st.session_state.audience = new_audience
+                reset_quiz()
+
+        main_selected_audience = st.selectbox(
+            "Chọn đối tượng thi:",
+            audience_options,
+            index=current_audience_idx,
+            key="main_audience_select",
+            on_change=on_main_audience_change,
+            label_visibility="collapsed",
+        )
+        # Keep selected_audience in sync for the rest of this run
+        selected_audience = main_selected_audience
+        st.session_state.audience = selected_audience
+
+        st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
 
         # Display topic overview as clickable 3D card-buttons
         if selected_audience in all_data:
