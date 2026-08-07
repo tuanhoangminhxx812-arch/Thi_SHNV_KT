@@ -736,8 +736,14 @@ def main():
 
         def on_audience_change():
             """Callback when sidebar audience selectbox changes."""
-            st.session_state.audience = st.session_state["sidebar_audience_select"]
-            reset_quiz()
+            new_aud = st.session_state["sidebar_audience_select"]
+            if new_aud != st.session_state.audience:
+                st.session_state.audience = new_aud
+                reset_quiz()
+
+        # Sync the widget key to match the current audience BEFORE creating widget
+        # This ensures main-screen audience buttons properly sync with sidebar
+        st.session_state["sidebar_audience_select"] = st.session_state.audience
 
         selected_audience = st.selectbox(
             "Chọn đối tượng:",
@@ -747,7 +753,7 @@ def main():
             on_change=on_audience_change,
             label_visibility="collapsed",
         )
-        # Sync audience from widget value (no rerun needed, on_change handles reset)
+        # Sync audience from widget value
         st.session_state.audience = selected_audience
 
         st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
@@ -890,8 +896,6 @@ def main():
                 ):
                     if not is_active:
                         st.session_state.audience = aud_name
-                        # Remove sidebar widget key so it re-reads from audience
-                        st.session_state.pop("sidebar_audience_select", None)
                         reset_quiz()
                         st.rerun()
 
