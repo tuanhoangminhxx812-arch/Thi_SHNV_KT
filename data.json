@@ -9339,5 +9339,2013 @@
         "correct_idx": 3
       }
     ]
+  },
+  "PCCL": {
+    "🛡️ ATTT - Tổng quan": [
+      {
+        "question": "An toàn dữ liệu có thể hiểu là:",
+        "answers": [
+          "Dễ dàng cho công việc bảo trì dữ liệu.",
+          "Ngăn chặn các truy cập trái phép, sai quy định từ trong ra hoặc từ ngoài vào .",
+          "Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu.",
+          "Tính nhất quán và toàn vẹn dữ liệu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các cách nào sau đây phòng tránh máy tính bị lây nhiễm bởi mã độc tống tiền?",
+        "answers": [
+          "Không mở các thư điện tử hay tệp tin đính kèm đáng ngờ .",
+          "Sử dụng phần mềm lậu, phần mềm không rõ nguồn gốc.",
+          "Sao lưu dữ liệu quan trọng thường xuyên sang ổ cứng ngoài hoặc các dịch vụ lưu trữ đám mây.",
+          "Luôn cập nhật trình duyệt và các ứng dụng của máy tính."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các rủi ro xuất phát từ con người chiếm bao nhiêu %",
+        "answers": [
+          "50",
+          "80",
+          "100",
+          "95"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các nguy cơ nào sau đây tạo điều kiện cho các hoạt động gây mất an toàn thông tin ?",
+        "answers": [
+          "Làm việc từ xa, ít có cơ hội nhận biết các đối tượng hacker đang theo dõi mình.",
+          "Các hacker ngày càng xuất hiện nhiều.",
+          "Thiếu nhận thức về an toàn thông tin; Làm việc từ xa, phải đăng tải các tài liệu, dữ liệu, thông tin lên mạng; Các hacker ngày càng xuất hiện nhiều .",
+          "Không có đội ngũ chuyên gia chuyên trách đảm bảo an toàn thông tin mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo bạn, đâu là các biện pháp đảm bảo an ninh thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Đặt mật khẩu dài và khó đoán bao gồm cả số và chữ, kí hiệu đặc biệt.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác hay các mail được nhắn từ các tài khoản không có tên miền cụ thể.",
+          "Không cho người khác sử dụng thiết bị cá nhân có chứa nhiều thông tin quan trọng.",
+          "Tất cả các phương án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào sau đây không phải là nguy cơ gây mất an toàn thông tin đối với thiết bị cá nhân.",
+        "answers": [
+          "Xác thực tài khoản email 2 bước và dự phòng email.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác; Xác thực tài khoản email 2 bước và dự phòng email; Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân .",
+          "Hạn chế sử dụng Wifi công cộng để đăng nhập vào các tài khoản cá nhân.",
+          "Không nhấn vào các đường link lạ, file đính kèm đang nghi ngờ, thư rác."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "An toàn mạng theo nghĩa là bảo vệ và đảm bảo an toàn:",
+        "answers": [
+          "Kho dữ liệu.",
+          "Phần mềm trên mạng.",
+          "Phần cứng của mạng.",
+          "Tài nguyên mạng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Độ dài của mật khẩu mạnh nên ở mức nào?",
+        "answers": [
+          "6 kí tự.",
+          "8 kí tự.",
+          "Đối với tài khoản thông thường, mật khẩu cần có độ dài từ 8 đến 11 ký tự, bao gồm cả chữ và số; Đối với tài khoản có tính chất quan trọng, mật khẩu cần có độ dài trên 15 ký tự, bao gồm cả chữ hoa, chữ thường và số .",
+          "Dài ngắn đều được."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các nguyên tắc cài đặt mật khẩu là gì?",
+        "answers": [
+          "Tạo một mật khẩu mạnh và thay đổi chúng cứ mỗi 6-12 tháng.",
+          "Dùng phần mềm lưu mật khẩu chuyên dùng như 1 password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại.",
+          "Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng.",
+          "Tạo một mật khẩu mạnh và thay đổi chúng sau mỗi 90 ngày; Không bao giờ được giữ một bản sao mật khẩu trên điện thoại đang dùng; Dùng phần mềm lưu mật khẩu chuyên dùng như 1password. Không nên lưu mật khẩu quan trọng (mật khẩu quản trị, mật khẩu internet banking…) trên trình duyệt máy tính hoặc điện thoại ."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tác dụng của mật khẩu mạnh?",
+        "answers": [
+          "Bảo vệ email, tệp và các nội dung khác.",
+          "Ngăn người khác xâm nhập vào tài khoản.",
+          "Bảo vệ thông tin cá nhân, email, tệp và các nội dung khác, ngăn người khác xâm nhập vào tài khoản",
+          "Bảo vệ thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các hình thức Spam Email thường gặp là gì?",
+        "answers": [
+          "Kẻ gian sẽ nhúng liên kết trong một email chuyển hướng bạn tới một trang web không an toàn.",
+          "Kẻ gian sẽ giả mạo địa chỉ email để xuất hiện như một nguồn tin cậy.",
+          "Kẻ gian sẽ đặt mã độc trong tập tin đính kèm email hoặc quảng cáo được gửi vào mail của bạn.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Phising là một phương thức tấn công đánh cắp thông tin. Phương thức tấn công này cố gắng thu thập thông tin gì?",
+        "answers": [
+          "Tên tài khoản và mật khẩu.",
+          "Thông tin thẻ tín dụng.",
+          "Thông tin cá nhân, thẻ ngân hàng, các tài khoản, mật khẩu và các thông tin khác",
+          "Thông tin cá nhân."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các dấu hiệu nào sau đây cho thấy tài khoản đã và có khả năng bị tấn công phising?",
+        "answers": [
+          "Các email vô danh được gửi tới tài khoản có đính kèm theo các link liên kết và tệp đính kèm.",
+          "Các thông tin cá nhân bị rao bán hoặc đăng tải trên các chợ đen hoặc trên mạng xã hội.",
+          "Các lỗ hổng trong giao dịch có liên kết internet banking dẫn người giao dịch đến các trang web khai báo thông tin.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo bạn, các vấn đề nào là nguy cơ bảo mật khi bị nhiễm virus?",
+        "answers": [
+          "Lộ lọt, mất thông tin cá nhân.",
+          "Lộ lọt, mất thông tin cá nhân; Tạo điều kiện cho tấn công từ chối dịch vụ (DoS); Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính .",
+          "Tạo điều kiện cho tấn công từ chối dịch vụ (DoS).",
+          "Giảm hiệu suất máy tính, khiến máy tính hoạt động chậm hơn, tiêu tốn dữ liệu trong máy tính."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khi máy bị nhiễm Virus phương án nào sau đây là an toàn nhất ?",
+        "answers": [
+          "FORMAT lại đĩa.",
+          "Sao lưu dữ liệu sau đó dùng các chương trình diệt VIRUS .",
+          "Ngay lập tức dùng luôn các chương trình diệt VIRUS.",
+          "Tất cả các đáp án đều đúng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "“An ninh mạng” là gì?",
+        "answers": [
+          "Là sự giám sát hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự kiểm tra hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "Là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân .",
+          "Là sự phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi đăng nhập vào tài khoản cá nhân trên các máy tính công cộng hoặc thiết bị laptop, việc nên làm để đảm bảo an toàn thông tin là:",
+        "answers": [
+          "Để chế độ tự động đăng nhập để thuận tiện cho lần sau.",
+          "Không để chế độ ghi nhớ mật khẩu; và thực hiện đăng xuất tài khoản sau khi sử dụng",
+          "Không cần phải thoát tài khoản sau khi sử dụng.",
+          "Để chế độ ghi nhớ mật khẩu."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trách nhiệm của cá nhân người lao động tại EVN trong hoạt động đảm bảo an toàn thông tin (ATTT):",
+        "answers": [
+          "Thông báo các nguy cơ, vấn đề bất thường, sự cố liên quan tới ATTT cho bộ phận chuyên trách về ATTT của đơn vị.",
+          "Khi chuyển đổi thiết bị CNTT phải hủy dữ liệu ở trang thiết bị cũ, đảm bảo thông tin, dữ liệu không thể khôi phục lại.",
+          "Chịu trách nhiệm trước pháp luật và đơn vị về các vi phạm gây lộ lọt, thất thoát dữ liệu mật của EVN hoặc đơn vị.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cách tốt nhất để hạn chế việc bị đánh cắp thông tin cá nhân trên mạng xã hội là gì?",
+        "answers": [
+          "Chỉ cần cài đặt chế độ quyền riêng tư là yên tâm.",
+          "Khai, đăng các thông tin giả lên mạng xã hội.",
+          "Không dùng mạng xã hội.",
+          "Cài đặt chế độ quyền riêng tư hợp lý; Cân nhắc, cẩn thận khi chia sẻ thông tin cá nhân (ảnh, video, tin tức) trên mạng xã hội"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cần làm gì để an toàn khi sử dụng mạng không dây (mạng wifi):",
+        "answers": [
+          "Xác minh mạng không dây.",
+          "Sử dụng mạng riêng ảo.",
+          "Sử dụng xác thực 2 bước.",
+          "Tất cả các đáp án đúng"
+        ],
+        "correct_idx": 3
+      }
+    ],
+    "🌟 Văn hóa Doanh nghiệp": [
+      {
+        "question": "Tài liệu Văn hóa EVN gồm mấy chương?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong Chương I - Bản sắc Văn hóa EVN bao gồm những nội dung gì?",
+        "answers": [
+          "Sứ mệnh, tầm nhìn, khẩu hiệu và triết lý hoạt động EVN",
+          "Các giá trị cốt lõi của EVN",
+          "Các chuẩn mực đạo đức nghề nghiệp của EVN",
+          "Câu a,b,c đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sứ mệnh của EVN là cung cấp điện với chất lượng và dịch vụ ngày càng tốt hơn, đảm bảo trách nhiệm với môi trường và cộng đồng.",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nội dung \"EVN là tập đoàn kinh tế hàng đầu trong lĩnh vực năng lượng tại Việt Nam và khu vực châu Á\" là",
+        "answers": [
+          "Sứ mệnh",
+          "Tầm nhìn",
+          "Khẩu hiệu",
+          "Triết lý hoạt động"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Khẩu hiệu của EVN là:",
+        "answers": [
+          "Chuyên nghiệp-Minh bạch-Hiệu quả",
+          "Niềm tin-Trách nhiệm-Tiên phong",
+          "An toàn-Đoàn kết-Nhân văn",
+          "Thắp sáng niềm tin"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "\"Khách hàng là trung tâm của sự tồn tại và phát triển, con người là tài sản quý giá nhất, niềm tin được thắp sáng bằng các giá trị được tạo dựng và chia sẻ\" là:",
+        "answers": [
+          "Sứ mệnh",
+          "Các giá trị cốt lõi của EVN",
+          "Triết lý hoạt động",
+          "Tầm nhìn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu giá trị cốt lõi",
+        "answers": [
+          "4",
+          "5",
+          "8",
+          "7"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Giá trị cốt lõi của EVN bao gồm:",
+        "answers": [
+          "Niềm tin-Chất lượng",
+          "Tiên phong - Sáng tạo",
+          "Trách nhiệm",
+          "Cả a, b,c"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN có bao nhiêu chuẩn mực đạo đức nghề nghiệp?",
+        "answers": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các chuẩn mực đạo đức nghề nghiệp của EVN gồm:",
+        "answers": [
+          "An toàn-Đoàn kết",
+          "Nhân văn-Trung thực-Minh bạch",
+          "Niềm tin-Chất lượng-Tiên phong",
+          "Câu a và b"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "EVN thắp sáng ….. bằng trách nhiệm, sự tận tâm, tinh thần tiên phong và sáng tạo để nâng cao chất lượng cuộc sống của…..và….",
+        "answers": [
+          "Ước mơ-khách hàng-đối tác",
+          "Niềm tin-khách hàng-cộng đồng xã hội",
+          "Tương lai-khách hàng-CBCNV",
+          "Cả a, b,c đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, Niềm tin thể hiện ở:",
+        "answers": [
+          "Tôn trọng khách hàng, đối tác, đồng nghiệp và đối xử với họ như cách chúng ta muốn được đối xử",
+          "Ứng xử chuyên nghiệp và thiện chí với mọi người",
+          "Câu a và b đúng",
+          "Tuân thủ các tiêu chuẩn nghiêm ngặt về an toàn"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, EVN cam kết cung cấp sản phẩm và dịch vụ có…. cho khách hàng và cộng đồng xã hội",
+        "answers": [
+          "Niềm tin",
+          "Chất lượng",
+          "Sáng tạo",
+          "Tiên phong"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "EVN….trong nghiên cứu và phát triển để tạo ra những đột phát về năng lượng cho đất nước",
+        "answers": [
+          "Tin tưởng",
+          "Phấn đấu",
+          "Tiên phong",
+          "Sáng tạo"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu Văn hóa EVN, nâng cao tinh thần học hỏi từ công việc, đồng nghiệp và đối tác, thử thách bản thân bằng các sáng kiến mới là điều chúng ta nên làm theo giá trị cốt lõi nào?",
+        "answers": [
+          "Sáng tạo",
+          "Niềm tin",
+          "Nhân văn",
+          "Đoàn kết"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "EVN luôn có quan điểm nhất quán rằng,….. với khách hàng, đối tác, cộng đồng xã hội và với tương lai của đất nước là một phần không thể thiếu trong….của EVN",
+        "answers": [
+          "Phương châm - nhận thức",
+          "Đoàn kết - giá trị",
+          "An toàn - nhiệm vụ",
+          "Trách nhiệm - sứ mệnh"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực đạo đức nghề nghiệp của người EVN bao gồm \"An toàn-Đoàn kết-Nhân văn-Trung thực-Minh bạch\"",
+        "answers": [
+          "Đúng",
+          "Sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "....là tôn chỉ hành động và chuẩn mực … mà EVN phải thực hiện nghiêm ngặt.",
+        "answers": [
+          "Trung thực-văn hóa",
+          "An toàn - đạo đức",
+          "Sáng tạo-văn hóa",
+          "Niềm tin-văn hóa"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, nguyên tắc chung để người EVN thực thi chuẩn mực Trung thực là:",
+        "answers": [
+          "Lãnh đạo phải làm gương",
+          "Sẵn lòng nhiệt thành cống hiến",
+          "Lời nói đi đôi với việc làm",
+          "Kiến tạo và chia sẻ"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong tài liệu văn hóa EVN, sức mạnh trong mọi hoạt động của EVN là tinh thần…..và….",
+        "answers": [
+          "Đoàn kết",
+          "Trí tuệ tập thể",
+          "Câu a và b sai",
+          "Câu a và b đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Vì niềm tin của người lao động, EVN cam kết:",
+        "answers": [
+          "Đảm bảo ổn định việc làm và ngày càng nâng cao đời sống vật chất, tinh thần của người lao động.",
+          "Mang đến cho người lao động sự tôn trọng, công bằng và môi trường làm việc an toàn, văn minh, thân thiện, tin cậy và minh bạch.",
+          "Đầu tư đào tạo, phát triển toàn diện người lao động, luôn khuyến khích, tạo điều kiện cho người lao động rèn luyện, trau dồi kiến thức, kỹ năng để phát triển năng lực.",
+          "Người lao động luôn là tài sản quý giá nhất"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các giá trị chuẩn mực trong hành vi ứng xử chung của EVN gồm:",
+        "answers": [
+          "Tôn trọng",
+          "Tận tâm",
+          "Chuyên nghiệp",
+          "Hợp tác",
+          "Nghĩa tình",
+          "Tất cả các phương án trên."
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Đâu là các nguyên tắc trong thực thi VHDN EVN",
+        "answers": [
+          "Nguyên tắc thứ nhất: Đã là EVN thì chất lượng và đáng tin cậy",
+          "Nguyên tắc thứ hai: Thực hiện công việc được giao và chịu trách nhiệm đến kết quả cuối cùng",
+          "Nguyên tắc thứ ba: Sức mạnh trong mọi hoạt động của EVN là tinh thần đoàn kết và trí tuệ tập thể",
+          "Nguyên tắc thứ tư: Có cá nhân xuất sắc mới có tập thể sáng tạo",
+          "Nguyên tắc thứ năm: Lãnh đạo phải làm gương",
+          "Cả 05 nguyên tắc trên"
+        ],
+        "correct_idx": 5
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho các đối tượng nào:",
+        "answers": [
+          "Cán bộ quản lý, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng",
+          "Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng",
+          "Cán bộ quản lý, Công nhân điện, Nhân viên giao tiếp khách hàng, Nhân viên văn phòng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sổ tay Chuẩn mực hành vi ứng xử EVNHCMC dành cho bao nhiêu đối tượng:",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mỗi cuốn Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC dành cho từng đối tượng—cán bộ quản lý, công nhân điện, nhân viên giao tiếp khách hàng và nhân viên văn phòng—được cấu trúc thành bao nhiêu phần",
+        "answers": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong Sổ tay Chuẩn mực hành vi ứng xử, các chuẩn mực ứng xử chung được chia thành bao nhiêu chương",
+        "answers": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Các tài liệu nào dưới đây có liên quan đến Sổ tay Chuẩn mực hành vi ứng xử của EVNHCMC:",
+        "answers": [
+          "Tài liệu Văn hoá EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN, Tài liệu Phong cách lãnh đạo EVNHCMC",
+          "Tài liệu Văn hoá EVN, Bộ Quy tắc ứng xử EVN"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Tuân thủ pháp luật và chuẩn mực đạo đức nghề nghiệp” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương III: Các chuẩn mực ứng xử và làm việc nội bộ",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trong Phần “Các chuẩn mực hành vi ứng xử chung” của Sổ tay Bộ chuẩn mực hành vi ứng xử EVNHCMC, nội dung “Đặt con người ở vị trí trung tâm trong mọi hoạt động” được quy định tại chương nào",
+        "answers": [
+          "Chương I: Tuân thủ pháp luật và các chuẩn mực đạo đức nghề nghiệp",
+          "Chương II: Thực thi tốt các quy tắc ứng xử chung",
+          "Chương IV: Ứng xử với các cơ quan cấp trên và địa phương",
+          "Chương V: Ứng xử với khách hàng và đối tác"
+        ],
+        "correct_idx": 3
+      }
+    ],
+    "📘 Nâng giữ bậc TCKT 2026": [
+      {
+        "question": "Theo Luật 109/2025/QH15, mức giảm trừ gia cảnh cho bản thân người nộp thuế đã được điều chỉnh lên mức nào?",
+        "answers": [
+          "11.000.000 đồng/tháng",
+          "13.000.000 đồng/tháng",
+          "15.500.000 đồng/tháng",
+          "18.000.000 đồng/tháng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Mức giảm trừ cho mỗi người phụ thuộc theo quy định mới nhất tại Luật 109/2025/QH15 là bao nhiêu?",
+        "answers": [
+          "4.400.000 đồng/tháng",
+          "6.200.000 đồng/tháng",
+          "5.500.000 đồng/tháng",
+          "7.000.000 đồng/tháng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Biểu thuế lũy tiến từng phần tính thuế TNCN theo Luật 109/2025/QH15 đã rút gọn còn bao nhiêu bậc?",
+        "answers": [
+          "7 bậc",
+          "5 bậc",
+          "6 bậc",
+          "Giữ nguyên 7 bậc nhưng thay đổi thuế suất"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Thời điểm xác định thu nhập chịu thuế TNCN đối với thu nhập từ tiền lương, tiền công là",
+        "answers": [
+          "Thời điểm tổ chức, cá nhân trả thu nhập cho người nộp thuế",
+          "Ngày cuối cùng của tháng làm việc",
+          "Thời điểm ký phiếu chi hoặc lệnh chuyển tiền",
+          "Thời điểm quyết toán thuế năm"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thuế suất thuế TNCN đối với cá nhân KHÔNG cư trú có thu nhập từ tiền lương, tiền công là:",
+        "answers": [
+          "Theo biểu lũy tiến từng phần",
+          "10%.",
+          "0.2",
+          "0.25"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Để trở thành \"Cá nhân cư trú\" theo Luật 109/2025/QH15, cá nhân phải có mặt tại Việt Nam bao nhiêu ngày?",
+        "answers": [
+          "90 ngày trong năm dương lịch",
+          "180 ngày tính theo 12 tháng liên tục",
+          "183 ngày trở lên trong một năm dương lịch hoặc 12 tháng liên tục",
+          "100 ngày trong năm dương lịch"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Thu nhập chịu thuế TNCN từ tiền lương, tiền công bao gồm:",
+        "answers": [
+          "Tiền lương, tiền công và các khoản có tính chất tiền lương, tiền công",
+          "Tiền thù lao, các khoản lợi ích bằng tiền",
+          "Các khoản trợ cấp khó khăn đột xuất, bệnh nghề nghiệp",
+          "Câu a và b đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các khoản thu nhập nào sau đây không được miễn thuế TNCN",
+        "answers": [
+          "Tiền lương làm việc ban đêm, làm thêm giờ",
+          "Thu nhập từ chuyển nhượng nhà ở, quyền sử dụng đất ở",
+          "Thu nhập từ bồi thường hợp đồng bảo hiểm nhân thọ",
+          "Thu nhập từ chuyển giao công nghệ"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Bậc 1 của biểu thuế lũy tiến tính thuế TNCN áp dụng thuế suất 5% cho phần thu nhập tính thuế đến mức nào?",
+        "answers": [
+          "Đến 10 triệu đồng/tháng",
+          "Đến 5 triệu đồng/tháng.",
+          "Đến 15 triệu đồng/tháng",
+          "Đến 18 triệu đồng/tháng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Bậc 5 của biểu thuế lũy tiến tính thuế TNCN áp dụng thuế suất 35% cho phần thu nhập tính thuế ở mức nào?",
+        "answers": [
+          "Trên 100 triệu đồng/tháng",
+          "Trên 80 triệu đồng/tháng.",
+          "Trên 60 triệu đồng/tháng",
+          "Trên 120 triệu đồng/tháng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Bậc 3 của biểu thuế lũy tiến tính thuế TNCN áp dụng thuế suất 20% cho phần thu nhập tính thuế ở mức nào?",
+        "answers": [
+          "Trên 30 đến 60 triệu đồng/tháng",
+          "Trên 18 đến 32 triệu đồng /tháng",
+          "Trên 32 đến 52 triệu đồng/tháng",
+          "Trên 60 đến 100 triệu đồng/tháng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Phần thu nhập tính thuế TNCN ở mức trên 60 đến 100 triệu đồng/tháng chịu mức thuế suất bao nhiêu %?",
+        "answers": [
+          "0.2",
+          "0.25",
+          "0.3",
+          "0.35"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Phần thu nhập tính thuế TNCN ở mức trên 10 đến 30 triệu đồng/tháng chịu mức thuế suất bao nhiêu %?",
+        "answers": [
+          "0.2",
+          "0.15",
+          "0.1",
+          "0.3"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Các trường hợp  nào sau đây được xem là người phụ thuộc theo Luật thuế TNCN số 109/2025/QH15",
+        "answers": [
+          "Con chưa thành niên",
+          "Con thành niên đang học đại học",
+          "Vợ hoặc chồng không có khả năng lao động",
+          "Cả 3 trường hợp trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Mức thuế suất tính thuế TNCN đối với thu nhập từ trúng thưởng của cá nhân cư trú theo luật thuế TNCN số 109/2025/QH15",
+        "answers": [
+          "0.1",
+          "0.2",
+          "0.15",
+          "0.05"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP, trường hợp hóa đơn sai địa chỉ người mua nhưng các nội dung khác đúng, xử lý như thế nào?",
+        "answers": [
+          "Phải hủy và lập hóa đơn mới",
+          "Thông báo cho người mua, nộp mẫu 04/SS cho thuế, không phải lập lại hóa đơn.",
+          "Phải lập hóa đơn điều chỉnh",
+          "Không cần làm gì vì địa chỉ không quan trọng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghị định 70/2025/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 123/2020/NĐ-CP về hóa đơn, chứng từ có hiệu lực thi hành từ ngày nào?",
+        "answers": [
+          "01/01/2025",
+          "01/06/2025",
+          "01/07/2025",
+          "01/09/2025"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghị định 70/2025/NĐ-CP nhấn mạnh việc kết nối dữ liệu giữa cơ quan Thuế và cơ quan nào?",
+        "answers": [
+          "Bộ Y tế",
+          "Bộ Công an (về định danh cá nhân và dân cư).",
+          "Bộ Giáo dục.",
+          "Bộ Tài nguyên và Môi trường."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Tại Nghị định 70/2025/NĐ-CP, khi bán hàng hóa, thời điểm lập hóa đơn là?",
+        "answers": [
+          "Khi người mua trả tiền",
+          "Thời điểm chuyển giao quyền sở hữu hoặc quyền sử dụng hàng hóa cho người mua.",
+          "Khi hàng hóa về kho của người mua",
+          "Sau 03 ngày kể từ ngày giao hàng."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Tại Nghị định 70/2025/NĐ-CP, Thời điểm lập hóa đơn đối với hoạt động cung cấp điện là?",
+        "answers": [
+          "Ngày đầu tiên của tháng",
+          "Thời điểm hoàn thành việc đối soát dữ liệu giữa các bên nhưng chậm nhất không quá ngày 07 của tháng sau tháng phát sinh việc cung cấp dịch vụ",
+          "Ngay khi khách hàng sử dụng",
+          "Cuối năm tài chính"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Tại Nghị định 70/2025/NĐ-CP, Thời điểm lập hóa đơn đối với hoạt động cung cấp dịch vụ là?",
+        "answers": [
+          "Thời điểm hoàn thành việc cung cấp dịch vụ",
+          "Thời điểm thu tiền khi người cung cấp dịch vụ có thu tiền trước",
+          "Cả 2 câu trên đều đúng",
+          "Cả 2 câu trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Tại Nghị định 70/2025/NĐ-CP, Thời điểm lập hóa đơn đối với dịch vụ viễn thông là?",
+        "answers": [
+          "Ngày đầu tiên của tháng",
+          "Thời điểm hoàn thành việc đối soát dữ liệu giữa các bên nhưng chậm nhất không quá ngày 07 của tháng sau tháng phát sinh việc cung cấp dịch vụ",
+          "Không quá 07 ngày kể từ ngày kết thúc kỳ quy ước",
+          "Câu b và C đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Người nộp thuế đăng ký sử dụng Hóa đơn điện tử qua Cổng thông tin điện tử của Tổng cục Thuế bằng mẫu nào?",
+        "answers": [
+          "Mẫu số 01/ĐKTĐ-HĐĐT",
+          "Mẫu số 04/SS-HĐĐT",
+          "Mẫu số 01/GTGT",
+          "Mẫu số 08-MST"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Người nộp thuế đăng ký thay đổi thông tin sử dụng chứng từ điện tử qua Cổng thông tin điện tử của Tổng cục Thuế bằng mẫu nào?",
+        "answers": [
+          "Mẫu số 01/ĐKTĐ-CTĐT",
+          "Mẫu số 04/SS-HĐĐT",
+          "Mẫu số 01/GTGT",
+          "Mẫu số 08-MST"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP: Tổ chức cung cấp dịch vụ hóa đơn điện tử bao gồm?",
+        "answers": [
+          "Tổ chức cung cấp giải pháp hóa đơn điện tử cho người bán và người mua;",
+          "tổ chức kết nối nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế",
+          "A và B đúng",
+          "A và B sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trường hợp nào sau đây người bán phải lập hóa đơn để giao cho người mua",
+        "answers": [
+          "Hàng hóa dùng để khuyến mại, quảng cáo.",
+          "Hàng hóa dùng để cho, biếu, tặng",
+          "Hảng hóa dùng để trả thay lương cho người lao động",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP: tổ chức, cá nhân trả thu nhập chỉ cấp cho cá nhân một chứng từ khấu trừ thuế trong một năm tính thuế cho trường hợp nào sau đây?",
+        "answers": [
+          "Cá nhân ký hợp đồng lao động từ 03 tháng trở lên",
+          "Cá nhân không ký hợp đồng lao động",
+          "Cá nhân ký hợp đồng lao động dưới 03 tháng",
+          "Cá nhân ký hợp đồng lao động từ 12 tháng trở lên"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP quy định về hóa đơn, chứng từ đối với trường hợp điều chuyển tài sản từ công ty mẹ đến các đơn vị hạch toán phụ thuộc hoặc giữa các đơn vị hạch toán phụ thuộc với nhau?",
+        "answers": [
+          "Phải lập hóa đơn",
+          "Không phải lập hóa đơn",
+          "Phải có lệnh điều chuyển tài sản, kèm theo bộ hồ sơ gốc tài sản",
+          "B và C đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP, trường hợp hóa đơn điện tử sai mã số thuế người mua nhưng các nội dung khác đúng, xử lý như thế nào?",
+        "answers": [
+          "Phải hủy và lập hóa đơn điện tử mới",
+          "Lập hóa đơn điện tử điều chỉnh hóa đơn đã lập sai",
+          "Không cần làm gì vì địa chỉ không quan trọng",
+          "Cả 3 đáp án trên đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo nghị định 70/2025/NĐ-CP, trường hợp hóa đơn điện tử sai về số tiền ghi trên hóa đơn nhưng các nội dung khác đúng, xử lý như thế nào?",
+        "answers": [
+          "Phải hủy và lập hóa đơn điện tử mới",
+          "Lập hóa đơn điện tử điều chỉnh hóa đơn đã lập sai",
+          "Lập hóa đơn điện tử mới thay thế cho hóa đơn lập sai",
+          "B và C đúng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Cơ sở để tiến hành mua sắm TSCĐ, CCDC, trang bị ATBHLĐ",
+        "answers": [
+          "Nhu cầu của Đơn vị;",
+          "Kế hoạch mua sắm (TSCĐ, công cụ, văn phòng phẩm …);",
+          "Nhu cầu đột xuất của Đơn vị được Lãnh đạo Đơn vị phê duyệt.",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Nguyên tắc mua sắm TSCĐ, CCDC, trang bị ATBHLĐ",
+        "answers": [
+          "Thực hiện theo các quy định hiện hành của Nhà nước, của Tập đoàn và của Tổng công ty. Bộ phận được giao chủ trì mua sắm phối hợp các bộ phận chức năng trong quá trình thực hiện đấu thầu hoặc chào hàng cạnh tranh hoặc mua sắm trực tiếp",
+          "Việc thay thế tài sản chỉ được thực hiện khi thiết bị đã hư hỏng nặng không sửa chữa được, không đáp ứng được yêu cầu công việc hàng ngày.",
+          "A và B đúng",
+          "A và B sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Thủ tục mua sắm TSCĐ, CCDC, trang bị ATBHLĐ",
+        "answers": [
+          "Tài sản mua về Bộ phận được giao chủ trì mua sắm lập Biên bản nghiệm thu số lượng, chất lượng, chủng loại, Biên bản giao nhận tài sản với bộ phận tiếp nhận và sử dụng tài sản;",
+          "Khi thay thế tài sản cũ bằng tài sản mới, Bộ phận được giao chủ trì mua sắm phải lập biên bản thu hồi tài sản cũ, đánh giá tình trạng tài sản cũ làm thủ tục nhập kho quản lý và đề xuất biện pháp xử lý",
+          "Định kỳ Bộ phận được giao chủ trì mua sắm tổng hợp đề nghị cho thanh xử lý các tài sản CCDC hư hỏng không còn sử dụng",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Mức dự phòng lương chưa chi của năm kế hoạch đến thời hạn nộp hồ sơ quyết toán thuế là bao nhiêu?",
+        "answers": [
+          "Không vượt quá 17% quỹ lương thực hiện",
+          "Không vượt quá 7% quỹ lương thực hiện",
+          "10% quỹ lương thực hiện",
+          "7% quỹ lương thực hiện"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Điều kiện được thanh toán công tác phí:",
+        "answers": [
+          "Có quyết  định hoặc chủ trương phê duyệt của lãnh đạo Đơn vị cử đi công tác, đào tạo, tập huấn;",
+          "Thực hiện đúng nhiệm vụ được giao;",
+          "Có đủ các chứng từ để thanh toán.",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trường hợp nào sau đây không thanh toán công tác phí",
+        "answers": [
+          "Thời gian điều trị, điều dưỡng tại cơ sở y tế, nhà điều dưỡng, dưỡng sức",
+          "Trường hợp CNVC-LĐ được cử đi đào tạo, tập huấn theo quyết định của EVN, Văn phòng/Phòng HCTH/Phòng TH đại diện đặt cơm cho CNVC-LĐ",
+          "Những ngày làm việc riêng trong thời gian đi công tác",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Phụ cấp lưu trú là gì?",
+        "answers": [
+          "Khoản tiền dùng để thanh toán tiền thuê phòng nghỉ tại nơi đến công tác",
+          "Khoản tiền thưởng cho nhân viên khi hoàn thành nhiệm vụ ở xa",
+          "Khoản tiền dùng để trả chi phí đi lại (vé tàu, vé xe).",
+          "Là khoản tiền hỗ trợ thêm cho CNVC-LĐ được cử đi công tác ngoài tiền lương do Đơn vị chi trả"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, điều kiện để được hưởng phụ cấp lưu trú",
+        "answers": [
+          "Khoảng cách từ nơi làm việc đến nơi công tác từ 30 km trở lên",
+          "Khoảng cách từ nơi làm việc đến nơi công tác từ 50 km trở lên",
+          "Khoảng cách từ nơi làm việc đến nơi công tác từ 70 km trở lên",
+          "Khoảng cách từ nơi làm việc đến nơi công tác từ 100 km trở lên"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Mức phụ cấp lưu trú đối với người đi công tác phải nghỉ lại nơi đến công tác.",
+        "answers": [
+          "chi tối đa không quá 200.000 đồng/ngày",
+          "chi tối đa không quá 400.000 đồng/ngày",
+          "chi tối đa không quá 500.000 đồng/ngày",
+          "chi tối đa không quá 300.000 đồng/ngày"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Mức phụ cấp lưu trú đối với trường hợp đi công tác trong ngày (đi và về trong ngày)",
+        "answers": [
+          "chi tối đa không quá 200.000 đồng/ngày",
+          "chi tối đa không quá 400.000 đồng/ngày",
+          "chi tối đa không quá 500.000 đồng/ngày",
+          "chi tối đa không quá 300.000 đồng/ngày"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Chứng từ thanh toán tiền công tác phí bao gồm:",
+        "answers": [
+          "Quyết định hoặc chủ trương phê duyệt của lãnh đạo đơn vị cử đi công tác",
+          "Tờ trình thanh toán tiền công tác phí",
+          "A và B",
+          "Cả 3 đáp án trên sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, người đi công tác tại Hà Nội được thanh toán tiền phòng nghỉ là bao nhiêu?",
+        "answers": [
+          "Mức tối đa không quá mức thuê phòng theo hợp đồng đã ký giữa Tổng công ty Điện lực TP. HCM với các Đơn vị cung cấp dịch vụ",
+          "Mức khoán tối đa không quá 900.000 đồng/ngày/người",
+          "Mức tối đa không quá 600.000 đồng/ngày/người",
+          "Mức tối đa không quá 800.000 đồng/ngày/người"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, người đi công tác tại tại các Thành phố trực thuộc trung ương (trừ Hà Nội) sẽ được thanh toán tiền phòng nghỉ là bao nhiêu?",
+        "answers": [
+          "Mức tối đa không quá mức thuê phòng theo hợp đồng đã ký giữa Tổng công ty Điện lực TP. HCM với các Đơn vị cung cấp dịch vụ",
+          "Mức khoán tối đa không quá 900.000 đồng/ngày/người",
+          "Mức tối đa không quá 600.000 đồng/ngày/người",
+          "Mức tối đa không quá 800.000 đồng/ngày/người"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, người đi công tác tại tại các Đi công tác ở các tỉnh, thành phố (không bao gồm thành phố trực thuộc trung ương) sẽ được thanh toán tiền phòng nghỉ là bao nhiêu?",
+        "answers": [
+          "Mức tối đa không quá mức thuê phòng theo hợp đồng đã ký giữa Tổng công ty Điện lực TP. HCM với các Đơn vị cung cấp dịch vụ",
+          "Mức khoán tối đa không quá 900.000 đồng/ngày/người",
+          "Mức tối đa không quá 600.000 đồng/ngày/người",
+          "Mức tối đa không quá 800.000 đồng/ngày/người"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, chứng từ thanh toán tiền thuê chỗ nghỉ bao gồm?",
+        "answers": [
+          "Quyết định hoặc chủ trương phê duyệt của lãnh đạo Đơn vị.",
+          "Hóa đơn hợp pháp (trong trường hợp thanh toán theo giá thuê phòng thực tế)",
+          "A và B",
+          "A hoặc B"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Trường hợp nào sau đây CNVCLĐ đi công tác được thanh toán tiền chi phí đi lại ?",
+        "answers": [
+          "Chi phí chiều đi và về từ nhà hoặc cơ quan đến sân bay, ga tàu, bến xe; vé máy bay, vé tàu, xe vận tải công cộng đến nơi công tác và theo chiều ngược lại",
+          "Chi phí đi lại tại địa phương nơi đến công tác: từ chỗ nghỉ đến chỗ làm việc, từ sân bay, ga tàu, bến xe về nơi nghỉ (lượt đi và lượt về).",
+          "Cước, phí di chuyển bằng phương tiện đường bộ, đường thủy, đường biển cho bản thân và phương tiện người đi công tác (đối với lái xe khi sử dụng xe cơ quan và thanh toán cùng chuyến công tác theo giấy đi đường được cấp)",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Tiêu chuẩn mua vé máy bay đi công tác cho CNVC - LĐ Đơn vị?",
+        "answers": [
+          "Vé máy bay, vé tàu, vé xe, lệ phí cầu phà…phải đúng quy định của nhà nước, thẻ lên máy bay phải được kèm theo chứng từ thanh toán",
+          "Hạng ghế thương gia (Business class hoặc C class): Chủ tịch HĐTV, Tổng giám đốc",
+          "Hạng ghế thường: dành cho CNVC-LĐ còn lại.",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Trường hợp CNVC - LĐ tự mua vé máy bay thanh toán bằng thẻ ATM hoặc thẻ tín dụng mang tên CNVC - LĐ, thì chứng từ cần cung cấp để được thanh toán lại cho CNVC - LĐ gồm:",
+        "answers": [
+          "Vé máy bay, thẻ lên máy bay",
+          "Quyết định hoặc chủ trương do lãnh đạo Đơn vị phê duyệt cử CNVC - LĐ đi công tác",
+          "hóa đơn chứng từ mua vé máy bay không dùng tiền mặt",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Chứng từ làm căn cứ thanh toán tiền phương tiện đi công tác?",
+        "answers": [
+          "Quyết định hoặc chủ trương phê duyệt của lãnh đạo Đơn vị cử CNVC-LĐ đi công tác;",
+          "Các vé máy bay điện tử (hoặc cuống vé), thẻ lên máy bay; Vé hoặc hóa đơn (nếu có) tàu, xe, cầu phà",
+          "Biên lai thu tiền Taxi (nếu phải đi xe ngoài).",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Định mức công tác phí khoán cho CNVC-LĐ đi công tác lưu động trên 10 ngày/tháng tính theo địa bàn Đơn vị đang công tác?",
+        "answers": [
+          "Vùng 1: các đơn vị có diện tích quản lý từ 500 km2  trở lên (Công ty Điện lực Tân Thuận, Bến Cát, Đất Đỏ, Bình Dương, Vũng Tàu, Ban A Lưới điện, Ban A Phân Phối, Công ty Lưới điện Cao thế, Công ty Dịch vụ Điện lực, Công ty Thí nghiệm điện): mức khoán tối đa 550.000 đồng/người/tháng",
+          "Vùng 2: các đơn vị có diện tích quản lý từ 100 km2  đến dưới 500 km2 (Công ty Điện lực Củ Chi, Bình Chánh, Thủ Đức, Hóc Môn, Thuận An): mức khoán tối đa 500.000 đồng/người/tháng",
+          "Vùng 3: các đơn vị có diện tích quản lý dưới 100 km2 (các đơn vị còn lại): mức khoán tối đa 450.000 đồng/người/tháng",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Đối tượng được hỗ trợ một phần chi phí thuê nhà?",
+        "answers": [
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn Công ty Điện lực Vũng Tàu, Đất Đỏ",
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn Công ty Điện lực Bến Cát, Thuận An, Bình Dương",
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn TP.HCM (cũ) được điều động đến làm việc tại  địa bàn quản lý của Công ty Điện lực Vũng Tàu, Đất Đỏ, Bến Cát, Thuận An, Bình Dương (trừ các trường hợp điều động theo nguyện vọng cá nhân), có nhu cầu thuê nhà tại địa bàn nơi công tác",
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn TP.HCM (cũ) được điều động đến làm việc tại  địa bàn quản lý của Công ty Điện lực Vũng Tàu, Đất Đỏ, Bến Cát, Thuận An, Bình Dương , có nhu cầu thuê nhà tại địa bàn nơi công tác"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, mức hỗ trợ chi phí cho CNVC-LĐ thuộc đối tượng được hỗ trợ một phần chi phí thuê nhà?",
+        "answers": [
+          "Hỗ trợ tiền thuê nhà theo mức khoán tối đa là 5.000.000 đồng/tháng/người",
+          "Hỗ trợ tiền thuê nhà theo mức khoán tối đa là 3.000.000 đồng/tháng/người",
+          "Hỗ trợ tiền thuê nhà theo mức khoán tối đa là 4.000.000 đồng/tháng/người",
+          "Hỗ trợ tiền thuê nhà theo mức khoán tối đa là 3.500.000 đồng/tháng/người"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Hồ sơ thanh toán chi phí cho CNVC-LĐ thuộc đối tượng được hỗ trợ một phần chi phí thuê nhà?",
+        "answers": [
+          "Giấy đề nghị thanh toán cho CNVC-LĐ",
+          "Quyết định điều động CNVC-LĐ đến làm việc tại các đơn vị trực thuộc EVNHCMC nằm trên địa bàn quản lý của Công ty Điện lực Vũng Tàu, Đất Đỏ, Bến Cát, Thuận An, Bình Dương.",
+          "Chứng từ thanh toán cho chủ thuê nhà hàng tháng, hóa đơn (nếu có); Hợp đồng thuê nhà (chỉ cung cấp lần đầu và bổ sung khi gia hạn hợp đồng)",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Đối tượng được hỗ trợ chi phí xăng xe di chuyển từ nhà đến nơi làm việc?",
+        "answers": [
+          "CNVC-LĐ sinh sống cách xa nơi làm việc và đơn vị không bố trí xe đưa đón CNVC-LĐ từ nhà đến nơi làm việc",
+          "CNVC-LĐ sinh sống cách xa nơi làm việc, không có nhu cầu thuê nhà tại địa bàn nơi làm việc và đơn vị không bố trí xe đưa đón CNVC-LĐ từ nhà đến nơi làm việc",
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn Công ty Điện lực Vũng Tàu, Đất Đỏ",
+          "CNVC-LĐ sinh sống và làm việc tại địa bàn Công ty Điện lực Bến Cát, Thuận An, Bình Dương"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, mức hỗ trợ  chi phí cho đối tượng được hỗ trợ chi phí xăng xe di chuyển từ nhà đến nơi làm việc?",
+        "answers": [
+          "Khoảng cách di chuyển từ nhà đến nơi làm việc từ 30 km đến 50 km: mức khoán tối đa 1.100.000 đồng/người/tháng",
+          "Khoảng cách di chuyển từ nhà đến nơi làm việc từ 50 km đến 100 km: mức khoán tối đa 2.200.000 đồng/người/tháng",
+          "Khoảng cách di chuyển từ nhà đến nơi làm việc trên 100 km: mức khoán tối đa 3.200.000 đồng/người/tháng",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Mức chi mua sắm văn phòng phẩm cho mỗi CNVC-LĐ làm việc ở các bộ phận chức năng Đơn vị  là bao nhiêu?",
+        "answers": [
+          "Bình quân 40.000 đồng/người/tháng",
+          "Bình quân 30.000 đồng/người/tháng",
+          "Bình quân 50.000 đồng/người/tháng",
+          "Bình quân 60.000 đồng/người/tháng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Mức chi mua sắm văn phòng phẩm, CCDC văn phòng cấp cho công việc chung của các bộ phận chức năng  là bao nhiêu?",
+        "answers": [
+          "Tối đa không quá 4.000.000 đồng/tháng",
+          "Tối đa không quá 3.000.000 đồng/tháng",
+          "Tối đa không quá 2.000.000 đồng/tháng",
+          "Tối đa không quá 1.000.000 đồng/tháng"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Hồ sơ thanh toán chi phí cho quảng cáo bao gồm?",
+        "answers": [
+          "Tờ trình Lãnh đạo Tổng công ty phê duyệt, Hợp đồng, hóa đơn theo quy định của Bộ Tài chính, văn bản đề nghị thanh toán",
+          "Tờ trình Lãnh đạo Tổng công ty phê duyệt, Hợp đồng, thanh lý hợp đồng, hóa đơn theo quy định của Bộ Tài chính, văn bản đề nghị thanh toán",
+          "Tờ trình Lãnh đạo Tổng công ty phê duyệt, Hợp đồng, thanh lý hợp đồng, hóa đơn theo quy định của Bộ Tài chính",
+          "Hợp đồng, thanh lý hợp đồng, hóa đơn theo quy định của Bộ Tài chính, văn bản đề nghị thanh toán"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Định mức chi phí tiền nước uống và ăn nhẹ giữa giờ cho hội nghị, tiếp khách, hội thảo, tập huấn?",
+        "answers": [
+          "Không quá 35.000 đồng/người/buổi",
+          "Không quá 50.000 đồng/người/buổi",
+          "Không quá 40.000 đồng/người/buổi",
+          "Không quá 30.000 đồng/người/buổi"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Theo QĐ 5515/QĐ-EVNHCMC ngày 22/10/2025, Định mức chi phí Hỗ trợ tiền ăn cho đại biểu tham dự hội nghị?",
+        "answers": [
+          "Đại biểu nội bộ Tổng công ty không quá 200.000 đồng/người/ngày; Đại biểu ngoài Tổng công ty không quá 400.000 đồng/người/ngày",
+          "Đại biểu nội bộ Tổng công ty không quá 200.000 đồng/người/ngày; Đại biểu ngoài Tổng công ty không quá 500.000 đồng/người/ngày",
+          "Đại biểu nội bộ Tổng công ty không quá 200.000 đồng/người/ngày; Đại biểu ngoài Tổng công ty không quá 300.000 đồng/người/ngày",
+          "Đại biểu nội bộ Tổng công ty không quá 100.000 đồng/người/ngày; Đại biểu ngoài Tổng công ty không quá 200.000 đồng/người/ngày"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Một công trình đã được phê duyệt (có trạng thái Approved) thì bắt buộc phải được khai báo thông tin gì?",
+        "answers": [
+          "Ngày bắt đầu của công trình",
+          "Ngày bắt đầu và ngày kết thúc của công trình",
+          "Thông tin hạng mục công trình (Tasks).",
+          "Thông tin tài sản hình thành."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Các chi phí ghi nhận trực tiếp trên PM muốn lên được báo cáo phải thực hiện hoàn thành các thủ tục (Submit Request) nào sau đây?",
+        "answers": [
+          "PRC: Distribute Usage and Miscellaneous Costs, PRC: Generate Cost Accounting Events và PRC: Create Accounting.",
+          "PRC:Distribute Usage and Miscellaneous Costs và PRC: Create Accounting.",
+          "PRC: Generate Cost Accounting Events và PRC: Create Accounting.",
+          "B hoặc C."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Với bút toán Nợ 241/Có 331, khi hạch toán sẽ sử dụng tài khoản trung gian (TKTG) nào sau đây?",
+        "answers": [
+          "a. 33193",
+          "b. 33192",
+          "c. 2419",
+          "d. Bút toán ghi nhận không qua Tài khoản trung gian."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghiệp vụ kết chuyển hoàn thành trên PM (Nợ 24122/ Có 24121 hoặc Nợ 24132/ Có 24131) thực hiện như thế nào?",
+        "answers": [
+          "Có thể kết chuyển theo từng hạng mục công trình (Task) tại một thời điểm.",
+          "Phải thực hiện kết chuyển cả công trình tại một thời điểm.",
+          "Có thể kết chuyển theo từng tài khoản chi phí chi tiết.",
+          "Các đáp án trên đều không đúng."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Một chứng từ trên phân hệ PM cho phép tìm kiếm theo các tiêu chí bao gồm:",
+        "answers": [
+          "Mã công trình, lô chứng từ, số hợp đồng.",
+          "Tên viết tắt của công trình, ngày chứng từ, nguồn giao dịch phát sinh",
+          "Tên đầy đủ của công trình, số chứng từ, nhà cung cấp.",
+          "Mã công trình, tên đầy đủ của công trình, số chứng từ."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Muốn kiểm tra các giao dịch chi phí liên quan đến công trình, dự án phát sinh bên phân hệ INV đã được đẩy sang PM hay chưa, người dùng thực hiện kiểm tra theo đường dẫn nào dưới đây?",
+        "answers": [
+          "PM > Expenditures > Pre Approved Batches > Review",
+          "PM > Expenditures > Transaction Import > Import Transations.",
+          "PM > Expenditures > Transaction Import > Review Transactions",
+          "PM > Expenditures > Expenditure Inquiry > Project."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Điều kiện để các giao dịch liên quan đến chi phí, nguồn vốn của PM ghi nhận tại các phân hệ chi tiết liên quan lên được “Sổ chi tiết tài khoản theo đối tượng công trình - EVN_PM_086” thuộc lựa chọn nào dưới đây?",
+        "answers": [
+          "Các giao dịch phải được hạch toán chính thức (Create Accouting dạng Final) và chuyển lên sổ cái tổng hợp ( Post sổ trên GL).",
+          "Các giao dịch chỉ cần hạch toán dạng nháp (Create Accouting dạng Draft).",
+          "Các giao dịch đã được tập hợp về PM.",
+          "B hoặc C."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thủ tục (Request) tập hợp thông tin nguồn vốn từ các phân hệ chi tiết về PM là gì?",
+        "answers": [
+          "PRC: Transaction Import.",
+          "EVN_PM_Import data to capital transaction table.",
+          "PRC: Interface Supplier Costs.",
+          "PRC: Transfer Journal Entries to GL."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Để thêm mới một giao dịch chi phí phát sinh trực tiếp trên PM, thực hiện ghi nhận theo đường dẫn nào?",
+        "answers": [
+          "PM > Expenditures > Pre Approved Batches > Review",
+          "PM > Expenditures > Transaction Import > Enter.",
+          "PM > Expenditures > Pre Approved Batches > Enter",
+          "PM > Expenditures > Expenditure Inquiry > Project."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trường dữ liệu “Trans ID” trên hệ thống phân hệ PM có ý nghĩa là gì ?",
+        "answers": [
+          "Số chứng từ của giao dịch.",
+          "Mã số lô chứng từ",
+          "Mã công trình, dự án",
+          "Các đáp án trên đều không đúng."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Sau khi thực hiện kết chuyển chi phí từ dở dang sang hoàn thành chờ quyết toán(Nợ 24122/ Có 24121 hoặc Nợ 24132/ Có 24131), bút toán kết chuyển sinh ra tự động trên GL có trạng thái gì?",
+        "answers": [
+          "Posted",
+          "Unposted",
+          "Processing",
+          "Selected for posting."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Thủ tục (Request) tập hợp thông tin chi phí phát sinh từ phân hệ quản lý kho (INV) về PM là gì?",
+        "answers": [
+          "PRC: Transaction Import.",
+          "PRC: Distribute Usage and Miscellaneous Costs.",
+          "PRC: Interface Supplier Costs.",
+          "PRC: Transfer Journal Entries to GL."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Có thể kiểm tra các giao dịch ghi nhận tăng giảm nguồn vốn đầu tư xây dựng được tập hợp về PM hay chưa trên form màn hình nào ?",
+        "answers": [
+          "Expenditure Batches.",
+          "EVN Capital Transaction Table.",
+          "Expenditure Items.",
+          "Cả A và C."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghiệp vụ phân bổ chi phí ban quản lý dự án vào chi phí công trình, bút toán Nợ 241/ Có 642xx được thực hiện trên các chức năng nào?",
+        "answers": [
+          "Chức năng Allocations.",
+          "Chức năng Expenditures.",
+          "Chức năng Allocations và chức năng Enter Journal.",
+          "Chức năng Allocations và chức năng Expenditures."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Phím chức năng F4 có ý nghĩa sử dụng như thế nào?",
+        "answers": [
+          "Nhân đôi một trường thông tin.",
+          "Thoát khỏi form màn hình mở gần nhất nếu mở cùng lúc nhiều form màn hình.",
+          "Thoát khỏi form màn hình nhập liệu và trở về màn hình việc chính của phân hệ PM.",
+          "Cả B và C."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi khai báo mới một dự án, công trình (Project) trên hệ thống EBS, có thể thực hiện bằng cách nào sau đây?",
+        "answers": [
+          "Thực hiện “Copy to” từ một công trình đã có trên hệ thống.",
+          "Thực hiện “Copy to” từ một công trình mẫu (Template).",
+          "Sử dụng chức năng thêm mới (New) để thực hiện khai báo.",
+          "d. A hoặc B."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "“Project Name” là khái niệm có ý nghĩa là gì?",
+        "answers": [
+          "Tên đầy đủ của công trình",
+          "Tên viết tắt của công trình",
+          "Mã công trình",
+          "Không phải các đáp án trên"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Đối với các chứng từ chi phí phát sinh hạch toán trực tiếp trên phân hệ PM yêu cầu bắt buộc nào sau đây?",
+        "answers": [
+          "Phải khai báo lô chứng từ (Batch) trước khi nhập mới một chứng từ.",
+          "Sử dụng tài khoản trung gian 2419.",
+          "Đối tượng công trình ghi nhận chi phí phải có thông tin ngày bắt đầu.",
+          "Cả A và B."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Nghiệp vụ ghi nhận nguồn vốn vay cho công trình, dự án được thực hiện tại phân hệ nào?",
+        "answers": [
+          "Quản lý phải thu – AR.",
+          "Quản lý phải trả - AP.",
+          "Quản lý tiền – CM.",
+          "Kế toán dự án – PM"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Điều kiện để có thể tập hợp thông tin nguồn vốn từ các phân hệ chi tiết (AP, CM, GL) về PM là gì?",
+        "answers": [
+          "Các giao dịch phải được hạng toán dạng Final và Post sổ trên GL.",
+          "Các giao dịch chỉ cần hạch toán dạng Draft.",
+          "Chỉ cần ghi nhận giao dịch và lưu lại (Save).",
+          "B hoặc C."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Muốn tìm kiếm tất cả các giao dịch chi phí phát sinh của các công trình trong tháng 12/2014 thì thực hiện theo đường dẫn nào sau đây?",
+        "answers": [
+          "PM > Expenditures > Expenditure Inquiry > Project.",
+          "PM > Expenditures > Expenditure Inquiry > All.",
+          "PM > Expenditures > Pre Approved Batches > Review",
+          "d. Cả A và B"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghiệp vụ xuất kho cho công trình, bút toán ghi nhận Nợ 241x/ Có 152x thực hiện qua tài khoản trung gian nào?",
+        "answers": [
+          "2419",
+          "1419",
+          "3419",
+          "Bút toán ghi nhận không qua Tài khoản trung gian."
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Để thực hiện được nghiệp vụ kết chuyển hoàn thành trên PM (Nợ 24122/ Có 24121 hoặc Nợ 24132/ Có 24131) bao gồm điều kiện nào sau đây?",
+        "answers": [
+          "Thông tin ngày quyết toán của công trình đã được khai báo.",
+          "Thông tin ngày hoàn thành của hạng mục công trình đã được khai báo.",
+          "Thông tin ngày tạm tăng tài sản được khai báo.",
+          "Cả A và B."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Nghiệp vụ kết chuyển hoàn thành trên PM (Nợ 24122/ Có 24121 hoặc Nợ 24132/ Có 24131) thực hiện như thế nào?",
+        "answers": [
+          "Có thể kết chuyển theo từng hạng mục công trình (Task) tại một thời điểm.",
+          "b. Phải thực hiện kết chuyển cả công trình tại một thời điểm.",
+          "Có thể kết chuyển theo từng tài khoản chi phí chi tiết.",
+          "Các đáp án trên đều không đúng."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thu tiền 1 khoản công nợ đã đươc ghi nhận trên phân hệ  AR, khi thực hiên áp giảm trừ công nợ  (tại cửa sổ Application) cần lưu ý :",
+        "answers": [
+          "Cột Apply date: Ngày áp giảm trừ, nhập đúng bằng ngày Receipt date ở phần thông tin chung",
+          "Cột Amount Applied: Số tiền thu không vượt quá số dư còn lại trên từng hóa đơn",
+          "Cột GL date: Ngày hiệu lực, nhập đúng bằng ngày GL date ở phần thông tin chung",
+          "Cả 3 câu đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sau khi hạch toán các bút toán liên quan đến công nợ nội bộ trên các phân hệ AR,AP,GL nhưng chưa thực hiện Post lên phân hệ GL, muốn kiểm tra các bút toán này đã lên sổ chưa phải in sổ chi tiết:",
+        "answers": [
+          "EVN_GL_031",
+          "EVN_AP_020",
+          "EVN_AR_045",
+          "Tẩt cả các câu trên đề đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi hạch toán các bút toán liên quan đến công nợ nội bộ giữa Tổng công ty các đơn vị cần chọn đúng:",
+        "answers": [
+          "Segment 8 – đơn vị nội bộ",
+          "DFF: Intercompany",
+          "Tài khoản hạch toán công nợ",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Trong tất cả các Tài khoản trung gian, tài khoản nào được phép có số dư cuối kỳ",
+        "answers": [
+          "TK 1419",
+          "TK 33198",
+          "TK 33194",
+          "TK 13895"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Khi hạch toán các bút toán liên quan đến nghiệp vu trích-chi tiền lương cho CBCNV, kế toán phải hạch toán trên các phân hệ nào?",
+        "answers": [
+          "Phân hệ AP",
+          "Phân hệ CM",
+          "Câu a,b sai",
+          "Câu a, b đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Đối với các nghiêp vụ liên quan đến khoản BH bắt buộc người lao động phải nộp (cấn trừ vào tiền lương) Nợ TK 33411/Có TK 3383,3384,3386, khi hạch toán kế toán phải sử dụng loại Type nào?",
+        "answers": [
+          "Standard",
+          "Debit memo",
+          "Credit memo",
+          "Prepayment"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Đối với các nghiêp vụ liên quan đến khoản BH bắt buộc người lao động phải nộp (cấn trừ vào tiền lương) Nợ TK 33411/Có TK 3383,3384,3386, khi hạch toán kế toán phải sử dụng TK trung gian  nào?",
+        "answers": [
+          "TK 33193000000",
+          "TK 33194000000",
+          "TK 33197000000",
+          "Tất cả các câu trên đều sai"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Đối với các TK trung gian khi hạch toán phải gắn các segment ?",
+        "answers": [
+          "Loại hình",
+          "Yếu tố",
+          "Đơn vị nội bộ",
+          "Tất các các câu trên đều sai"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Khi thu tiền liên quan đến các TK 336xx,341xx,411xx nguồn vốn dùng cho công trình, dự án cần chọn đúng:",
+        "answers": [
+          "Segment 8: nội bộ (đối với TK 336)",
+          "DFF: Capital source code (I) hoặc (D)",
+          "Câu a,b đúng",
+          "Tất các các câu trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Đối với các bút toán nộp thuế GTGT: Nợ TK 333111/Có TK 112xx, Khi hạch toán trong EBS có sử dụng tài khoản trng gian không ?. TK trung gian nào?",
+        "answers": [
+          "Không",
+          "Có,TK 33198",
+          "Có ,TK 33194",
+          "Tất cả các câu trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Đối với các bút toán nộp thuế GTGT: Nợ TK 333111/Có TK 112xx, Khi hạch toán trong EBS có sử dụng tài khoản trung gian không ? Hạch toán trên phân hệ nào?",
+        "answers": [
+          "Không, phân hệ AP",
+          "Không, phân hệ CM",
+          "Có, phân hệ AP,CM",
+          "Có, phân hệ CM,GL"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Phân hệ AR: Những loại giao dịch (Class) nào dưới đây được dùng để giảm trừ công nợ phải thu",
+        "answers": [
+          "Standard",
+          "Debit memo",
+          "Credit memo",
+          "Không sử dụng Type"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Bút toán ghi nhận công nợ thuế TNCN đơn vị phải  chuyển về Tcty Nợ TK13688/ Có TK 335,khi  hạch toán sử dụng Type:",
+        "answers": [
+          "a. Standard",
+          "b. Debit memo",
+          "c.Credit memo",
+          "d. Không sử dụng Type"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thu tiền liên quan đến các tài khoản quỹ 351, 352….  cần chọn đúng",
+        "answers": [
+          "Segment 8: nội bộ",
+          "DFF: “Reason code “…”",
+          "Câu a,b đúng",
+          "Câu a,b sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Đối với các nghiệp vụ phát sinh tại nhiều phân hệ thì sẽ chọn CashFlow Code ở phân hệ nào ?",
+        "answers": [
+          "Phân hệ AP",
+          "Phân hệ AR",
+          "Phân hệ CM",
+          "Phân hệ GL"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Khi khai báo các cấp đối tượng của khách hàng (Customer) sử dụng form màn hình khai báo nào sau đây ?",
+        "answers": [
+          "Declare External",
+          "Declare Internal",
+          "Declare Intercompany",
+          "Cả 3 đáp án trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Dự phòng nợ phải thu khó đòi là dự phòng phần giá trị tổn thất của các khoản nợ phải thu đã quá hạn thanh toán và …",
+        "answers": [
+          "Khoản nợ phải thu chưa đến hạn thanh toán nhưng có khả năng không thu hồi được đúng hạn.",
+          "Nợ phải thu chưa quá hạn nhưng có thể không đòi được do khách\n nợ không có khả năng thanh toán.",
+          "A và B đúng",
+          "A và B sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thứ tự ưu tiên khi phân phối lợi nhuận thực hiện",
+        "answers": [
+          "Thứ nhất: chia lãi cho các thành viên góp vốn theo hợp đồng hợp tác kinh doanh (nếu có)",
+          "Thứ hai là bù đắp khoản lỗ của những năm trước",
+          "Thứ ba là chia cho các Quỹ",
+          "Tất cả A, B, C"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tỷ lệ trích Quỹ khen thưởng, phúc lợi được trích lập được căn cứ vào đâu?",
+        "answers": [
+          "Lợi nhuận thực hiện",
+          "Kết quả xếp loại doanh nghiệp",
+          "Cả A, B đều đúng",
+          "Cả A, B đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Quỹ khen thưởng, phúc lợi được trích lập căn cứ vào kết quả xếp loại doanh nghiệp cuối năm như thế nào?",
+        "answers": [
+          "Doanh nghiệp xếp loại A: trích không quá 03 tháng lương thực hiện",
+          "Doanh nghiệp xếp loại B: trích không quá 02 tháng lương thực hiện",
+          "Doanh nghiệp xếp loại C: trích không quá 01 tháng lương thực hiện",
+          "Cả A, B, C đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Quỹ thưởng người quản lý doanh nghiệp, kiểm soát viên được trích lập căn cứ vào kết quả xếp loại doanh nghiệp cuối năm như thế nào?",
+        "answers": [
+          "Doanh nghiệp xếp loại A: trích không quá 03 tháng lương thực hiện",
+          "Doanh nghiệp xếp loại B: trích không quá 02 tháng lương thực hiện",
+          "Doanh nghiệp xếp loại C: trích không quá 01 tháng lương thực hiện",
+          "Cả A, B, C đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Sau khi trích Quỹ khen thưởng, phúc lợi EVNHCMC nộp về EVN bao nhiêu?",
+        "answers": [
+          "3% Quỹ khen thưởng của EVNHCMC",
+          "3% Quỹ khen thưởng, phúc lợi của EVNHCMC",
+          "10% Quỹ khen thưởng của EVNHCMC",
+          "2% Quỹ khen thưởng, phúc lợi của EVNHCMC"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Thời gian trợ cấp mất việc làm được hạch toán vào chi phí quản lý DN?",
+        "answers": [
+          "Trước ngày 31/12/2008 trở về trước",
+          "Từ ngày 31/12/2008",
+          "Từ ngày 31/12/2008 trở về trước",
+          "Từ ngày 01/01/2009 trở về sau"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Từ ngày 01/01/2009 trở về sau NLĐ được nhận tiền trợ cấp mất việc ở đâu?",
+        "answers": [
+          "Tại đơn vị NLĐ công tác",
+          "Tại cơ quan BHXH nơi DN đóng bảo hiểm cho NLĐ",
+          "Cả A, B đều đúng",
+          "Cả A, B đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Ngoài việc tổ chức kiểm kê định kỳ do Nhà nước qui định các đơn vị  phải tiến hành kiểm kê trong những trường hợp sau:",
+        "answers": [
+          "Đơn vị thực hiện chia tách, hợp nhất, sáp nhập, chuyển đổi chủ sở hữu hoặc đơn vị  bị giải thể,  chuyển đổi mô hình hoạt động (chuyển sang hạch toán độc lập, hoặc thành lập Công ty TNHH), cổ phần hoá, liên doanh. Sau khi xảy ra thiên tai, địch họa; hoặc vì lý do nào đó gây ra biến động tài sản của các đơn vị.",
+          "Đơn vị thực hiện chia tách, hợp nhất, sáp nhập, chuyển đổi chủ sở hữu hoặc đơn vị  bị giải thể,  cổ phần hoá, liên doanh. Sau khi xảy ra thiên tai, địch họa; hoặc vì lý do nào đó gây ra biến động tài sản của các đơn vị",
+          "Đơn vị thực hiện chia tách, hợp nhất, sáp nhập, chuyển đổi chủ sở hữu hoặc đơn vị  bị giải thể,  chuyển đổi mô hình hoạt động (chuyển sang hạch toán độc lập, hoặc thành lập Công ty TNHH). Sau khi xảy ra thiên tai, địch họa; hoặc vì lý do nào đó gây ra biến động tài sản của các đơn vị.",
+          "Đơn vị thực hiện chia tách, hợp nhất, sáp nhập, chuyển đổi chủ sở hữu hoặc đơn vị  bị giải thể,  chuyển đổi mô hình hoạt động (chuyển sang hạch toán độc lập, hoặc thành lập Công ty TNHH), cổ phần hoá, liên doanh."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thời điểm kiểm kê:",
+        "answers": [
+          "Thời điểm kiểm kê tài sản khi kết thúc niên độ kế toán là 0h ngày 01 tháng 01 của đầu năm sau.",
+          "Đối với trường hợp giải thể, bàn giao, sáp nhập, phân chia đơn vị, chuyển đổi mô hình đơn vị và bất thường khác, thì thời điểm kiểm kê tài sản là ngày có hiệu lực được ghi trong quyết định cụ thể của các trường hợp nêu trên",
+          "Cả 2 ý trên đều đúng",
+          "Cả 2 ý trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Phương pháp kiểm kê đối với kiểm kê vốn bằng tiền:",
+        "answers": [
+          "Đơn vị lập biên bản kiểm quỹ tiền mặt gồm: Tiền Việt Nam, tiền ngoại tệ và các chứng khoán có giá trị như tiền; tiền gửi tại tổ chức tín dụng thì lấy xác nhận số dư tiền gửi tại tổ chức tín dụng; tiền đang chuyển phải có chứng từ gốc chuyển tiền (riêng ngoại tệ phải kiểm kê nguyên tệ và qui đổi ra VN đồng).",
+          "Đơn vị lập biên bản kiểm quỹ tiền mặt gồm: Tiền Việt Nam, tiền ngoại tệ và các chứng khoán có giá trị như tiền.",
+          "Cả 2 ý trên đều đúng",
+          "Cả 2 ý trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Phương pháp kiểm kê đối với nguyên nhiên vật liệu, công cụ, dụng cụ:",
+        "answers": [
+          "Tiến hành cân đong đo đếm chính xác từng loại vật tư hiện có trong kho kể cả kho chính, kho phụ (kho đơn vị, kho chi nhánh, đội, phân xưởng nếu có).",
+          "Vật tư còn nguyên đai nguyên kiện thì căn cứ trên số lượng ghi trên danh mục hàng hóa, biên bản giao nhận, hóa đơn của khách hàng để ghi vào biên bản kiểm kê.",
+          "Cả 2 ý trên đều đúng",
+          "Cả 2 ý trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Tổn thất về tài sản là:",
+        "answers": [
+          "Tài sản bị mất mát, thiếu hụt, hư hỏng, kém mất phẩm chất, lạc hậu mốt, lạc hậu kỹ thuật, tồn kho ứ đọng được xác định trong kiểm kê định kỳ và kiểm kê đột xuất.",
+          "Tài sản bị mất mát, thiếu hụt, hư hỏng, kém mất phẩm chất, lạc hậu mốt, lạc hậu kỹ thuật, tồn kho ứ đọng được xác định trong kiểm kê định kỳ.",
+          "Tài sản bị mất mát, thiếu hụt, hư hỏng, tồn kho ứ đọng được xác định trong kiểm kê định kỳ và kiểm kê đột xuất.",
+          "Tài sản bị mất mát, thiếu hụt, hư hỏng, kém mất phẩm chất, lạc hậu mốt, lạc hậu kỹ thuật, tồn kho ứ đọng được xác định trongkiểm kê đột xuất."
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Xử lý tài sản thừa sau kiểm kê:",
+        "answers": [
+          "Tài sản thừa sau kiểm kê là chênh lệch giữa số tài sản thực tế kiểm kê với số tài sản ghi trên sổ sách kế toán, giá trị tài sản thừa do kiểm kê được hạch toán vào thu nhập khác của đơn vị.",
+          "Tài sản thừa sau kiểm kê là chênh lệch giữa số tài sản thực tế kiểm kê với số tài sản ghi trên sổ sách kế toán, giá trị tài sản thừa do kiểm kê được hạch toán tăng vốn chủ sở hữu của đơn vị.",
+          "Cả 2 ý trên đều đúng",
+          "Cả 2 ý trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Năm tài chính của Tổng công ty áp dụng cho việc lập BCTC?",
+        "answers": [
+          "Bắt đầu từ ngày 1 tháng 1 năm N và kết thúc ngày 31 tháng 3 Năm N+1",
+          "Bắt đầu từ ngày 1 tháng 1 và kết thúc ngày 31 tháng 12",
+          "Bắt đầu từ ngày 31 tháng 3 năm N và kết thúc ngày 31 tháng 3 năm N+1",
+          "Cả 3 câu trên đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Tiền và các khoản tương đương tiền bao gồm?",
+        "answers": [
+          "Tiền mặt tại quỹ",
+          "Tiền gửi ngân hàng",
+          "Các khoản đầu tư ngắn hạn có thời hạn gốc không quá 3 tháng, có tính thanh khoản cao, có khả năng chuyển đổi dễ dàng thành các lượng tiền xác định và không có nhiều rủi ro trong chuyển đổi thành tiền.",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Giá trị thuần có thể thực hiện được của Hàng tồn kho là gì?",
+        "answers": [
+          "Giá bán ước tính của Hàng tồn kho trong điều kiện kinh doanh bình thường trừ chi phí ước tính để hoàn thành.",
+          "Giá bán ước tính của Hàng tồn kho trong điều kiện kinh doanh bình thường trừ chi phí ước tính để hoàn thành và chi phí quản lý doanh nghiệp và chi phí bán hàng ước tính.",
+          "Giá bán ước tính của Hàng tồn kho trong điều kiện kinh doanh bình thường trừ chi phí ước tính để hoàn thành và chi phí bán hàng ước tính.",
+          "Giá bán ước tính của Hàng tồn kho trong điều kiện kinh doanh bình thường trừ chi phí ước tính để hoàn thành và chi phí quản lý doanh nghiệp ước tính."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Số tăng hoặc giảm khoản dự phòng giảm giá hàng tồn kho tại Tổng công ty được hạch toán vào đâu?",
+        "answers": [
+          "Chi phí bán hàng",
+          "Chi phí quản lý doanh nghiêp",
+          "Giá vốn hàng bán",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Số tăng hoặc giảm khoản dự phòng nợ phải thu khó đòi tại Tổng công ty được hạch toán vào đâu?",
+        "answers": [
+          "Chi phí bán hàng",
+          "Chi phí quản lý doanh nghiêp",
+          "Giá vốn hàng bán",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Chi phí bảo trì và sửa chữa TSCĐ được hạch toán vào đâu?",
+        "answers": [
+          "Hạch toán tăng nguyên giá TSCĐ",
+          "Hạch toán vào chi phí SXKD trong kỳ phát sinh",
+          "Cả 2 câu trên đều đúng",
+          "Cả 2 câu trên đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Đối với tài sản nhận bàn giao từ bên ngoài EVN, nguyên giá TSCĐ được xác định như thế nào?",
+        "answers": [
+          "Theo giá trị đánh giá lại và được thống nhất giữa bên bàn giao và bên tiếp nhận",
+          "Theo giá trị ghi nhận của bên bàn giao",
+          "Theo giá trị đánh giá lại của bên tiếp nhận",
+          "Cả 3 câu trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Chi phí sửa chữa lớn phát sinh trong năm được hạch toán vào đâu?",
+        "answers": [
+          "Hạch toán tăng nguyên giá TSCĐ",
+          "Hạch toán vào chi phí SXKD trong kỳ phát sinh",
+          "Cả 2 câu trên đều đúng",
+          "Cả 2 câu trên đều sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Chi phí nào sau đây được hạch toán vào chi phí trả trước dài hạn để phân bổ dần vào chi phí SXKD ?",
+        "answers": [
+          "Chi phí trả trước về thuê kho, thuê cơ sở hạ tầng",
+          "Chi phí bảo hiểm",
+          "Công tơ điện tử, thiết bị đo đếm vá các công cụ, dụng cụ xuất dùng trong nhiều năm với giá trị lớn",
+          "Cả 3 câu trên đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Số tăng hoặc giảm khoản dự phòng giảm giá trị các khoản đầu tư được hạch toán vào đâu?",
+        "answers": [
+          "Chi phí bán hàng",
+          "Chi phí quản lý doanh nghiêp",
+          "Chi phí khác",
+          "Chi phí tài chính"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Mức trích lập dự phòng nợ phải thu khó đòi đối với khoản nợ phải thu quá hạn từ 1 năm đến dưới 2 năm",
+        "answers": [
+          "0.3",
+          "0.5",
+          "0.7",
+          "1"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Mức trích lập dự phòng nợ phải thu khó đòi đối với khoản nợ phải thu quá hạn từ 2 năm đến dưới 3 năm",
+        "answers": [
+          "0.3",
+          "0.5",
+          "0.7",
+          "1"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Mức trích lập dự phòng nợ phải thu khó đòi đối với khoản nợ phải thu quá hạn từ 6 tháng đến dưới 1 năm",
+        "answers": [
+          "0.3",
+          "0.5",
+          "0.7",
+          "1"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mức trích lập dự phòng nợ phải thu khó đòi đối với khoản nợ phải thu quá hạn từ 3 năm trở lên",
+        "answers": [
+          "0.3",
+          "0.5",
+          "0.7",
+          "1"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Tỷ lệ trích đóng các khoản bảo hiểm bắt buộc đối với người lao động năm 2024?",
+        "answers": [
+          "BHXH: 8%; BHYT: 1.5%; BHTN: 1%",
+          "BHXH: 7%; BHYT: 1.5%; BHTN: 1%",
+          "BHXH: 6%; BHYT: 1.5%; BHTN: 1%",
+          "BHXH: 8%; BHYT: 1%; BHTN: 1%"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Tỷ lệ trích đóng các khoản bảo hiểm bắt buộc đối với doanh nghiệp năm 2024 ?",
+        "answers": [
+          "BHXH: 17.5%; BHYT: 3%; BHTN: 1%",
+          "BHXH: 17%; BHYT: 3%; BHTN: 1%",
+          "BHXH: 16.5%; BHYT: 3%; BHTN: 1%",
+          "BHXH: 17.5%; BHYT: 4.5%; BHTN: 1%"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Khi vay vốn cho các dự án ĐTXD, nhà tài trợ yêu cầu chứng minh vốn đối ứng của bên vay từ nguồn vốn tự có. Vốn tự có là nguồn vốn nào?",
+        "answers": [
+          "Nguồn vốn khấu hao cơ bản",
+          "Nguồn vốn sản xuất kinh doanh",
+          "Nguồn vốn vay tín dụng thương mại",
+          "Cả 3 câu đều đúng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Trường hợp người nộp thuế có nhiều khoản nợ thuế phải nộp, người nộp thuế  phải thực hiện nộp ngân sách theo thứ tự ưu tiên nào sau đây:",
+        "answers": [
+          "Tiền thuế nợ, tiền thuế truy thu, tiền thuế phát sinh, tiền phạt",
+          "Tiền thuế nợ, tiền thuế phát sinh, tiền phạt, tiền thuế truy thu",
+          "Tiền thuế nợ, tiền phạt, tiền thuế truy thu,tiền thuế phát sinh",
+          "Tiền thuế nợ, tiền thuế truy thu, tiền phạt, tiền thuế phát sinh"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các khoản tương đương tiền trên Báo cáo tình hình tài chính là khoản đầu tư ngắn hạn có thời hạn không quá:",
+        "answers": [
+          "3 tháng",
+          "6 tháng",
+          "9 tháng",
+          "Tất cả các câu trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Thu nhập tính thuế thu nhập doanh nghiệp được xác định theo công thức:",
+        "answers": [
+          "Thu nhập  =  Thu nhập  -    thu nhập được  -  Các khoản lỗ được kết  \n      tính thuế     chịu thuế         miễn thuế            chuyển theo quy định",
+          "Thu nhập  =  Doanh thu   -   Chi phí    +    Các khoản   \n     tính thuế                          được trừ       thu nhập khác",
+          "Thu nhập  =  Thu nhập  -    thu nhập được  \n      tính thuế     chịu thuế         miễn thuế",
+          "Thu nhập  =  Doanh thu   -   Chi phí          \n     tính thuế                          được trừ"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Theo anh (chị) khi công trình đầu tư xây dựng đã hoàn thành đưa vào sử dụng nhưng chưa quyết toán để trình phê duyệt quyết toán thì kế toán đơn vị xử lý:",
+        "answers": [
+          "Không ghi tăng TSCĐ mà vẫn theo dõi chi phí XDCB dở dang trên TK 241 .",
+          "Ghi tăng TSCĐ theo giá tạm tính căn cứ vào giá trị thực tế phát sinh để quản lý và trích khấu hao .",
+          "Ghi tăng TSCĐ theo giá tạm tính căn cứ vào giá trị thực tế phát sinh để quản lý và trích khấu hao, sau đó sẽ điều chỉnh nguyên giá theo trị giá quyết toán được duyệt .",
+          "Cả 3 câu trên đều sai"
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Trong giai đoạn sản xuất, kinh doanh, kể cả việc đầu tư xây dựng để hình thành tài sản cố định của doanh nghiệp đang hoạt động, chênh lệch tỷ giá hối đoái phát sinh từ các giao dịch bằng ngoại tệ của các khoản mục tiền tệ có gốc ngoại tệ sẽ được hạch toán:",
+        "answers": [
+          "Không hạch toán vào chí phí hoặc thu nhập mà để số dư trên báo cáo tài chính, đầu năm sau ghi bút toán ngược lại để xóa sổ số dư.",
+          "Doanh thu hoạt động tài chính hoặc chi phí tài chính trong năm tài chính.",
+          "Hạch toán vào chi phí tài chính trong năm và được tính vào chi phí hợp lý khi tính thuế thu nhập doanh nghiệp, nhưng không làm cho kết quả kinh doanh của doanh nghiệp bị lỗ.",
+          "Cả 3 câu trên đều sai."
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Theo Anh ( chị ) các khoản chi phí nào được hạch toán vào TK 335 - Chi phí phải trả để trích trước vào chi phí SXKD trong kỳ ?",
+        "answers": [
+          "Những khoản chi phí thực tế chưa phát sinh, dự tính có thể phát sinh nhưng không chắc chắn được tính trước vào chi phí SXKD trong kỳ này .",
+          "Những chi phí  thực tế chưa phát sinh, nhưng có bằng chứng hợp lý, đáng tin cậy sẽ phát sinh (có lập dự toán) để đảm bảo số chi phí phải trả hạch toán vào chi phí SXKD trong kỳ phù hợp với số thực tế phát sinh.",
+          "Những chi phí đã phát sinh trong kỳ, nhưng có liên quan đến nhiều kỳ , nhiều niên độ kế toán .",
+          "Cả 3 đáp án trên đểu sai"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Quỹ thưởng Viên chức quản lý doanh nghiệp được sử dụng để thưởng cho:",
+        "answers": [
+          "Chủ tịch và thành viên Hội đồng thành viên, Chủ tịch công ty, Ban Tổng giám đốc (Ban Giám đốc), Kế toán trưởng doanh nghiệp.",
+          "Chủ tịch và thành viên Hội đồng thành viên, Chủ tịch công ty, Ban Tổng giám đốc (Ban Giám đốc), Kiểm soát viên.",
+          "Chủ tịch và thành viên Hội đồng thành viên, Chủ tịch công ty, Ban Tổng giám đốc (Ban Giám đốc), Kiểm soát viên, Kế toán trưởng doanh nghiệp.",
+          "Chủ tịch và thành viên Hội đồng thành viên, Ban Tổng giám đốc (Ban Giám đốc), Kiểm soát viên, Kế toán trưởng doanh nghiệp."
+        ],
+        "correct_idx": 2
+      },
+      {
+        "question": "Doanh nghiệp đầu tư vốn vào doanh nghiệp khác có các quyền, trách nhiệm:",
+        "answers": [
+          "Quyền của cổ đông, thành viên góp vốn, bên liên doanh theo quy định của pháp luật và điều lệ của doanh nghiệp khác.",
+          "Cử, bãi miễn, khen thưởng, kỷ luật Người đại diện tại doanh nghiệp khác, quyết định tiền lương, phụ cấp, tiền thưởng và các vấn đề đãi ngộ đối với Người đại diện, trừ trường hợp Người đại diện đã được hưởng lương từ doanh nghiệp khác.",
+          "Yêu cầu Người đại diện báo cáo định kỳ hoặc đột xuất tình hình kết quả kinh doanh, tình hình tài chính của doanh nghiệp khác",
+          "Cả 03 đều đúng"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Câu nào sau đây không đúng với tài sản cố định vô hình",
+        "answers": [
+          "Có hình thái vật chất;",
+          "Có giá trị kinh tế thật sự;",
+          "Có thể thường xuyên mua bán;",
+          "Không được trích khấu hao trong thời gian sử dụgn hữu ích của chúng"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Quy trình quản trị rủi ro của Tổng công ty bao gồm mấy bước?",
+        "answers": [
+          "7 bước",
+          "6 bước",
+          "8 bước",
+          "5 bước"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Các bước của quy trình Quản trị rủi ro của Tổng công ty bao gồm:",
+        "answers": [
+          "Xây dựng và cập nhật Khẩu vị rủi ro và Thông số rủi ro; Xây dựng và cập nhật Chương trình QTRR tổng thể; Xây dựng và cập nhật Danh mục rủi ro; Xây dựng và quản lý Hồ sơ rủi ro trọng yếu; Xây dựng và quản lý Hồ sơ rủi ro cấp quy trình; Xây dựng Báo cáo sự kiện tổn thất; Xây dựng Báo cáo rủi ro tổng quát",
+          "Xây dựng và cập nhật Khẩu vị rủi ro và Thông số rủi ro; Xây dựng và cập nhật Chương trình QTRR tổng thể; Xây dựng và cập nhật Danh mục rủi ro; Xây dựng và quản lý Hồ sơ rủi ro trọng yếu; Xây dựng Báo cáo sự kiện tổn thất; Xây dựng Báo cáo rủi ro tổng quát",
+          "Xây dựng và cập nhật Khẩu vị rủi ro và Thông số rủi ro; Xây dựng và cập nhật Chương trình QTRR tổng thể; Xây dựng và quản lý Hồ sơ rủi ro trọng yếu; Xây dựng và quản lý Hồ sơ rủi ro cấp quy trình; Xây dựng Báo cáo sự kiện tổn thất; Xây dựng Báo cáo rủi ro tổng quát",
+          "Xây dựng và cập nhật Khẩu vị rủi ro và Thông số rủi ro; Xây dựng và cập nhật Chương trình QTRR tổng thể; Xây dựng và cập nhật Danh mục rủi ro; Xây dựng và quản lý Hồ sơ rủi ro trọng yếu; Xây dựng và quản lý Hồ sơ rủi ro cấp quy trình; Xây dựng Báo cáo sự kiện tổn thất"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Tuyên ngôn về Khẩu vị rủi ro của Tổng công ty là gì?",
+        "answers": [
+          "Thể hiện triết lý của Tổng công ty về rủi ro, thể hiện việc sẵn sàng chấp nhận mức độ rủi ro nhất định để đạt được mục tiêu hoạt động của Tổng công ty",
+          "Thể hiện triết lý của Tổng công ty về rủi ro",
+          "Thể hiện việc sẵn sàng chấp nhận mức độ rủi ro nhất định để đạt được mục tiêu hoạt động của Tổng công ty",
+          "Cả 3 đáp án trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Bảng thông số rủi ro của Tổng công ty được xây dựng bao gồm các nội dung nào sau đây?",
+        "answers": [
+          "Tiêu chí mức độ ảnh hưởng",
+          "Tiêu chí về tần suất xảy ra",
+          "Các ngưỡng đo và thang điểm cụ thể cho từng tiêu chí đã xác định",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Nguyên tắc quản trị rủi ro trong Tổng công ty bao gồm các nội dung nào sau đây?",
+        "answers": [
+          "Quản trị rủi ro là trách nhiệm và nghĩa vụ của mọi cán bộ công nhân viên trong Tổng công ty và các Đơn vị trực thuộc",
+          "Thực hiện quản trị rủi ro trong tất cả các lĩnh vực tổ chức và hoạt động của Tổng công ty và các Đơn vị trực thuộc.",
+          "Công tác quản trị rủi ro được thực hiện và giám sát thường xuyên, liên tục và toàn diện, gắn liền với mục tiêu, định hướng chiến lược hoạt động của Tổng công ty và các Đơn vị trực thuộc.",
+          "Cả 3 đáp án trên"
+        ],
+        "correct_idx": 3
+      },
+      {
+        "question": "Cơ cấu tổ chức quản trị rủi ro tại Tổng công ty được thiết lập theo mô hình nào?",
+        "answers": [
+          "Mô hình 3 tuyến: Tuyến thứ nhất là các tổ chức, cá nhân trực tiếp tham gia vào hoạt động sản xuất kinh doanh; Tuyến thứ 2 là bộ phận đầu mối chủ trì quản trị rủi ro.; Tuyến thứ 3 là bộ phận thực hiện chức năng kiểm toán nội bộ.",
+          "Mô hình 3 tuyến: Tuyến thứ nhất là các tổ chức, cá nhân trực tiếp tham gia vào hoạt động sản xuất kinh doanh; Tuyến thứ 2 là bộ phận thực hiện chức năng kiểm toán nội bộ.; Tuyến thứ 3 là bộ phận đầu mối chủ trì quản trị rủi ro.",
+          "Mô hình 3 tuyến: Tuyến thứ nhất là bộ phận thực hiện chức năng kiểm toán nội bộ.; Tuyến thứ 2 là bộ phận đầu mối chủ trì quản trị rủi ro.; Tuyến thứ 3 là các tổ chức, cá nhân trực tiếp tham gia vào hoạt động sản xuất kinh doanh.",
+          "Cả 3 đáp án trên đều sai"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Nội dung chương trình quản trị rủi ro tổng thể hàng năm bao gồm các  nội dung nào sau đây:",
+        "answers": [
+          "Kết quả thực hiện công tác quản trị rủi ro năm liền trước; Các chương trình, nội dung quản trị rủi ro và thời gian thực hiện trong năm; Kế hoạch công tác đào tạo nâng cao nhận thức và trình độ quản trị rủi ro cho cán bộ công nhân viên trong năm; Các nội dung khác có liên quan",
+          "Kết quả thực hiện công tác quản trị rủi ro năm liền trước; Các chương trình, nội dung quản trị rủi ro và thời gian thực hiện trong năm; Kế hoạch công tác đào tạo nâng cao nhận thức và trình độ quản trị rủi ro cho cán bộ công nhân viên trong năm;",
+          "Các chương trình, nội dung quản trị rủi ro và thời gian thực hiện trong năm; Kế hoạch công tác đào tạo nâng cao nhận thức và trình độ quản trị rủi ro cho cán bộ công nhân viên trong năm; Các nội dung khác có liên quan",
+          "Kết quả thực hiện công tác quản trị rủi ro năm liền trước; Kế hoạch công tác đào tạo nâng cao nhận thức và trình độ quản trị rủi ro cho cán bộ công nhân viên trong năm; Các nội dung khác có liên quan"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Khẩu vị rủi ro của Tổng công ty là gì?",
+        "answers": [
+          "Là triết lý của Tổng công ty về rủi ro và thể hiện việc sẵn sàng chấp nhận mức độ rủi ro nhất định để đạt được mục tiêu hoạt động của Tổng công ty",
+          "Là mức độ rủi ro mà Tổng công ty có khả năng và sẵn sàng chấp nhận để đạt được các mục tiêu của mình",
+          "Là triết lý của Tổng công ty về rủi ro",
+          "Là việc sẵn sàng chấp nhận mức độ rủi ro nhất định để đạt được mục tiêu hoạt động của Tổng công ty"
+        ],
+        "correct_idx": 1
+      },
+      {
+        "question": "Thông số rủi ro là gì?",
+        "answers": [
+          "Là tài liệu thể hiện các thước đo định tính và định lượng về khả năng xảy ra của rủi ro và mức độ ảnh hưởng khi rủi ro xảy ra",
+          "Là mức độ rủi ro mà Tổng công ty có khả năng và sẵn sàng chấp nhận để đạt được các mục tiêu của mình",
+          "L:à tài liệu thể hiện các thước đo định tính về khả năng xảy ra của rủi ro và mức độ ảnh hưởng khi rủi ro xảy ra",
+          "Là tài liệu thể hiện các thước đo định lượng về khả năng xảy ra của rủi ro và mức độ ảnh hưởng khi rủi ro xảy ra"
+        ],
+        "correct_idx": 0
+      },
+      {
+        "question": "Mức độ rủi ro được chia thành các mức nào?",
+        "answers": [
+          "Bốn mức: thấp, trung bình, cao, rất cao",
+          "Ba mức: thấp, trung bình, cao",
+          "Năm mức: rất thấp, thấp, trung bình, cao, rất cao",
+          "Bốn mức:  rất thấp, thấp, trung bình, cao"
+        ],
+        "correct_idx": 0
+      }
+    ]
   }
 }
